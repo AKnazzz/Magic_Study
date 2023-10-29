@@ -48,7 +48,6 @@ public class Task_String_2 {
 //        spell.replace(0, 1, String.valueOf(one));
 //        spell.replace(1, 2, String.valueOf(zero));
 
-
         //8. Полученную строку выведите на экран. Запускаем метод main.
 
         System.out.println(spell.toString());
