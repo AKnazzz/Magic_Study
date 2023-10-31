@@ -26,14 +26,9 @@ public class Task_string {
         System.out.println(topString(words, k));
 
 
-
-        }
+    }
 
     public static List<String> topString(String[] words, int k) {
-
-//          1. Убрать дубликаты
-//           TreeSet<String> uniqWords = new TreeSet<>(Arrays.asList(words)); // !!!
-//           System.out.println(uniqWords);
 
         // Создаем словарь для подсчета частоты каждого слова
         Map<String, Integer> wordCount = new HashMap<>();
@@ -41,33 +36,19 @@ public class Task_string {
             wordCount.put(word, wordCount.getOrDefault(word, 0) + 1);
         }
 
-//        for (int i = 0; i < words.length; i++) {
-//            if (wordCount.containsKey(words[i])) {
-//                wordCount.put(words[i], wordCount.get(words[i]) + 1);
-//            } else {
-//                wordCount.put(words[i], 1);
-//            }
-//        }
-
-
-
         // Создаем список из пар (слово, частота)
         List<Map.Entry<String, Integer>> wordList = new ArrayList<>(wordCount.entrySet());
 
         // Сортируем список по значению (частоте) и алфавиту
-        wordList.sort((entry1, entry2) -> {
-            if (entry1.getValue().equals(entry2.getValue())) {
-                return entry2.getKey().compareTo(entry1.getKey()); // изменение здесь
+        wordList.sort((a, b) -> {
+            if (a.getValue().equals(b.getValue())) {
+                return Integer.compare(b.getKey().length(), a.getKey().length()); // изменение здесь
             } else {
-                return entry2.getValue().compareTo(entry1.getValue()); // изменение здесь
+                return b.getValue().compareTo(a.getValue()); // изменение здесь
             }
         });
-        // Возвращаем только первые k слов
-        List<String> result = new ArrayList<>();
-        for (int i = 0; i < k; i++) {
-            result.add(wordList.get(i).getKey());
-        }
 
-        return result;
+        // Возвращаем только первые k слов
+        return wordList.stream().map(Map.Entry::getKey).limit(k).toList();
     }
 }
