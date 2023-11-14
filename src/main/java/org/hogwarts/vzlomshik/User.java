@@ -1,5 +1,8 @@
 package org.hogwarts.vzlomshik;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class User { // с полями: id, фамилия, имя, отчество, адрес проживания.
 
     private int id;
@@ -7,6 +10,8 @@ public class User { // с полями: id, фамилия, имя, отчест
     private String name;
     private String secondName;
     private String address;
+
+    private Set<String> ips = new HashSet<>();
 
     public User(int id, String surname, String name, String secondName, String address) {
         this.id = id;
@@ -61,6 +66,14 @@ public class User { // с полями: id, фамилия, имя, отчест
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public Set<String> getIps() {
+        return ips;
+    }
+
+    public void setIps(Set<String> ips) {
+        this.ips = ips;
     }
 
     @Override

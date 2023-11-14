@@ -99,7 +99,6 @@ public class UserChecker {
                 int id = Integer.parseInt(dataUser[1]);
                 String address = dataUser[0];
 
-
                 if (idAndIps.containsKey(id)) {
                     if (idAndIps.get(id).contains(address)) {
                         idAndIps.get(id).add(address);
@@ -128,6 +127,5 @@ public class UserChecker {
                 .orElse(null);
         return targetKey;
     }
-
 
 }

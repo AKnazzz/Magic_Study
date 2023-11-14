@@ -1,4 +1,4 @@
-package org.hogwarts;
+package org.hogwarts.skobochki;
 
 import java.util.Stack;
 
