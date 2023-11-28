@@ -34,7 +34,11 @@ public class Employee {
         this.salary = salary;
     }
 
-    private void changeDepartment (String newDepartmernt){
+    public void increaseSalary() {
+        salary *= 2;
+    }
+
+    private void changeDepartment(String newDepartmernt) {
         department = newDepartmernt;
         System.out.println("New department is: " + department);
     }
