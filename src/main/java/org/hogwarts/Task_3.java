@@ -15,10 +15,18 @@ public class Task_3 {
         double g = (double) a%17;
         double h = (double) a%18;
 
+        String lines = """
+			Protego Maxima!
+			Repello Inimicum!
+			Fianto Duri!
+""";
+
         System.out.println(b);
         System.out.println(c);
         System.out.println(d);
         System.out.println(e);
         System.out.println(g);
         System.out.println(h);
+
+        System.out.println(lines);
     }}
