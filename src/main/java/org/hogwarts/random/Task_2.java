@@ -1,4 +1,4 @@
-package org.hogwarts;
+package org.hogwarts.random;
 
 import java.util.Random;
 

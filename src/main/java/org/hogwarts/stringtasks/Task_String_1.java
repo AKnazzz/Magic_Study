@@ -1,4 +1,4 @@
-package org.hogwarts;
+package org.hogwarts.stringtasks;
 
 import java.util.Random;
 

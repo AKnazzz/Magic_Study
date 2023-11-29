@@ -1,6 +1,6 @@
 package org.hogwarts.annotations.examples;
 
-public class Test1 {
+public class TestZ {
     public static void main(String[] args) {
         Parent p = new Child("Boris");
         p.showInfo();

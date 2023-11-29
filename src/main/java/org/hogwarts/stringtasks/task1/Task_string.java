@@ -1,4 +1,4 @@
-package org.hogwarts.stringtasks;
+package org.hogwarts.stringtasks.task1;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package org.hogwarts;
+package org.hogwarts.stringtasks;
 
 import org.w3c.dom.ls.LSOutput;
 

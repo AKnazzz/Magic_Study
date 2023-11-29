@@ -1,4 +1,4 @@
-package org.hogwarts;
+package org.hogwarts.stringtasks.task2;
 
 import java.util.Scanner;
 
