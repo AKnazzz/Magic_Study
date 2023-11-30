@@ -86,5 +86,11 @@ public class Homework2 {
         System.out.println(ch2);
         System.out.println(ch3);
 
+        for (int i = 0; i <= 256; i++) { // ===> вывести весь алфавит
+            System.out.println((char)i);
+        }
+
+
+
     }
 }

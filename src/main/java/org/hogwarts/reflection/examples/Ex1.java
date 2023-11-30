@@ -79,7 +79,7 @@ public class Ex1 {
         }
         System.out.println("*******");
 
-        // ===> КАК ПОЛУЧИТЬ только PUBLIC  МЕТОДЫ КЛАССА: = БЕЗ РОДИТЕЛЬСКИХ
+        // ===> КАК ПОЛУЧИТЬ только PUBLIC МЕТОДЫ КЛАССА: = БЕЗ РОДИТЕЛЬСКИХ
         Method[] allMethods2 = employeeClass.getDeclaredMethods();
         for (Method method : allMethods2) {
             if (Modifier.isPublic(method.getModifiers())) { // ===> !!! ПРОВЕРЯЕМ МОДИФИКАТОР
@@ -103,7 +103,7 @@ public class Ex1 {
         System.out.println("Their types: " + Arrays.toString(constructor2.getParameterTypes()));
 
         // ===> КАК ПОЛУЧИТЬ ВСЕ КОНСТРУКТОРЫ:
-        Constructor[] constructors = employeeClass.getConstructors();
+        Constructor<?>[] constructors = employeeClass.getConstructors();
         for (Constructor<?> constructor : constructors) {
             System.out.println("Constructor " + constructor.getName() + " has " + constructor.getParameterCount()
                     + " parameters, their types are: " + Arrays.toString(constructor.getParameterTypes()));

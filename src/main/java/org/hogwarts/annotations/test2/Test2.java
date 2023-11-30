@@ -16,10 +16,15 @@ import java.lang.annotation.Target;
  */
 public class Test2 {
     public static void main(String[] args) throws ClassNotFoundException {
-       Class<?> likeClass = Class.forName("org.hogwarts.annotations.test2.Like");
-        Annotation annotation1 = likeClass.getAnnotation(IsLike.class);
-        IsLike like1 = (IsLike) annotation1; // ===> кастим в аннотацию
-        System.out.println("Annotation info from Like class: " + like1.isReal());
+        Class<?> likeClass = Class.forName("org.hogwarts.annotations.test2.Like");
+        if (likeClass.isAnnotationPresent(IsLike.class)) {
+            IsLike annotation = (IsLike) likeClass.getAnnotation(IsLike.class);
+            System.out.println("Annotation info from Like class: " + annotation.isReal());
+       }
+
+//        Annotation annotation1 = likeClass.getAnnotation(IsLike.class);
+//        IsLike like1 = (IsLike) annotation1; // ===> кастим в аннотацию
+//        System.out.println("Annotation info from Like class: " + like1.isReal());
 
         System.out.println("*******");
 
@@ -37,7 +42,7 @@ public class Test2 {
     boolean isReal() default false;
 }
 
-@IsLike(isReal = true)
+//@IsLike(isReal = true)
 class Like {
     String customerName;
     boolean isTrue;
