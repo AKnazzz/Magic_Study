@@ -1,4 +1,4 @@
-package org.hogwarts.ifelse_examples;
+package org.hogwarts.if_else;
 
 import java.util.Scanner;
 
