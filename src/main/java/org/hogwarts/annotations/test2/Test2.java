@@ -5,6 +5,7 @@ import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
+import java.lang.reflect.Field;
 
 /**
  * 1. Создать аннотацию @IsLike, применимую к классу во время выполнения
@@ -20,7 +21,7 @@ public class Test2 {
         if (likeClass.isAnnotationPresent(IsLike.class)) {
             IsLike annotation = (IsLike) likeClass.getAnnotation(IsLike.class);
             System.out.println("Annotation info from Like class: " + annotation.isReal());
-       }
+        }
 
 //        Annotation annotation1 = likeClass.getAnnotation(IsLike.class);
 //        IsLike like1 = (IsLike) annotation1; // ===> кастим в аннотацию
@@ -44,11 +45,13 @@ public class Test2 {
 
 //@IsLike(isReal = true)
 class Like {
-    String customerName;
     boolean isTrue;
+    String email;
+
 }
+
 @IsLike
-class Dislike{
-    String haterName;
+class Dislike {
     boolean isTrue;
+    String email;
 }
