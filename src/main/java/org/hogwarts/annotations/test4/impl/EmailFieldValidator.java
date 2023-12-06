@@ -12,9 +12,9 @@ public class EmailFieldValidator implements FieldValidator {
     @Override
     public BrokenField validate(Object entity, Field field) {
 
-        if (String.class.isAssignableFrom(field.getType())) {
-            Email annotation = field.getAnnotation(Email.class);
-            String regex = annotation.regex();
+        if (String.class.isAssignableFrom(field.getType())) { // => проверяем что тип поля это String
+            Email annotation = field.getAnnotation(Email.class); // = берем аннотацию
+            String regex = annotation.regex(); // = берем аргумент
             Pattern pattern = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
             try {
                 String fieldValue = (String) field.get(entity);

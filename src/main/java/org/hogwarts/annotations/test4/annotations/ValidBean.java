@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 // АННОТАЦИЯ ПОМЕЧАЕТ НАШ КЛАСС И ПОЗВОЛЯЕТ ЕГО ИСПОЛЬЗОВАТЬ В НАШЕМ ВАЛИДАТОРЕ
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface ValidBean {
+public @interface  ValidBean {
 
     String value();
 }

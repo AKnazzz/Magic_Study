@@ -26,14 +26,23 @@ public class AnnotationBasedBeanValidator implements BeanValidator {
         supportedFieldAnnotations = this.validationFunctions.keySet();
     }
 
+    // ПРИНИМАЕТ ОБЪЕКТ И ВОЗВРАЩАЕТ РЕЗУЛЬТАТ
+    // ПОДДЕРЖИВАЕМЫЕ АННОТАЦИИ ДОБАВЛЯЕМ ЧЕРЕЗ КОНСТРУКТОР
+
     @Override
     public ValidationResult validate(Object bean) {
 
         ValidationResult validationResult = new ValidationResult();
 
+
+        // проверяем что не NULL
+
         if (bean == null) {
             throw new ValidationException("Passed bean is null");
         }
+
+
+        // проверяем что есть аннотация, которая позволяет понять что это наш объект (ValidBean)
 
         Class<?> clazz = bean.getClass();
         if (!clazz.isAnnotationPresent(ValidBean.class)) {
@@ -42,9 +51,15 @@ public class AnnotationBasedBeanValidator implements BeanValidator {
             throw new ValidationException(msg);
         }
 
+        // Берем все поля и проверяем каждое +
+        // ставим флаг доступности для каждого поля
         Field[] declaredFields = clazz.getDeclaredFields();
         for (Field field : declaredFields) {
             field.setAccessible(true);
+
+            // с помощью StreamApi проходим по полям и проверяем помечено ли поле нашей аннотацией
+            // после берём конкретный валидатор в зависимости от аннотации и проверяем поле валидатором
+            // фильтруем результат и собираем его в список
             List<BrokenField> brokenFields = supportedFieldAnnotations.stream()
                     .filter(field::isAnnotationPresent)
                     .map(validationFunctions::get)
@@ -54,6 +69,6 @@ public class AnnotationBasedBeanValidator implements BeanValidator {
             validationResult.addBrokenFields(brokenFields);
         }
 
-        return validationResult;
+        return validationResult; // ==> конечные результат ошибок всех полей
     }
 }
