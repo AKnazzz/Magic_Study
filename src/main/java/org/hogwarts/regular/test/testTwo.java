@@ -19,6 +19,11 @@ public class testTwo {
         String b = "Hello123123123123there2342342512312314hey";
         String[] words2 = b.split("\\d+");
         System.out.println(Arrays.toString(words2));
+
+
+        String c = "Hello world Java";
+        String modC = c.replace(" ", ".");
+        System.out.println(modC);
     }
 
 }
