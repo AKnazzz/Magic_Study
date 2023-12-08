@@ -9,7 +9,7 @@ public class test {
         System.out.println(a.matches("1234"));
 
         /*
-            RegExLib.com
+           RegExLib.com
 
            \\d  - одна цифра
            \\D  - одна НЕ цифра
