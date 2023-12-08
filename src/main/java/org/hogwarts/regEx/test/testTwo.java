@@ -1,6 +1,5 @@
-package org.hogwarts.regular.test;
+package org.hogwarts.regEx.test;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class testTwo {

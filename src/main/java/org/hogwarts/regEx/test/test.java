@@ -1,4 +1,4 @@
-package org.hogwarts.regular.test;
+package org.hogwarts.regEx.test;
 
 /**
  *
