@@ -121,8 +121,8 @@
 - String match = matcher.group();
 
 Методы start() и end() возвращают начальную и конечную позиции найденного соответствия:
-- int start = matcher.start();
--  int end = matcher.end();
+- int start = matcher.start(); 
+- int end = matcher.end();
 
 
 Пример использования классов Pattern и Matcher для поиска всех цифр в строке:
