@@ -2,10 +2,14 @@ package org.hogwarts.regEx.task;
 
 import java.util.regex.Pattern;
 
-public class TaskRegEx2ip {
+public class TaskRegEx4ip {
 
     void checkIP(String ip){
         String regEx = "((25[0-5]|2[0-4]\\d|[01]?\\d?\\d)(\\.)){3}(25[0-5]|2[0-4]\\d|[01]?\\d?\\d)";
+
+        //  25[0-5]     |   2[0-4]\d    |   [01]?\d?\d)
+        //  250-255     |   200-249     |   0-199
+
         System.out.println(ip + " is OK? "+ Pattern.matches(regEx,ip));
     }
 
@@ -16,7 +20,7 @@ public class TaskRegEx2ip {
         String ip1 = "255.38.195.99";
         String ip2 = "182.262.91.05";
 
-        TaskRegEx2ip taks = new TaskRegEx2ip();
+        TaskRegEx4ip taks = new TaskRegEx4ip();
 
         taks.checkIP(ip1);
         taks.checkIP(ip2);
