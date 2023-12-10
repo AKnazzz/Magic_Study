@@ -7,7 +7,6 @@ import java.util.regex.Pattern;
  * 1. Найти в тексте все слова с А или с а
  * 2. Все цифры в тексте заменить на символы #
  * 3. Проверить является ли строка URL
- *
  */
 
 //           \\d  - одна цифра
@@ -31,9 +30,11 @@ import java.util.regex.Pattern;
 public class TaskRegEx1 {
 
     public static void main(String[] args) {
-        String text = "Anna and Alexey like to eat apples, but Alice prefers oranges.";
+//      String text = "Anna and Alexey like to eat apples, but Alice prefers oranges.";
 //      String text = "Анна и Алексей любят есть яблоки, но Алиса предпочитает апельсины.";
-        Pattern pattern = Pattern.compile("\\b\\w*[aA]\\w*\\b");
+        String text = "Анна и Алексей любят есть яблоки, но Алиса предпочитает апельсины.";
+//      Pattern pattern = Pattern.compile("\\b\\w*[аА]\\w*\\b");
+        Pattern pattern = Pattern.compile("\\b\\w*[аА]\\w*\\b", Pattern.UNICODE_CHARACTER_CLASS);
 //      Pattern pattern2 = Pattern.compile("\\b\\w+\\b");
         Matcher matcher = pattern.matcher(text);
         while (matcher.find()) {

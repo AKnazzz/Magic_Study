@@ -1,25 +1,25 @@
 /**
  * Малфой остался после уроков и получил задание: получить остатки от деления на 13, 14, 15, 16, 17, 19 числа 4199. Затем вычислить сумму остатков от деления.
- *
+ * <p>
  * Давайте напишем код, который поможет ему это посчитать. Продолжаем работать в методe main.
  */
-package org.hogwarts.stringtasks;
+package org.hogwarts.strings;
 
 public class Task_3 {
     public static void main(String[] args) {
         int a = 4199;
-        double b = (double) a%13;
-        double c = (double) a%14;
-        double d = (double) a%15;
-        double e = (double) a%16;
-        double g = (double) a%17;
-        double h = (double) a%18;
+        int b = a % 13;
+        int c = a % 14;
+        int d = a % 15;
+        int e = a % 16;
+        int g = a % 17;
+        int h = a % 19;
 
         String lines = """
-			Protego Maxima!
-			Repello Inimicum!
-			Fianto Duri!
-""";
+                			Protego Maxima!
+                			Repello Inimicum!
+                			Fianto Duri!
+                """;
 
         System.out.println(b);
         System.out.println(c);
@@ -27,6 +27,8 @@ public class Task_3 {
         System.out.println(e);
         System.out.println(g);
         System.out.println(h);
+        System.out.println(a + b + c + d + e + g + h);
 
         System.out.println(lines);
-    }}
+    }
+}

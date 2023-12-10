@@ -1,13 +1,11 @@
-package org.hogwarts.stringtasks;
-
-import org.w3c.dom.ls.LSOutput;
+package org.hogwarts.strings;
 
 public class Task_1 {
 
     public static void main(String[] args) {
         String dumbledore = "Dumbledore";
         String mcgonagall = "Mcgonagall";
-        String snape = "Dnape";
+        String snape = "Snape";
         String lupin = "Lupin";
         String hugrid = "Hugrid";
         String teachers = "School teachers:";

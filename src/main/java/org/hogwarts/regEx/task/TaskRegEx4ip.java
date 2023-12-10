@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 public class TaskRegEx4ip {
 
     void checkIP(String ip){
+
         String regEx = "((25[0-5]|2[0-4]\\d|[01]?\\d?\\d)(\\.)){3}(25[0-5]|2[0-4]\\d|[01]?\\d?\\d)";
 
         //  25[0-5]     |   2[0-4]\d    |   [01]?\d?\d)

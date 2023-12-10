@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
  * 3. Проверить является ли строка URL
  *
  */
-public class TaskRefEx2 {
+public class TaskRegEx2 {
     public static void main(String[] args) {
 
         String text = "Lorem ipsum dolor sit amet, 123 consectetur adipiscing elit. Sed ac arcu ac "
