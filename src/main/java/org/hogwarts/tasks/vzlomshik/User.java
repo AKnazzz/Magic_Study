@@ -1,4 +1,4 @@
-package org.hogwarts.vzlomshik;
+package org.hogwarts.tasks.vzlomshik;
 
 import java.util.HashSet;
 import java.util.Set;

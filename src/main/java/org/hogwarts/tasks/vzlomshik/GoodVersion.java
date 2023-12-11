@@ -1,4 +1,4 @@
-package org.hogwarts.vzlomshik;
+package org.hogwarts.tasks.vzlomshik;
 
 import java.io.BufferedReader;
 import java.io.File;

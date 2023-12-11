@@ -1,4 +1,4 @@
-package org.hogwarts.Lesson3;
+package org.hogwarts.types_of_variables;
 
 public class Test3 {
     public static void main(String[] args) {
