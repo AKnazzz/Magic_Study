@@ -5,7 +5,6 @@ public class BankAccount {
     String name = "Petr";
     double balance = 100;
 
-
     void popolnenieScheta(double summaPopolneniya) {
         System.out.println("Balans do popolneniya: " + balance);
         System.out.println("Balans popolnayetsa na: " + summaPopolneniya);
