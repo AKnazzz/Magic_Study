@@ -103,9 +103,9 @@ public class Hippogriff {
         int isGivingRide = new Random().nextInt(0, 11);
         if (isGivingRide >= 1 && isGivingRide <= 3) {
             return student.getName() + " летит на гиппогрифе!";
-        } else if(isGivingRide >= 4 && isGivingRide <= 8){
+        } else if (isGivingRide >= 4 && isGivingRide <= 8) {
             return "Гиппогриф демонстративно отворачивается и отказывается летать";
-        } else if (isGivingRide == 9 || isGivingRide == 10){
+        } else {
             return "Cтудент должен попробовать снова!";
         }
     }
