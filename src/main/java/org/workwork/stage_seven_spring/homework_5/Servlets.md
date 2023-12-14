@@ -176,4 +176,144 @@ Spring Framework не отдаёт предпочтения ни первому,
 Мы не будем подробно рассматривать разные контейнеры и остановимся на самом популярном — **Apache Tomcat.** Именно его 
 Spring Boot использует по умолчанию для запуска встроенного контейнера.
 Tomcat был создан в 1999 году как образец реализации контейнеров сервлетов (англ. reference implementation). 
-Позже его исходный код был открыт и передан в Apache Software Foundation (ASF) для дальнейшего развития. Открытый исходный код позволил разработчикам со всего мира развивать проект. За много лет работы они сделали Tomcat надёжным и быстрым.
+Позже его исходный код был открыт и передан в Apache Software Foundation (ASF) для дальнейшего развития. Открытый 
+исходный код позволил разработчикам со всего мира развивать проект. За много лет работы они сделали Tomcat надёжным и быстрым.
+
+
+## init()
+## service()
+## destroy()
+
+``` 
+// Базовый интерфейс, должен реализовываться всеми сервлетами 
+public interface Servlet {   
+  public void init(ServletConfig config) throws ServletException;   
+  public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException;   
+  public void destroy(); 
+}
+```
+
+``` 
+// Абстрактный класс, позволяющий обрабатывать HTTP-запросы public 
+abstract class HttpServlet extends GenericServlet {   
+  protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException;   
+  protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException;   
+... 
+}
+```
+``` 
+// Пользовательский запрос 
+public interface HttpServletRequest extends ServletRequest {   
+public String getParameter(String name);   
+public Enumeration<String> getHeaders(String name);   
+... 
+}
+
+```
+``` 
+// Ответ 
+public interface HttpServletResponse extends ServletResponse {   
+  public void addCookie(Cookie cookie);   
+  public PrintWriter getWriter() throws IOException;   
+... 
+}
+
+```
+
+## Конфигурация = 3 способа
+### 1 способ
+``` 
+<!-- Традиционная конфигурация через WEB-INF/web.xml --> 
+  <web-app>
+     <servlet>
+            <servlet-name>HelloWorld</servlet-name>
+            <servlet-class>ru.productstar.servlets.HelloWorld</servlet-class>
+            <init-param>
+                  <param-name>key</param-name>
+                  <param-value>42</param-value>
+            </init-param>
+     </servlet>
+     <servlet-mapping>
+            <servlet-name>HelloWorld</servlet-name>
+            <url-pattern>/hello</url-pattern>
+     </servlet-mapping>
+  </web-app>
+```
+### 2 способ
+``` 
+// Конфигурация через аннотации 
+@WebServlet (
+       name = "HelloWorld ",
+       urlPatterns = {"/hello"},
+       initParams = {@WebInitParam(name="key", value = "42")}
+) 
+public class HelloWorld extends HttpServlet {
+  // Код сервлета 
+  }
+```
+
+### 3 способ
+``` 
+// Программная конфигурация
+ @WebListener 
+ public class CustomServletContextListener implements ServletContextListener {
+    @Override
+    public void contextInitialized(ServletContextEvent sce) {
+           ServletContext servletContext = sce.getServletContext();
+           ServletRegistration.Dynamic hw = servletContext.addServlet("HelloWorld", HelloWorld.class);
+           hw.addMapping("/hello");
+           hw.setInitParameter("key", "42");
+    }
+ }
+
+```
+
+## Servlet Context
+**Servlet Context** — объект, который содержит метаинформацию обо всём веб-приложении.
+Основные задачи:
+* доступ к параметрам инициализации
+* обмен парами ключ-значение между сервлетами
+* программное добавление сервлетов, фильтров и слушателей
+* доступ к ресурсам внутри приложения
+* логирование
+* перенаправление запросов между сервлетами
+
+## Фильтры
+**Фильтры** — компоненты, которые позволяют перехватывать запросы и ответы и манипулировать ими.
+
+**Основные сценарии использования:**
+* аутентификация и авторизация
+* логирование и аудит
+* трансформация запроса или ответа
+* кэширование
+* сжатие
+``` 
+@WebFilter(urlPatterns = "/*")
+public class LogFilter extends HttpFilter {
+    @Override
+    protected void doFilter(HttpServletRequest req, HttpServletResponse res, FilterChain chain) throws IOException, ServletException {
+        System.out.println("Request uri: " + req.getRequestURI());
+        chain.doFilter(req, res);
+    }
+}
+```
+
+## Request Dispatching
+
+**Request Dispatching** — механизм, с помощью которого управление передается от одного сервлета к другому в пределах одного приложения.
+
+**Существует два способа маршрутизации:**
+* **Forward** — запрос отправляется на другой сервлет в том же приложении, который и отвечает клиенту
+* **Include** — запрос отправляется на другой сервлет, его ответ включается в ответ исходного сервлета
+
+
+## Event Listeners
+
+**Event Listeners** — компоненты Java Servlets API, которые позволяют отслеживать различные события в жизненном цикле 
+веб-приложения и реагировать на них
+
+**Типы Event Listeners**
+* ServletContextListener
+* HttpSessionListener
+* ServletRequestListener
+* *AttributeListener
