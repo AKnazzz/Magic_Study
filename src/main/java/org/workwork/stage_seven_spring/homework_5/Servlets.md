@@ -317,3 +317,9 @@ public class LogFilter extends HttpFilter {
 * HttpSessionListener
 * ServletRequestListener
 * *AttributeListener
+
+
+# ! ВАЖНО 
+# файл  web.xml = конфигурирует приложение 
+#  лагин (jetty-maven-plugin) используется для запуска веб-приложения на локальном сервере Jetty,
+который будет слушать порт 9000. Также указан путь к файлу web.xml, который содержит настройки и конфигурацию веб-приложения.
