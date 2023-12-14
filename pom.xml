@@ -62,7 +62,31 @@
             <scope>compile</scope>
         </dependency>
 
+        <dependency>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>6.0.0</version>
+        </dependency>
+
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>11.0.16</version>
+                <configuration>
+                    <httpConnector>
+                        <port>9000</port>
+                    </httpConnector>
+                    <supportedPackagings>jar</supportedPackagings>
+                    <webApp>
+                        <descriptor>src/main/java/org/workwork/stage_seven_spring/homework_5/webapp/WEB-INF/web.xml</descriptor>
+                    </webApp>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

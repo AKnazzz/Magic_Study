@@ -1,4 +1,4 @@
-package org.workwork.basic_syntax.homework6;
+package org.workwork.stage_one_base.homework_6;
 
 import java.util.Stack;
 

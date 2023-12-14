@@ -1,4 +1,4 @@
-package org.workwork.basic_syntax.homework5;
+package org.workwork.stage_one_base.homework_5;
 
 /**
  * Напиши программу, которая для любого целого числа выводит все числа от 0 до этого числа включительно.
