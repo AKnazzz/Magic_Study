@@ -184,6 +184,11 @@ Tomcat был создан в 1999 году как образец реализа
 ## service()
 ## destroy()
 
+
+Интерфейс Servlet определяет базовый контракт для всех сервлетов (классов, которые обрабатывают HTTP-запросы 
+и генерируют HTTP-ответы). Он содержит методы для инициализации, обработки запросов и уничтожения сервлета. 
+Классы, реализующие этот интерфейс, должны реализовать эти методы.
+
 ``` 
 // Базовый интерфейс, должен реализовываться всеми сервлетами 
 public interface Servlet {   
@@ -193,14 +198,21 @@ public interface Servlet {
 }
 ```
 
+Абстрактный класс HttpServlet является расширением интерфейса Servlet и предоставляет дополнительные методы 
+для обработки HTTP-запросов и генерации HTTP-ответов. Он также предоставляет реализацию методов из интерфейса Servlet, 
+что делает его более удобным для использования.
+
+Основное назначение этих классов - обработка HTTP-запросов.
+
 ``` 
 // Абстрактный класс, позволяющий обрабатывать HTTP-запросы public 
 abstract class HttpServlet extends GenericServlet {   
   protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException;   
   protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException;   
-... 
+  ... 
 }
 ```
+
 ``` 
 // Пользовательский запрос 
 public interface HttpServletRequest extends ServletRequest {   
@@ -319,7 +331,41 @@ public class LogFilter extends HttpFilter {
 * *AttributeListener
 
 
-# ! ВАЖНО 
-# файл  web.xml = конфигурирует приложение 
-#  лагин (jetty-maven-plugin) используется для запуска веб-приложения на локальном сервере Jetty,
+#  !!! ВАЖНО 
+#  файл  web.xml = конфигурирует приложение 
+#  плагин (jetty-maven-plugin) используется для запуска веб-приложения на локальном сервере Jetty,
 который будет слушать порт 9000. Также указан путь к файлу web.xml, который содержит настройки и конфигурацию веб-приложения.
+
+
+# ПРИМЕР ИСПОЛЬЗОВАНИЯ
+
+## 1. Создание сервлета, который отображает "Hello World!" в браузере:
+
+```
+public class HelloWorldServlet extends HttpServlet {
+  protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    response.setContentType("text/html");
+    PrintWriter out = response.getWriter();
+    out.println("<html><body>");
+    out.println("<h1>Hello World!</h1>");
+    out.println("</body></html>");
+  }
+}
+
+```
+
+## 2. Регистрация сервлета в файле web.xml:
+
+``` 
+<servlet>
+  <servlet-name>HelloWorldServlet</servlet-name>
+  <servlet-class>com.example.HelloWorldServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>HelloWorldServlet</servlet-name>
+  <url-pattern>/hello</url-pattern>
+</servlet-mapping>
+
+```
+
+## 3. После развертывания приложения на сервере при обращении к URL "/hello" будет вызываться метод doGet() сервлета HelloWorldServlet, который отправит ответ с текстом "Hello World!" в браузер.
