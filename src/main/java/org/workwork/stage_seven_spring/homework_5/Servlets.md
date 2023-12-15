@@ -343,9 +343,11 @@ public class LogFilter extends HttpFilter {
 
 ```
 public class HelloWorldServlet extends HttpServlet {
-  protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-    response.setContentType("text/html");
-    PrintWriter out = response.getWriter();
+// это определение метода в классе HelloWorldServlet, который будет вызываться при получении HTTP GET-запроса и принимать объекты запроса и ответа, 
+// а также может выбрасывать исключения типа ServletException и IOException.
+  protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { 
+    response.setContentType("text/html"); //  Установка типа содержимого ответа на "text/html" - это установка типа MIME-содержимого, который будет отправлен в ответ на запрос.
+    PrintWriter out = response.getWriter(); //  Получение объекта PrintWriter для записи HTML-кода ответа - это создание объекта PrintWriter, который будет использоваться для записи HTML-кода в ответ на запрос.
     out.println("<html><body>");
     out.println("<h1>Hello World!</h1>");
     out.println("</body></html>");
@@ -357,10 +359,22 @@ public class HelloWorldServlet extends HttpServlet {
 ## 2. Регистрация сервлета в файле web.xml:
 
 ``` 
+
+// Определение сервлета в файле web.xml с именем HelloWorldServlet и указанием его класса 
+// - это определение сервлета в файле конфигурации веб-приложения web.xml, 
+// который будет иметь имя HelloWorldServlet и ссылаться на класс, который был создан ранее.
 <servlet>
   <servlet-name>HelloWorldServlet</servlet-name>
   <servlet-class>com.example.HelloWorldServlet</servlet-class>
 </servlet>
+
+// Этот код является частью файла конфигурации веб-приложения web.xml и определяет связь между именем сервлета (HelloWorldServlet) 
+// и URL-шаблоном (/hello). Таким образом, при обращении к URL-адресу, который соответствует данному шаблону (/hello), 
+// будет вызван сервлет HelloWorldServlet. 
+
+// <servlet-mapping> - это элемент XML-файла web.xml, который определяет соответствие между именем сервлета и URL-шаблоном. 
+// Он используется для связи между классом сервлета и URL-шаблоном, чтобы при обращении к определенному URL-адресу вызывался нужный сервлет.
+
 <servlet-mapping>
   <servlet-name>HelloWorldServlet</servlet-name>
   <url-pattern>/hello</url-pattern>
@@ -369,3 +383,87 @@ public class HelloWorldServlet extends HttpServlet {
 ```
 
 ## 3. После развертывания приложения на сервере при обращении к URL "/hello" будет вызываться метод doGet() сервлета HelloWorldServlet, который отправит ответ с текстом "Hello World!" в браузер.
+
+ # Servlet Contex
+**Servlet Context** - это объект, который представляет контекст выполнения сервлета в рамках веб-приложения. 
+Он используется для обмена данными между различными сервлетами и компонентами веб-приложения.
+
+Пример использования Servlet Context может быть следующим: предположим, что у нас есть веб-приложение, 
+которое имеет несколько сервлетов, каждый из которых обрабатывает определенный тип запросов. В этом случае мы можем 
+использовать Servlet Context для передачи данных между этими сервлетами. Например, один сервлет может сохранить данные в Servlet Context, а другой сервлет может получить эти данные и использовать их для своей работы.
+
+Кроме того, Servlet Context может использоваться для хранения глобальных параметров и настроек веб-приложения, 
+таких как параметры базы данных или настройки безопасности.
+
+``` 
+public class MyServlet extends HttpServlet {
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        // Получаем объект ServletContext
+        ServletContext context = getServletContext();
+        
+        // Сохраняем значение в ServletContext
+        context.setAttribute("myData", "Hello, world!");
+        
+        // Получаем значение из ServletContext
+        String myData = (String) context.getAttribute("myData");
+        
+        // Отправляем ответ клиенту
+        response.setContentType("text/html");
+        PrintWriter out = response.getWriter();
+        out.println("<html><body>");
+        out.println("<h1>" + myData + "</h1>");
+        out.println("</body></html>");
+    }
+}
+```
+В этом примере мы получаем объект ServletContext, сохраняем значение "Hello, world!" в нем, затем получаем это значение 
+и отправляем его в ответе клиенту.
+
+# HttpFilter
+HttpFilter - это компонент веб-приложения, который позволяет обрабатывать запросы и ответы перед тем, как они будут 
+переданы сервлету или после того, как сервлет уже обработал запрос. HttpFilter может использоваться для реализации 
+различных задач, таких как **аутентификация, авторизация, логирование, сжатие данных и других операций.**
+
+Пример использования HttpFilter может быть следующим: предположим, что у нас есть веб-приложение, которое требует 
+аутентификации пользователей перед тем, как они смогут получить доступ к определенным страницам. В этом случае мы 
+можем использовать HttpFilter для проверки аутентификации пользователя перед обработкой запроса. Если пользователь 
+не аутентифицирован, мы можем перенаправить его на страницу входа.
+
+Кроме того, HttpFilter может использоваться для изменения запросов и ответов. Например, мы можем использовать 
+HttpFilter для сжатия данных перед отправкой ответа клиенту или для добавления заголовков к запросам и ответам.
+
+``` 
+public class AuthenticationFilter implements Filter {
+    // будет вызываться при обработке запросов.
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+        HttpServletRequest httpRequest = (HttpServletRequest) request;
+        HttpServletResponse httpResponse = (HttpServletResponse) response;
+        
+        // Проверяем, аутентифицирован ли пользователь, с помощью метода getSession() объекта httpRequest и метода getAttribute() объекта session.
+        if (httpRequest.getSession().getAttribute("user") == null) { 
+            // Если пользователь не аутентифицирован, перенаправляем его на страницу входа
+            httpResponse.sendRedirect(httpRequest.getContextPath() + "/login.jsp");
+        } else {
+            // Если пользователь аутентифицирован, передаем запрос дальше по цепочке фильтров
+            chain.doFilter(request, response);
+        }
+    }
+}
+
+```
+
+В этом примере мы создаем HttpFilter для проверки аутентификации пользователя. Если пользователь не аутентифицирован, 
+мы перенаправляем его на страницу входа. Если пользователь аутентифицирован, мы передаем запрос дальше по цепочке фильтров.
+
+# FilterChain 
+**FilterChain** - это интерфейс, который представляет собой цепочку фильтров, которые обрабатывают запросы и ответы в приложении. 
+Каждый фильтр в цепочке может изменять запрос и/или ответ, а также передавать их дальше по цепочке.
+
+Когда запрос поступает в приложение, он проходит через цепочку фильтров, которые могут выполнять различные задачи, например, 
+проверку аутентификации пользователя, компрессию данных, логирование и т.д.
+
+После того как запрос прошел через все фильтры, он достигает сервлета или JSP страницы, которые обрабатывают его и генерируют ответ. 
+Затем ответ проходит через ту же цепочку фильтров в обратном порядке, позволяя каждому фильтру изменять его содержимое перед отправкой клиенту.
+
+Использование FilterChain позволяет создавать более гибкие и масштабируемые приложения, так как каждый фильтр может 
+выполнять свою задачу независимо от других фильтров в цепочке.
