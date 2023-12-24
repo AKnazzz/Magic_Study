@@ -30,7 +30,7 @@ package org.workwork.stage_one_base.homework_5;
 
 public class HomeWork {
     public static void main(String[] args) {
-        int n = 15; // здесь можно задать любое целое число
+        int n = 20; // здесь можно задать любое целое число
 
         for (int i = 0; i <= n; i++) {
             if (i == 0) {
