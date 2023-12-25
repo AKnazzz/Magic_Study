@@ -4,21 +4,22 @@ import java.util.Scanner;
 
 public class HomeWork3 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.println("Введите число:");
-        int n = input.nextInt();
-        int[] Array = new int[]{n};
-        for (int i = 0; i <= n; i++) {
-            if (i % 3 == 0) {
-                System.out.print("fizz ");
-            }
-            if (i % 5 == 0) {
-                System.out.print("buzz ");
-            }
-            if (i % 3 == 0 && i % 5 == 0) {
-                System.out.print("fizzbuzz ");
-            } else {
-                System.out.print(" " + i + " ");
+        try (Scanner input = new Scanner(System.in)) {
+            System.out.println("Введите число:");
+            int n = input.nextInt();
+            String three = "fizz";
+            String five = "buzz";
+
+            for (int i = 0; i <= n; i++) {
+                if (i % 3 == 0 && i % 5 == 0 && i != 0) {
+                    System.out.print(three + five + " ");
+                } else if (i % 3 == 0 && i != 0) {
+                    System.out.print(three + " ");
+                } else if (i % 5 == 0 && i != 0) {
+                    System.out.print(five + " ");
+                } else {
+                    System.out.print(i + " ");
+                }
             }
         }
     }
