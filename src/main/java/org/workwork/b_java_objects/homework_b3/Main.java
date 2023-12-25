@@ -1,4 +1,4 @@
-package org.workwork.first_path_java_base.homework_8;
+package org.workwork.b_java_objects.homework_b3;
 
 public class Main {
     public static void main(String[] args) {

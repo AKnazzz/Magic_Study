@@ -1,4 +1,4 @@
-package org.workwork.first_path_java_base.homework_4;
+package org.workwork.a_java_base.homework_a4;
 
 /**
  * Напиши программу, которая для любого целого числа выводит все числа от 0 до этого числа включительно.

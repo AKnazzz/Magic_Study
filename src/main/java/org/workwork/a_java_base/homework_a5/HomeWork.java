@@ -1,4 +1,4 @@
-package org.workwork.first_path_java_base.homework_5;
+package org.workwork.a_java_base.homework_a5;
 
 import java.util.Stack;
 
