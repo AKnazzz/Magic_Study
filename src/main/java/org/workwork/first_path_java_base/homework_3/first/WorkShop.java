@@ -1,4 +1,4 @@
-package org.workwork.stage_one_base.homework_3.first;
+package org.workwork.first_path_java_base.homework_3.first;
 
 import java.util.Arrays;
 

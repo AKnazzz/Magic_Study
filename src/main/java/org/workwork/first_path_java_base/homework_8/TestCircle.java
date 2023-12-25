@@ -1,7 +1,7 @@
-package org.workwork.stage_one_base.homework_8;
+package org.workwork.first_path_java_base.homework_8;
 
 
-import org.workwork.stage_one_base.homework_8.circle.Circle;
+import org.workwork.first_path_java_base.homework_8.circle.Circle;
 
 public class TestCircle {
 

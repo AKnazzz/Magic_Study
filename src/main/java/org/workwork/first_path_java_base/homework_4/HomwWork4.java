@@ -1,4 +1,4 @@
-package org.workwork.stage_one_base.homework_5;
+package org.workwork.first_path_java_base.homework_4;
 
 import java.util.Scanner;
 
