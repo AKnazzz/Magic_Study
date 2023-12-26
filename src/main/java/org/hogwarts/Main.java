@@ -1,6 +1,5 @@
 package org.hogwarts;
 
-import java.util.Base64;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Main {
