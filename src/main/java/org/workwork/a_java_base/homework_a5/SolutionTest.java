@@ -20,7 +20,7 @@ public class SolutionTest {
         System.out.println(Arrays.toString(s));
 
         System.out.println("=======================");
-        
+
         Solution3 solution3 = new Solution3();
         System.out.println(Arrays.toString(s));
         solution3.reverseString(s);
