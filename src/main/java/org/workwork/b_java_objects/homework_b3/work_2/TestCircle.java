@@ -1,7 +1,4 @@
-package org.workwork.b_java_objects.homework_b3;
-
-
-import org.workwork.b_java_objects.homework_b3.circle.Circle;
+package org.workwork.b_java_objects.homework_b3.work_2;
 
 public class TestCircle {
 
@@ -44,7 +41,6 @@ public class TestCircle {
             System.out.println("testGetArea: FAILURE");
         }
     }
-
     public void test() {
         testCreateCircle();
         testSetRadius();

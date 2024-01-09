@@ -1,4 +1,4 @@
-package org.workwork.b_java_objects.homework_b3.circle;
+package org.workwork.b_java_objects.homework_b3.work_1.circle;
 
 /**
  * Заполните этот класс в соответсвии с заданием из лекции.
