@@ -1,18 +1,13 @@
-package org.workwork.b_java_objects.homework_b1.solution;
+package org.workwork.b_java_objects.homework_b1.solution.task_2;
 
-public class SimpleDocent {
+public abstract class Person {
+
     String name;
     int age;
     int height;
     String department;
 
-    public void sayHi() {
-        System.out.println("Yo, mate! I'm a docent. Respect my authority!");
-    }
-
-    public void makeStudentsSuffer(){
-        System.out.println("You shall not pass!");
-    }
+    public abstract void sayHi();
 
     public void describePerson(){
         System.out.println(

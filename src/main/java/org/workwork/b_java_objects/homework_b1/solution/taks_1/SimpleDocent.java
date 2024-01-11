@@ -1,17 +1,17 @@
-package org.workwork.b_java_objects.homework_b1.solution;
+package org.workwork.b_java_objects.homework_b1.solution.taks_1;
 
-public class SimpleStudent {
+public class SimpleDocent {
     String name;
     int age;
     int height;
     String department;
 
     public void sayHi() {
-        System.out.println("Good morning, sir! My name is " + name + " and I'm a student");
+        System.out.println("Yo, mate! I'm a docent. Respect my authority!");
     }
 
-    public void haveAParty(){
-        System.out.println("Party time! BYOB!");
+    public void makeStudentsSuffer(){
+        System.out.println("You shall not pass!");
     }
 
     public void describePerson(){

@@ -1,4 +1,4 @@
-package org.workwork.b_java_objects.homework_b1.solution;
+package org.workwork.b_java_objects.homework_b1.solution.task_2;
 
 public class Main {
     public static void main(String[] args) {
