@@ -1,4 +1,4 @@
-package org.workwork.b_java_objects.homework_b5;
+package org.workwork.b_java_objects.homework_b5.solution;
 
 import java.util.Arrays;
 
@@ -20,12 +20,20 @@ public class Matrices {
             this.items = new int[n];
         }
 
-
+        /**
+         * Создает вектор c заданными элементами.
+         */
         public Vector(int[] items) {
             this.items = items;
         }
 
-
+        /**
+         * Складывает данный вектор с другим вектором.
+         *
+         * @param other вектор, который должен быть сложен с данным вектором; должен
+         *              иметь ту же длину, что и данный вектор
+         * @return новый вектор, представляющий сумму данного и другого векторов
+         */
         public Vector add(Vector other) {
             if (items.length != other.items.length) {
                 throw new IllegalArgumentException(
@@ -39,7 +47,13 @@ public class Matrices {
             return new Vector(result);
         }
 
-
+        /**
+         * Вычитает другой вектор из данного вектора.
+         *
+         * @param other вектор, который должен быть вычтен из данного вектора; должен
+         *              иметь ту же длину, что и данный вектор
+         * @return новый вектор, представляющий разность данного и другого векторов
+         */
         public Vector subtract(Vector other) {
             if (items.length != other.items.length) {
                 throw new IllegalArgumentException(
@@ -53,7 +67,13 @@ public class Matrices {
             return new Vector(result);
         }
 
-
+        /**
+         * Вычисляет скалярное произведение данного вектора с другим вектором.
+         *
+         * @param other вектор, с которым должно быть вычислено скалярное произведение;
+         *              должен иметь ту же длину, что и данный вектор
+         * @return скалярное произведение данного и другого векторов
+         */
         public int dotProduct(Vector other) {
             if (items.length != other.items.length) {
                 throw new IllegalArgumentException(
@@ -67,7 +87,12 @@ public class Matrices {
             return result;
         }
 
-
+        /**
+         * Умножает данный вектор на скаляр.
+         *
+         * @param scalar скалярное значение, на которое должен быть умножен данный вектор
+         * @return новый вектор, представляющий результат умножения данного вектора на скаляр
+         */
         public Vector scalarMultiply(int scalar) {
             int[] result = new int[items.length];
             for (int i = 0; i < items.length; i++) {
@@ -93,20 +118,26 @@ public class Matrices {
         }
     }
 
-
+    /**
+     * Представляет матрицу (m x n)
+     */
     public static class Matrix {
         private final int nRows;
         private final int nCols;
         private final int[][] rows;
 
-
+        /**
+         * Создает матрицу (nRows x nCols)
+         */
         public Matrix(int nRows, int nCols) {
             this.nRows = nRows;
             this.nCols = nCols;
             this.rows = new int[nRows][nCols];
         }
 
-
+        /**
+         * Выводит матрицу в консоль построчно с правым выравниванием чисел по столбцам.
+         */
         @Override
         public String toString() {
             int[] colWidths = new int[nCols];
@@ -135,6 +166,13 @@ public class Matrices {
             return sb.toString();
         }
 
+        /**
+         * Складывает текущую матрицу с другой матрицей.
+         *
+         * @param other другая матрица, должна иметь такую же размерность, как и
+         *              текущая матрица
+         * @return новая матрица, являющаяся результатом сложения
+         */
         public Matrix add(Matrix other) {
             if (nRows != other.nRows || nCols != other.nCols) {
                 throw new IllegalArgumentException(
@@ -150,6 +188,13 @@ public class Matrices {
             return result;
         }
 
+        /**
+         * Вычитает другую матрицу из текущей матрицы.
+         *
+         * @param other другая матрица, должна иметь такую же размерность, как и
+         *              текущая матрица
+         * @return новая матрица, являющаяся результатом вычитания
+         */
         public Matrix subtract(Matrix other) {
             if (nRows != other.nRows || nCols != other.nCols) {
                 throw new IllegalArgumentException(
@@ -165,6 +210,13 @@ public class Matrices {
             return result;
         }
 
+        /**
+         * Умножает текущую матрицу на другую матрицу.
+         *
+         * @param other другая матрица, количество строк которой должно быть равно
+         *              количеству столбцов текущей матрицы
+         * @return новая матрица, являющаяся результатом умножения
+         */
         public Matrix multiply(Matrix other) {
             if (nCols != other.nRows) {
                 throw new IllegalArgumentException(
@@ -183,7 +235,12 @@ public class Matrices {
             return result;
         }
 
-
+        /**
+         * Умножает текущую матрицу на скаляр.
+         *
+         * @param scalar скалярное значение для умножения матрицы
+         * @return новая матрица, являющаяся результатом умножения на скаляр
+         */
         public Matrix scalarMultiply(int scalar) {
             Matrix result = new Matrix(nRows, nCols);
             for (int i = 0; i < nRows; i++) {
@@ -194,6 +251,11 @@ public class Matrices {
             return result;
         }
 
+        /**
+         * Транспонирует текущую матрицу.
+         *
+         * @return новая матрица, являющаяся транспонированной версией текущей матрицы
+         */
         public Matrix transpose() {
             Matrix result = new Matrix(nCols, nRows);
             for (int i = 0; i < nRows; i++) {
@@ -204,6 +266,11 @@ public class Matrices {
             return result;
         }
 
+        /**
+         * Вычисляет определитель текущей матрицы.
+         *
+         * @return значение определителя матрицы
+         */
         public int determinant() {
             if (nRows != nCols) {
                 throw new IllegalArgumentException(
@@ -213,6 +280,13 @@ public class Matrices {
             return determinant(this.rows);
         }
 
+        /**
+         * Рекурсивно вычисляет определитель матрицы matrix.
+         * Алгоритм использует разложение по первой строке матрицы.
+         *
+         * @param matrix квадратная матрица, для которой нужно вычислить определитель
+         * @return определитель матрицы matrix
+         */
         private static int determinant(int[][] matrix) {
             // Базовый случай для матрицы 1x1
             if (matrix.length == 1) {
