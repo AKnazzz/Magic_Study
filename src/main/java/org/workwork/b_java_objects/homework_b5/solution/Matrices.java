@@ -16,6 +16,7 @@ public class Matrices {
         /**
          * Создает нулевой вектор длины n
          */
+        
         public Vector(int n) {
             this.items = new int[n];
         }
