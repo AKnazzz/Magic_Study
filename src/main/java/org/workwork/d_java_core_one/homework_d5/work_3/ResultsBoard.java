@@ -3,13 +3,12 @@ package org.workwork.d_java_core_one.homework_d5.work_3;
 import java.util.*;
 
 public class ResultsBoard {
-
-
+    StudentComaparator sorting = new StudentComaparator();
     TreeMap<String, Float> nameAndScore = new TreeMap<>();
-    TreeSet<Students> allStudents = new TreeSet<>();
+    TreeSet<Stud> allStudents = new TreeSet<>(sorting);
 
     public void addStudent(String name, Float grade){
-        Students student = new Students();
+        Stud student = new Stud();
         student.name = name;
         student.grade = grade;
         nameAndScore.put(student.name, student.grade);
@@ -23,8 +22,8 @@ public class ResultsBoard {
         if(n > allStudents.size()){
             n = allStudents.size();
         }
-        List<Students> sort = new ArrayList<>(allStudents);
-        Collections.sort(sort, Collections.reverseOrder());
+        List<Stud> sort = new ArrayList<>(allStudents);
+        Collections.sort(sort, new StudentComaparator());
 
         List<String> topNames = new ArrayList<>();
 
@@ -53,18 +52,17 @@ public class ResultsBoard {
         System.out.println(rb.top3Stud(6)); 		// -> [Vlad, Vasiliy, Anton] или [Vasiliy, Vlad, Anton]
     }
 }
-
-class Students implements Comparable<Students>{
+class Stud {
     String name;
     Float grade;
 
-    public Students(String name, Float grade) {
+    public Stud(String name, Float grade) {
         this.name = name;
         this.grade = grade;
     }
 
 
-    public Students() {
+    public Stud() {
 
     }
 
@@ -76,8 +74,21 @@ class Students implements Comparable<Students>{
     }
 
 
+}
+class StudentComaparator implements Comparator<Stud>{
+
     @Override
-    public int compareTo(Students o) {
-        return this.grade.compareTo(o.grade);
+    public int compare(Stud st1, Stud st2) {
+        int res = st1.grade.compareTo(st2.grade);
+
+        if (res > 0) {
+            return -1;
+        }
+        else if (st1.name.compareTo(st2.name) == 0){
+            return 0;
+        }
+        else {
+            return 1;
+        }
     }
 }
