@@ -5,7 +5,7 @@ public class Main {
         ResultBoard rb = new ResultBoard();
         rb.addStudent("Ivan", 3.0f);
         rb.addStudent("Maria", 4.0f);
-      //  System.out.println(rb.top3()); 		// -> [Maria, Ivan]
+        //  System.out.println(rb.top3()); 		// -> [Maria, Ivan]
         rb.addStudent("Vlad", 5.0f);
         System.out.println(rb.top3()); 		// -> [Vlad, Maria, Ivan]
         rb.addStudent("Anton", 4.5f);
