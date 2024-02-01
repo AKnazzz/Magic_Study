@@ -4,25 +4,25 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.TreeSet;
 
-public class ResultBoard
-{
-    TreeSet <Student> students = new TreeSet<Student>();
+public class ResultBoard {
+    TreeSet<Student> students = new TreeSet<Student>();
 
-    void addStudent(String name, Float score)
-    {
-        Student student = new Student(name, score);
-        students.add(student);
+    void addStudent(String name, Float score) {
+        if (name != null && score != null) {
+            Student student = new Student(name, score);
+            students.add(student);
+        } else {
+            System.out.println("Name is null.");
+        }
     }
 
-    void printStudents()
-    {
+    void printStudents() {
         for (Student st : students)
             System.out.println(st);
     }
 
-    List<String> top3 ()
-    {
-        List <String> result = new ArrayList<>(3);
+    List<String> top3() {
+        List<String> result = new ArrayList<>(3);
         result.add(students.last().name);
         Student second = students.lower(students.last());
         result.add(second.name);
@@ -33,8 +33,7 @@ public class ResultBoard
     }
 }
 
-class Student implements Comparable<Student>
-{
+class Student implements Comparable<Student> {
     String name;
     Float score;
 
@@ -50,16 +49,12 @@ class Student implements Comparable<Student>
 
     @Override
     public int compareTo(Student o) {
-        if (score == o.score)
-        {
+        if (score == o.score) {
             return 0;
         }
-        if (score > o.score)
-        {
+        if (score > o.score) {
             return 1;
-        }
-        else
-        {
+        } else {
             return -1;
         }
     }
