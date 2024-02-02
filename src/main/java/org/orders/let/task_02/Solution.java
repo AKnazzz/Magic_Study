@@ -1,4 +1,4 @@
-package org.orders.task_02;
+package org.orders.let.task_02;
 
 /**
  * You are given the root of a binary tree that consists of exactly 3 nodes: the root, its left child, and its right child.

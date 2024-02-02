@@ -1,4 +1,4 @@
-package org.orders.task_03;
+package org.orders.let.task_03;
 
 public class Solution {
     public TreeNode invertTree(TreeNode root) {
