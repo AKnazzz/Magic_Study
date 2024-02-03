@@ -1790,3 +1790,115 @@ class Solution {
 Я просмотрел твой код - ты учёт все замечания - всё выполнено в соответствии с уроком!
 Также стоит отметить, что твой код выглядит очень читаемо и легко понятным, что является важным навыком для любого программиста.
 Продолжай развивать свои навыки и уверенно применять их на практике!
+
+======================================================================================================
+
+Доброго времени суток!
+Спасибо за отправку домашней работы!
+Твой код хорошо структурирован и понятно написан, что делает его легко читаемым и понятным для других разработчиков.
+Ты отлично справился с заданием, но некторые методы надо подправить:
+
+1. Вычитание векторов
+        public Vector subtract(Vector other) {
+            if (items.length != other.items.length) {
+                throw new IllegalArgumentException(
+                        "Длины векторов должны совпадать для вычитания.");
+            }
+
+            int[] result = new int[items.length];
+            for (int i = 0; i < items.length; i++) {
+                result[i] = items[i] - other.items[i];
+            }
+            return new Vector(result);
+        }
+
+2. Скалярное произведение
+
+        public int dotProduct(Vector other) {
+            if (items.length != other.items.length) {
+                throw new IllegalArgumentException(
+                        "Длины векторов должны совпадать для скалярного произведения.");
+            }
+
+            int result = 0;
+            for (int i = 0; i < items.length; i++) {
+                result += items[i] * other.items[i];
+            }
+            return result;
+        }
+
+
+3. Умножение вектора на скаляр
+
+        public Vector scalarMultiply(int scalar) {
+            int[] result = new int[items.length];
+            for (int i = 0; i < items.length; i++) {
+                result[i] = items[i] * scalar;
+            }
+            return new Vector(result);
+        }
+
+                 * Вычисляет длину (норму) данного вектора.
+                 */
+                public double length() {
+                    double sum = 0;
+                    for (int item : items) {
+                        sum += item * item;
+                    }
+                    return Math.sqrt(sum);
+                }
+
+
+4. Детерминанат
+
+        private static int determinant(int[][] matrix) {
+            // Базовый случай для матрицы 1x1
+            if (matrix.length == 1) {
+                return matrix[0][0];
+            }
+
+            // Базовый случай для матрицы 2x2
+            if (matrix.length == 2) {
+                return matrix[0][0] * matrix[1][1] - matrix[0][1] * matrix[1][0];
+            }
+
+            int result = 0;
+            // Итерация по элементам первой строки матрицы
+            for (int i = 0; i < matrix.length; i++) {
+                // Создание матрицы для поддетерминанта
+                int[][] smallerMatrix = new int[matrix.length - 1][matrix.length - 1];
+                for (int row = 1; row < matrix.length; row++) {
+                    int colIndex = 0;
+                    for (int col = 0; col < matrix.length; col++) {
+                        // Пропуск столбца i, т.к. его элементы участвуют в разложении
+                        if (col != i) {
+                            smallerMatrix[row - 1][colIndex] = matrix[row][col];
+                            colIndex++;
+                        }
+                    }
+                }
+
+                // Вычисление поддетерминанта рекурсивным вызовом
+                int subDeterminant = determinant(smallerMatrix);
+
+                // Определение знака для элемента i разложения
+                int sign = (i % 2 == 0) ? 1 : -1;
+
+                // Обновление результата с учетом элемента i разложения, его знака и поддетерминанта
+                result += sign * matrix[0][i] * subDeterminant;
+            }
+            return result;
+        }
+
+В целом, твоя работа заслуживает похвалы. Продолжай в том же духе!
+У тебя всё получится, жду следующую итерацию!
+
+======================================================================================================
+
+======================================================================================================
+
+======================================================================================================
+
+======================================================================================================
+
+======================================================================================================
