@@ -41,15 +41,15 @@ public class ResultsBoard {
 
         rb.addStudent("Ivan", 3.0f);
         rb.addStudent("Maria", 4.0f);
-        System.out.println(rb.top3Stud(6)); 		// -> [Maria, Ivan]
+        System.out.println(rb.top3Stud(3)); 		// -> [Maria, Ivan]
         rb.addStudent("Vlad", 5.0f);
-        System.out.println(rb.top3Stud(6)); 		// -> [Vlad, Maria, Ivan]
+        System.out.println(rb.top3Stud(3)); 		// -> [Vlad, Maria, Ivan]
         rb.addStudent("Anton", 4.5f);
-        System.out.println(rb.top3Stud(6)); 		// -> [Vlad, Anton, Maria]
+        System.out.println(rb.top3Stud(3)); 		// -> [Vlad, Anton, Maria]
         rb.addStudent("Daria", 1.5f);
-        System.out.println(rb.top3Stud(6)); 		// -> [Vlad, Anton, Maria]
+        System.out.println(rb.top3Stud(3)); 		// -> [Vlad, Anton, Maria]
         rb.addStudent("Vasiliy", 5.0f);
-        System.out.println(rb.top3Stud(6)); 		// -> [Vlad, Vasiliy, Anton] или [Vasiliy, Vlad, Anton]
+        System.out.println(rb.top3Stud(3)); 		// -> [Vlad, Vasiliy, Anton] или [Vasiliy, Vlad, Anton]
     }
 }
 class Stud {

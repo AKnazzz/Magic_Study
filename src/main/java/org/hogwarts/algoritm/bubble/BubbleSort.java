@@ -9,6 +9,7 @@ public class BubbleSort {
     }
 
     public static void bubbleSort(int[] array) {
+        System.out.println(BubbleSort.arrayToString(array));
         boolean isSorted = false;
         while (!isSorted) {
             isSorted = true;
@@ -20,6 +21,7 @@ public class BubbleSort {
                     isSorted = false;
                 }
             }
+            System.out.println(BubbleSort.arrayToString(array));
         }
     }
 
