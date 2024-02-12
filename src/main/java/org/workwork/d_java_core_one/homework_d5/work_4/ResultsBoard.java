@@ -27,7 +27,7 @@ class ResultsBoard {
 //    List<Student> top3(int person) {
 //        Student student = new Student();
 //        student.score = (float) person;
-//        NavigableSet<Student> best3 = studentsSet.descendingSet();
+        NavigableSet<Student> best3 = studentsSet.descendingSet();
 //        List<Student> result = new ArrayList<>(3);
 //
 //        for (int i = 0; i < 3; i++) {

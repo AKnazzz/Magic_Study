@@ -1,13 +1,16 @@
 package org.workwork.d_java_core_one.homework_d5.solution;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 class Student implements Comparable<Student> {
     String name;
     Float score;
 
     public int compareTo(Student other) {
-        return this.score.compareTo(other.score);
+        int scoreComp = other.score.compareTo(this.score);
+
+        return scoreComp == 0 ? this.name.compareTo(other.name):scoreComp;
     }
 
     @Override
@@ -33,19 +36,25 @@ public class ResultsBoard {
         studentsSet.add(student);
     }
 
-    List<Student> top3(int person) {
-        Student student = new Student();
-        student.score = (float) person;
-        NavigableSet<Student> best3 = studentsSet.descendingSet();
-        List<Student> result = new ArrayList<>(3);
+    List<Student> top3(int n) {
+        return studentsSet.stream()
+                .limit(3)
+                .collect(Collectors.toList());
 
-        for (int i = 0; i < 3; i++) {
-            if (!best3.isEmpty()) {
-                result.add(best3 .pollFirst());
-            }
+//        Student student = new Student();
+//        student.score = (float) person;
+//        NavigableSet<Student> best3 = studentsSet.descendingSet();
+//        List<Student> result = new ArrayList<>(3);
+//
+//        for (int i = 0; i < 3; i++) {
+//            if (!best3.isEmpty()) {
+//                result.add(best3 .pollFirst());
+//            }
+//
+//        }
+        //  return result;
 
-        }
-        return result;
+
     }
 
     public static void main(String[] args) {
@@ -65,15 +74,15 @@ public class ResultsBoard {
         ResultsBoard rb = new ResultsBoard();
         rb.addStudent("Ivan", 3.0f);
         rb.addStudent("Maria", 4.0f);
-       // System.out.println(rb.top3(5)); 		// -> [Maria, Ivan]
+        System.out.println(rb.top3(5));        // -> [Maria, Ivan]
         rb.addStudent("Vlad", 5.0f);
-        System.out.println(rb.top3(5)); 		// -> [Vlad, Maria, Ivan]
-       // rb.addStudent("Anton", 4.5f);
-        System.out.println(rb.top3(5)); 		// -> [Vlad, Anton, Maria]
-      //  rb.addStudent("Daria", 1.5f);
-        System.out.println(rb.top3(5)); 		// -> [Vlad, Anton, Maria]
-      //  rb.addStudent("Vasiliy", 5.0f);
-        System.out.println(rb.top3(5)); 		// -> [Vlad, Vasiliy, Anton] или [Vasiliy, Vlad, Anton]
+        System.out.println(rb.top3(5));        // -> [Vlad, Maria, Ivan]
+        rb.addStudent("Anton", 4.5f);
+        System.out.println(rb.top3(5));        // -> [Vlad, Anton, Maria]
+        rb.addStudent("Daria", 1.5f);
+        System.out.println(rb.top3(5));        // -> [Vlad, Anton, Maria]
+        rb.addStudent("Vasiliy", 5.0f);
+        System.out.println(rb.top3(5));        // -> [Vlad, Vasiliy, Anton] или [Vasiliy, Vlad, Anton]
 
     }
 }
