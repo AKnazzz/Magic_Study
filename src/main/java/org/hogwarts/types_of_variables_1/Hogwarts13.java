@@ -6,7 +6,7 @@ package org.hogwarts.types_of_variables_1;
  * <p>
  * Давайте напишем код, который поможет ему это посчитать. Продолжаем работать в методe main.
  */
-public class TaskFromHogwarts2 {
+public class Hogwarts13 {
     public static void main(String[] args) {
 
         int ostatokOne = 4199 % 13;

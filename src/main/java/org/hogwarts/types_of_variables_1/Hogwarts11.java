@@ -11,7 +11,7 @@ package org.hogwarts.types_of_variables_1;
  * Должен получиться список учителей.
  */
 
-public class Hogwarts1 {
+public class Hogwarts11 {
     public static void main(String[] args) {
 
         String dumbledore = "Dumbledore";
