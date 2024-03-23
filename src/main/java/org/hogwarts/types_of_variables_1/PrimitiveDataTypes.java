@@ -1,4 +1,4 @@
-package org.hogwarts.types_of_variables;
+package org.hogwarts.types_of_variables_1;
 
 public class PrimitiveDataTypes {
     public static void main(String[] args) {

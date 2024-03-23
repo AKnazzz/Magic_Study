@@ -1,4 +1,4 @@
-package org.hogwarts.types_of_variables;
+package org.hogwarts.types_of_variables_1;
 
 /**
  * В методе main класса Main создайте 5 переменных типа String: dumbledore, mcgonagall, snape, lupin, hugrid.
@@ -11,7 +11,7 @@ package org.hogwarts.types_of_variables;
  * Должен получиться список учителей.
  */
 
-public class TaskFromHogwarts1 {
+public class Hogwarts1 {
     public static void main(String[] args) {
 
         String dumbledore = "Dumbledore";
