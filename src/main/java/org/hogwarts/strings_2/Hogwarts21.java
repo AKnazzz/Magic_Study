@@ -1,4 +1,4 @@
-package org.hogwarts.strings;
+package org.hogwarts.strings_2;
 
 import java.util.Random;
 
@@ -13,7 +13,7 @@ import java.util.Random;
  * 8. Узнайте индекс подстроки “ob”.
  */
 
-public class Task_String_1 {
+public class Hogwarts21 {
     public static void main(String[] args) {
 
         //Создайте строку из 5 случайных чисел new Random().nextInt().

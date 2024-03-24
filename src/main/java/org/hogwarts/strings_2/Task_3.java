@@ -3,7 +3,7 @@
  * <p>
  * Давайте напишем код, который поможет ему это посчитать. Продолжаем работать в методe main.
  */
-package org.hogwarts.strings;
+package org.hogwarts.strings_2;
 
 public class Task_3 {
     public static void main(String[] args) {
