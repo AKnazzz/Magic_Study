@@ -1,4 +1,4 @@
-package org.hogwarts.types_of_variables_1;
+package org.hogwarts.a1_types_of_variables_1;
 
 public class Homework2 {
     public static void main(String[] args) {

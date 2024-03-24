@@ -1,6 +1,6 @@
-package org.hogwarts.loops.task1;
+package org.hogwarts.a4_loops.hogwarts41;
 
-public class Tests1 {
+public class Hogwarts41 {
     public static void main(String[] args) {
         Quidditch quidditch = new Quidditch();
         quidditch.getBalls();

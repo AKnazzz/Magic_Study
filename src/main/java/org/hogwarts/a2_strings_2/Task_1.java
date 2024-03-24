@@ -1,4 +1,4 @@
-package org.hogwarts.strings_2;
+package org.hogwarts.a2_strings_2;
 
 public class Task_1 {
 

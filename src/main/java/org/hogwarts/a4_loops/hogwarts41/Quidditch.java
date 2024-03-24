@@ -1,4 +1,4 @@
-package org.hogwarts.loops.task1;
+package org.hogwarts.a4_loops.hogwarts41;
 
 import java.util.Random;
 

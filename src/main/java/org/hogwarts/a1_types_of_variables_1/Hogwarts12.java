@@ -1,4 +1,4 @@
-package org.hogwarts.types_of_variables_1;
+package org.hogwarts.a1_types_of_variables_1;
 
 import java.util.Random;
 

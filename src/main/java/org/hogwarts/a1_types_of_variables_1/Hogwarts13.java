@@ -1,4 +1,4 @@
-package org.hogwarts.types_of_variables_1;
+package org.hogwarts.a1_types_of_variables_1;
 
 /**
  * Малфой остался после уроков и получил задание: получить остатки от деления на 13, 14, 15, 16, 17, 19 числа 4199.

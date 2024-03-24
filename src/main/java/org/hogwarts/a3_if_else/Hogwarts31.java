@@ -1,19 +1,15 @@
-package org.hogwarts.if_else;
+package org.hogwarts.a3_if_else;
 
 import java.util.Random;
 
 /**
  * В методе main c помощью new Random().nextInt() сгенерируйте 2 случайных целых числа.
- * <p>
  * Если оба числа чётные, разделите каждое число на 2 и выведите в консоль сумму.
- * <p>
  * Иначе если только первое число делится на 2, разделите только первое число на 2 и выведите в консоль сумму полученного числа и второго числа.
- * <p>
  * Иначе, если только второе число делится на 2, разделите только второе число на 2 и выведите результат вычисления в консоль.
- * <p>
  * Иначе (если никакое число не делится на 2) просто выведите в консоль сумму этих чисел.
  */
-public class TaskFromHogwarstIfElse1 {
+public class Hogwarts31 {
     public static void main(String[] args) {
         int a = new Random().nextInt(0, 11);
         int b = new Random().nextInt(0, 11);

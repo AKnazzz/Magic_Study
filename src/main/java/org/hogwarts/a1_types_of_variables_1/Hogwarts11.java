@@ -1,4 +1,4 @@
-package org.hogwarts.types_of_variables_1;
+package org.hogwarts.a1_types_of_variables_1;
 
 /**
  * В методе main класса Main создайте 5 переменных типа String: dumbledore, mcgonagall, snape, lupin, hugrid.

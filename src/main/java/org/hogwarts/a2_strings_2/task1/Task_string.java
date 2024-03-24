@@ -1,4 +1,4 @@
-package org.hogwarts.strings_2.task1;
+package org.hogwarts.a2_strings_2.task1;
 
 import java.util.ArrayList;
 import java.util.HashMap;
