@@ -1,14 +1,13 @@
-package org.hogwarts.arrays.task3;
+package org.hogwarts.a5_arrays.hogwarts53;
 
 import java.util.Arrays;
 import java.util.Random;
 
 /**
  * Попробуем написать небольшой алгоритм. Все необходимые инструменты мы уже прошли. За подсказками попробуйте обратиться к предыдущим урокам.
- * <p>
  * Создайте массив из 5 целых чисел. Напишите код для нахождения наименьшего и наибольшего элемента в массиве. Выведите эти элементы в консол
  */
-public class Test3 {
+public class Hogwarts53 {
     public static void main(String[] args) {
 
         Random random = new Random();
@@ -35,7 +34,5 @@ public class Test3 {
 
         System.out.println("min = " + min);
         System.out.println("max = " + max);
-
-
     }
 }

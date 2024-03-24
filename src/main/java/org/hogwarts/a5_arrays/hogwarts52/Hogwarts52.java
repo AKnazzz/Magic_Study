@@ -1,6 +1,6 @@
-package org.hogwarts.arrays.task2;
+package org.hogwarts.a5_arrays.hogwarts52;
 
-public class Test2 {
+public class Hogwarts52 {
     public static void main(String[] args) {
         Potion potion = new Potion();
         potion.prepare();

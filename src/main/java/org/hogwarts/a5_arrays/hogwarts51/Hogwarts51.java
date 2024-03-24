@@ -1,9 +1,8 @@
-package org.hogwarts.arrays.task1;
+package org.hogwarts.a5_arrays.hogwarts51;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class Test1 {
+public class Hogwarts51 {
     public static void main(String[] args) {
         String[] recipe = {"Засушенная чешуя василиска",
                 "Частичка души лесной феи",

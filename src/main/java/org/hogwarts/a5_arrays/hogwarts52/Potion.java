@@ -1,4 +1,4 @@
-package org.hogwarts.arrays.task2;
+package org.hogwarts.a5_arrays.hogwarts52;
 
 import java.util.Arrays;
 import java.util.Scanner;
