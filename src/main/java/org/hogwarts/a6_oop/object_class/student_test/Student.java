@@ -1,4 +1,4 @@
-package org.hogwarts.oop.object_class.student_test;
+package org.hogwarts.a6_oop.object_class.student_test;
 
 public class Student {
     int studentId;

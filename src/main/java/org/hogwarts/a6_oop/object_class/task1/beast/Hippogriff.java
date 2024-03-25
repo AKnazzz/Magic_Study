@@ -1,6 +1,6 @@
-package org.hogwarts.oop.object_class.task1.beast;
+package org.hogwarts.a6_oop.object_class.task1.beast;
 
-import org.hogwarts.oop.object_class.task1.student.Student;
+import org.hogwarts.a6_oop.object_class.task1.student.Student;
 
 import java.util.Random;
 

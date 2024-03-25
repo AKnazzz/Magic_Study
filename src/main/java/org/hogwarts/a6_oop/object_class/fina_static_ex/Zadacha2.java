@@ -1,4 +1,4 @@
-package org.hogwarts.oop.object_class.fina_static_ex;
+package org.hogwarts.a6_oop.object_class.fina_static_ex;
 
 public class Zadacha2 {
 

@@ -1,4 +1,4 @@
-package org.hogwarts.oop.object_class.bank_account;
+package org.hogwarts.a6_oop.object_class.bank_account;
 
 public class BankAccount {
     int id = 10;

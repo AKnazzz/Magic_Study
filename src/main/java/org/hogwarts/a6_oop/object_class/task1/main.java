@@ -1,6 +1,6 @@
-package org.hogwarts.oop.object_class.task1;
+package org.hogwarts.a6_oop.object_class.task1;
 
-import org.hogwarts.oop.object_class.task1.beast.Hippogriff;
+import org.hogwarts.a6_oop.object_class.task1.beast.Hippogriff;
 
 public class main {
     public static void main(String[] args) {

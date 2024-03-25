@@ -1,4 +1,4 @@
-package org.hogwarts.oop.object_class.employee;
+package org.hogwarts.a6_oop.object_class.employee;
 
 public class Employee {
     int id;

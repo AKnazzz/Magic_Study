@@ -1,4 +1,4 @@
-package org.hogwarts.oop.object_class.task1.student;
+package org.hogwarts.a6_oop.object_class.task1.student;
 
 public class Student {
     private String name;
