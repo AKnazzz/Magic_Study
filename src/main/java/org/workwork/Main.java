@@ -1,40 +1,42 @@
 package org.workwork;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Main {
+
     public static void main(String[] args) {
-        ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(1,3,5,3,3,6,9,6,0,1));
-        int k = 2;
+        try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\Андрей\\dev\\magic\\Magic\\src\\main\\java\\org\\workwork\\data.txt"))) {
+            List<Integer> maxLength = reader.lines()
+                    .map(s -> {
+                        String x1 = s.substring(17, 20);
+                        String x2 = s.substring(30, 32);
+                        Integer X12 = (int) Math.pow(Integer.valueOf(x2) - Integer.valueOf(x1), 2);
 
-        getRollingAverage(arr, k);
-    }
+                        String y1 = s.substring(23, 25);
+                        String y2 = s.substring(35, 37);
+                        Integer y12 = (int) Math.pow(Integer.valueOf(y2) - Integer.valueOf(y1), 2);
+                        Integer XY12 = (int) Math.sqrt(X12 + y12);
 
-    private static void getRollingAverage(ArrayList<Integer> arr, int k) {
-        LinkedList<Float> sublist = new LinkedList<>();
+                        return XY12;
+                    })
+                    .collect(Collectors.toList());
 
-        for (int i = 1; i < k; i++) {
-            float x = arr.get(i);
-            float y = arr.get(i - 1);
-            float z = (x + y)/2;
+            System.out.println("MAX - " + maxLength.stream()
+                    .max(Double::compare)
+                    .get());
 
-            sublist.add(z);
-        }
+            maxLength.forEach(s -> System.out.printf("%.2f%n", s));
 
-        System.out.println(sublist);
-
-        for (int i = k; i <arr.size(); i++) {
-            float x = arr.get(i);
-            float y = arr.get(i - 1);
-            float z = (x + y)/2;
-
-            sublist.add(z);
-            sublist.remove();
-            System.out.println(sublist);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
 
     }
+
 }
