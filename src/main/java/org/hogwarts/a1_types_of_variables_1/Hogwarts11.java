@@ -22,6 +22,7 @@ public class Hogwarts11 {
 
         String teachers = "School teachers: ";
 
+
         System.out.println(teachers);
         System.out.println(dumbledore);
         System.out.println(mcgonagall);
