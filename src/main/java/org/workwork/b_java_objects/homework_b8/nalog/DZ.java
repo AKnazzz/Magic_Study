@@ -1,4 +1,4 @@
-package org.workwork.b_java_objects.homework_b7.nalog;
+package org.workwork.b_java_objects.homework_b8.nalog;
 
 import java.util.regex.Pattern;
 

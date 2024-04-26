@@ -1,9 +1,9 @@
-package org.workwork.b_java_objects.homework_b7.phonebook;
+package org.workwork.b_java_objects.homework_b8.phonebook;
 
 import java.util.Scanner;
 
-import static org.workwork.b_java_objects.homework_b7.phonebook.Person.findPerson;
-import static org.workwork.b_java_objects.homework_b7.phonebook.Person.initBD;
+import static org.workwork.b_java_objects.homework_b8.phonebook.Person.findPerson;
+import static org.workwork.b_java_objects.homework_b8.phonebook.Person.initBD;
 
 
 public class PhoneBook {

@@ -1,4 +1,4 @@
-package org.workwork.b_java_objects.homework_b6.solution;
+package org.workwork.b_java_objects.homework_b7.solution;
 
 /**
  * Задание 1. Заполните текст, используя независимо методы.

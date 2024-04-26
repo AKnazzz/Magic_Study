@@ -1,4 +1,4 @@
-package org.workwork.b_java_objects.homework_b7.stock;
+package org.workwork.b_java_objects.homework_b8.stock;
 
 public class Stock {
 

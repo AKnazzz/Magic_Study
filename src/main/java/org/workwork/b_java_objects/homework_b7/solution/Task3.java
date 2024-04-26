@@ -1,4 +1,4 @@
-package org.workwork.b_java_objects.homework_b6.solution;
+package org.workwork.b_java_objects.homework_b7.solution;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

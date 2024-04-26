@@ -1,4 +1,4 @@
-package org.workwork.b_java_objects.homework_b7.calculator;
+package org.workwork.b_java_objects.homework_b8.calculator;
 
 import java.util.Scanner;
 
