@@ -41,4 +41,5 @@ public class Main {
             array[i] = (int) (Math.random() * 100000);
         }
     }
+
 }
