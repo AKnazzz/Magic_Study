@@ -1,6 +1,7 @@
 package org.workwork.d_java_core_one.homework_d2.theory;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 
 public class Main {
@@ -61,7 +62,11 @@ public class Main {
         System.out.println(surnamesSet.equals(surnamesSet2));
 
 
+        HashMap<String, Integer> nameAndAge = new HashMap<>();
+        nameAndAge.put("Ivan", 20);
+        nameAndAge.put("John", 21);
 
+        System.out.println("nameAndAge = " + nameAndAge);
 
     }
 }
