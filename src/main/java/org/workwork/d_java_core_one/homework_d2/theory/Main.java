@@ -67,6 +67,12 @@ public class Main {
         nameAndAge.put("John", 21);
 
         System.out.println("nameAndAge = " + nameAndAge);
+        System.out.println(nameAndAge.get("Ivan"));
+        System.out.println(nameAndAge.get("Dmitry"));
+        System.out.println(nameAndAge.size());
+        System.out.println(nameAndAge.isEmpty());
 
+        nameAndAge.put("Alex", 20);
+        System.out.println("nameAndAge = " + nameAndAge);
     }
 }
