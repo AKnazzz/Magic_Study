@@ -2,6 +2,8 @@ package org.workwork.d_java_core_one.homework_d2.theory;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class MapTest {
     public static void main(String[] args) {
@@ -40,6 +42,30 @@ public class MapTest {
 
         // данные выведутся в порядке добавления
         System.out.println("LinkedHashMap: " + chaptersAndPages2);
+
+
+        System.out.println("====================================");
+
+        TreeMap<Integer, String> leaderBoard = new TreeMap<>();
+
+        leaderBoard.put(5, "Андрей");
+        leaderBoard.put(3, "Сергей");
+        leaderBoard.put(4, "Влад");
+        leaderBoard.put(1, "Иван");
+        leaderBoard.put(2, "Петр");
+
+        for (Map.Entry<Integer, String> player : leaderBoard.entrySet()) {
+            System.out.printf("Позиция игрока: %d  Имя: %s \n", player.getKey(), player.getValue());
+        }
+
+        // выводим все позиции игроков
+        System.out.println("Все позиции игроков: " + leaderBoard.keySet());
+
+        System.out.println("имена игроков: " + leaderBoard.values());
+
+        System.out.println("TOP-3 игроков: " + leaderBoard.headMap(4));
+
+        System.out.println("Последний игрок: " + leaderBoard.lastEntry());
     }
 
 }
