@@ -1,0 +1,26 @@
+
+h
+java:S1192:"MDefine a constant instead of duplicating this literal "(-|\\+)?\\d*" 3 times.(ÅÑÉÖûÿÿÿÿ
+v
+java:S1192Q"[Define a constant instead of duplicating this literal "http://www\\..+\\.(com|ru)" 3 times.(ùÓ‡¼úÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óÎ °ùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ôøìÿÿÿÿÿ
+@	java:S106	"+Replace this use of System.out by a logger.(¡²¨¼
+E	java:S106:"+Replace this use of System.out by a logger.(ÅÑÉÖûÿÿÿÿ
+K
+java:S6035:"0Replace this alternation with a character class.(ÅÑÉÖûÿÿÿÿ
+@	java:S106;"+Replace this use of System.out by a logger.(²¯ˆ
+F
+java:S6035;"0Replace this alternation with a character class.(²¯ˆ
+E	java:S106<"+Replace this use of System.out by a logger.(µ·ÅÉúÿÿÿÿ
+K
+java:S6035<"0Replace this alternation with a character class.(µ·ÅÉúÿÿÿÿ
+E	java:S106@"+Replace this use of System.out by a logger.(ïºŒíüÿÿÿÿ
+@	java:S106C"+Replace this use of System.out by a logger.(¯¸ºî
+E	java:S106F"+Replace this use of System.out by a logger.(¨å‘öüÿÿÿÿ
+@	java:S106I"+Replace this use of System.out by a logger.(æ¨ó
+E	java:S106L"+Replace this use of System.out by a logger.(õ³ÿÿÿÿÿ
+E	java:S106Q"+Replace this use of System.out by a logger.(ùÓ‡¼úÿÿÿÿ
+@	java:S106R"+Replace this use of System.out by a logger.(€ï”
+?	java:S106S"+Replace this use of System.out by a logger.(õçŸ'
+@	java:S106W"+Replace this use of System.out by a logger.(œ§î

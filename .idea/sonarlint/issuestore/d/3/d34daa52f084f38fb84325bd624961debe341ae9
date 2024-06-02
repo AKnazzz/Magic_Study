@@ -1,0 +1,13 @@
+
+g	java:S116"RRename this field "EPSILON" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û£ö£
+7
+java:S1170"!Make this final field static too.(û£ö£
+E	java:S106"+Replace this use of System.out by a logger.(Ò—ıÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(²Ãşá
+1
+java:S3626"Remove this redundant jump.(ûÁİ…
+E	java:S106"+Replace this use of System.out by a logger.(ÂøÖÕûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(¥í‡šúÿÿÿÿ
+E	java:S106 "+Replace this use of System.out by a logger.(Ô­«şÿÿÿÿ
+?	java:S106'"+Replace this use of System.out by a logger.(±U
+@	java:S106)"+Replace this use of System.out by a logger.(ÛŞ¾‹
