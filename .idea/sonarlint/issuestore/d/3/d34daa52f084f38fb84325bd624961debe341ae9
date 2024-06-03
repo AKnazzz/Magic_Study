@@ -1,13 +1,13 @@
 
-g	java:S116"RRename this field "EPSILON" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û£ö£
-7
-java:S1170"!Make this final field static too.(û£ö£
-E	java:S106"+Replace this use of System.out by a logger.(Ò—ıÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(²Ãşá
-1
-java:S3626"Remove this redundant jump.(ûÁİ…
-E	java:S106"+Replace this use of System.out by a logger.(ÂøÖÕûÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(¥í‡šúÿÿÿÿ
-E	java:S106 "+Replace this use of System.out by a logger.(Ô­«şÿÿÿÿ
-?	java:S106'"+Replace this use of System.out by a logger.(±U
-@	java:S106)"+Replace this use of System.out by a logger.(ÛŞ¾‹
+	java:S116"RRename this field "EPSILON" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û£ö£J$95e15ff9-53b6-4cd2-8032-a9c7dec6b445
+]
+java:S1170"!Make this final field static too.(û£ö£J$24d1b4d0-41d3-4e53-a861-987269f2fea0
+k	java:S106"+Replace this use of System.out by a logger.(Ò—ıÿÿÿÿJ$55ac7eae-012a-40af-9cb3-c6ea4ce8474a
+f	java:S106"+Replace this use of System.out by a logger.(²ÃşáJ$0e983b8f-83b7-4e75-bffe-159a8b97bf83
+W
+java:S3626"Remove this redundant jump.(ûÁİ…J$c35daaaf-f22f-4501-9b9e-2fabac751323
+k	java:S106"+Replace this use of System.out by a logger.(ÂøÖÕûÿÿÿÿJ$3cc32e64-f33c-4920-9183-7cebf8dbcea6
+k	java:S106"+Replace this use of System.out by a logger.(¥í‡šúÿÿÿÿJ$79e3d2b4-aa39-4d2d-9005-9e126227483b
+k	java:S106 "+Replace this use of System.out by a logger.(Ô­«şÿÿÿÿJ$2b3ae344-76b1-4306-b577-f34ce5836286
+e	java:S106'"+Replace this use of System.out by a logger.(±UJ$3b8a2be2-b3b6-48d9-bec7-63f963ee7250
+f	java:S106)"+Replace this use of System.out by a logger.(ÛŞ¾‹J$f25b67bb-f30f-49cd-bcd3-4146c31683d9
