@@ -5,7 +5,7 @@ import java.util.List;
 
 public class MainDZ {
     public static void main(String[] args) {
-        ArrayList<Integer> arr = new ArrayList<>(List.of(1, 7, 9, 4, 3));
+        List<Integer> arr = new ArrayList<>(List.of(1, 7, 9, 4, 3));
         int k = 4;
 
         List<Double> rollingAverages = getRollingAverage(arr, k);
