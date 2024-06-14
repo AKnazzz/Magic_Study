@@ -162,7 +162,7 @@ public class SumController {
 Код запуска встроенного контейнера сервлетов выглядит примерно так.
 
 ``` 
-public class org.workwork.d_java_core_one.homework_d3.Main {
+public class org.workwork.c_java_core_one.homework_c3.Main {
     public static void main(String[] args) {
         SomeServletContainer.start();
         SomeServletContainer.addServlet(new MyFancyServlet());

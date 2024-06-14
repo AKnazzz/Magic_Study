@@ -67,7 +67,7 @@ int currentDayNumber
 public void getSomeValue()
 
 имена классов должны быть существительными и начинаться с заглавной буквы.
-public class org.workwork.d_java_core_one.homework_d3.Main
+public class org.workwork.c_java_core_one.homework_c3.Main
 
 если название состоит из нескольких слов, то для таких слов используется CamelCase.
 public void setMonthSalary(int salary)
