@@ -17,8 +17,7 @@ public class MyTranslationService {
         }
 
         try {
-            Translation translation = googleTranslate.translate(sentence,
-                    Translate.TranslateOption.targetLanguage(targetLanguage));
+            Translation translation = googleTranslate.translate(sentence, Translate.TranslateOption.targetLanguage(targetLanguage));
             return translation.getTranslatedText();
         } catch (Exception ex) {
             throw new MyTranslationServiceException("Exception while calling Google Translate API", ex);

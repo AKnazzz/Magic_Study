@@ -5,27 +5,25 @@ import com.google.cloud.translate.Translate;
 import com.google.cloud.translate.Translation;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.ArgumentMatchers;
 import org.mockito.Mock;
+import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.times;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.verifyNoInteractions;
-import static org.mockito.Mockito.when;
 
 
 @ExtendWith(MockitoExtension.class)
 class MyTranslationServiceTest_TODO {
     @Mock
-    private Translate translate;
+    private Translate googleTranslate;
 
     @Mock
-    private Translation translation;
+    private Translation googleTranslateResult;
 
     /**
      * 1. Happy case test.
@@ -36,18 +34,27 @@ class MyTranslationServiceTest_TODO {
      */
     @Test
     void translateWithGoogle_anySentenceAndTargetLanguageIsRu_success() {
-        MyTranslationService myTranslationService = new MyTranslationService(translate);
-        String targetSentence = "Any sentence";
-        String translatedSentence = "Любое предложение";
+
+        MyTranslationService myTranslationService = new MyTranslationService(googleTranslate);
+        String sentence = "Some sentence";
         String targetLanguage = "ru";
+        String expectedTranslation = "Некое предложение";
 
-        when(translate.translate(eq(targetSentence), any())).thenReturn(translation);
-        when(translation.getTranslatedText()).thenReturn(translatedSentence);
 
-        String resultSentence = myTranslationService.translateWithGoogle(targetSentence, targetLanguage);
-        assertEquals(translatedSentence, resultSentence);
-        verify(translate, times(1)).translate(eq(targetSentence), any());
-        verify(translation, times(1)).getTranslatedText();
+        Mockito.when(googleTranslate.translate(eq(sentence), ArgumentMatchers.any())).thenReturn(googleTranslateResult);
+        Mockito.when(googleTranslateResult.getTranslatedText()).thenReturn(expectedTranslation);
+
+        String result = myTranslationService.translateWithGoogle(sentence, targetLanguage);
+        assertEquals(expectedTranslation, result);
+
+        Mockito.verify(googleTranslate).translate(eq(sentence), ArgumentMatchers.any());
+        Mockito.verifyNoMoreInteractions(googleTranslate);
+
+        Mockito.verify(googleTranslateResult).getTranslatedText();
+        Mockito.verifyNoMoreInteractions(googleTranslateResult);
+
+        Mockito.verify(googleTranslate, times(1)).translate(eq(sentence), any());
+        Mockito.verify(googleTranslateResult, times(1)).getTranslatedText();
 
     }
 
@@ -59,16 +66,17 @@ class MyTranslationServiceTest_TODO {
      */
     @Test
     void translateWithGoogle_anySentenceAndTargetLanguageIsNotRu_failure() {
-        MyTranslationService myTranslationService = new MyTranslationService(translate);
-        String targetSentence = "Any sentence";
-        String targetLanguage = "en";
+
+        MyTranslationService myTranslationService = new MyTranslationService(googleTranslate);
+        String sentence = "Some sentence";
+        String targetLanguage = "es";
 
         assertThrows(
                 IllegalArgumentException.class,
-                () -> myTranslationService.translateWithGoogle(targetSentence, targetLanguage)
+                () -> myTranslationService.translateWithGoogle(sentence, targetLanguage)
         );
-        verifyNoInteractions(translate);
-        verifyNoInteractions(translation);
+        Mockito.verifyNoInteractions(googleTranslate);
+        Mockito.verifyNoInteractions(googleTranslateResult);
     }
 
     /**
@@ -80,16 +88,22 @@ class MyTranslationServiceTest_TODO {
      */
     @Test
     void translateWithGoogle_googleTranslateThrowsException_failure() {
-        MyTranslationService myTranslationService = new MyTranslationService(translate);
-        String targetSentence = "Any sentence";
+        MyTranslationService myTranslationService = new MyTranslationService(googleTranslate);
+        String sentence = "Some sentence";
         String targetLanguage = "ru";
-        when(translate.translate(eq(targetSentence), any())).thenThrow(new RuntimeException());
+
+        Mockito.when(googleTranslate.translate(eq(sentence), ArgumentMatchers.any())).thenThrow(new RuntimeException());
 
         assertThrows(
                 MyTranslationServiceException.class,
-                () -> myTranslationService.translateWithGoogle(targetSentence, targetLanguage)
+                () -> myTranslationService.translateWithGoogle(sentence, targetLanguage)
         );
-        verify(translate, times(1)).translate(eq(targetSentence), any());
-        verifyNoInteractions(translation);
+        Mockito.verify(googleTranslate).translate(eq(sentence), ArgumentMatchers.any());
+        Mockito.verifyNoMoreInteractions(googleTranslate);
+        Mockito.verifyNoInteractions(googleTranslateResult);
+
+        Mockito.verify(googleTranslate, times(1)).translate(eq(sentence), any());
+        Mockito.verifyNoInteractions(googleTranslateResult);
     }
+
 }
