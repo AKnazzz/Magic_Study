@@ -19,6 +19,7 @@ public class Task1 {
 
     public static HashMap<String, Integer> swapKeysAndValues(HashMap<Integer, String> originalMap) {
         HashMap<String, Integer> swappedMap = new HashMap<>();
+
         for (Integer key : originalMap.keySet()) {
             String value = originalMap.get(key);
             swappedMap.put(value, key);
