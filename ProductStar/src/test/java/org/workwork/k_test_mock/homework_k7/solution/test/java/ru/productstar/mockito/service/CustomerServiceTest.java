@@ -2,6 +2,7 @@ package org.workwork.k_test_mock.homework_k7.solution.test.java.ru.productstar.m
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InOrder;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.workwork.k_test_mock.homework_k7.solution.main.java.ru.productstar.mockito.model.Customer;
@@ -44,6 +45,26 @@ public class CustomerServiceTest {
         // Verify
         verify(customerRepository, times(1)).getByName("Ivan");
         verify(customerRepository, never()).add(any(Customer.class));
+    }
+
+    @Test
+    void testGetOrCreate_newCustomer() {
+        // Arrange
+        CustomerService customerService = new CustomerService(customerRepository);
+        Customer newCustomer = new Customer("Oleg");
+        when(customerRepository.getByName("Oleg")).thenReturn(null);
+        when(customerRepository.add(any(Customer.class))).thenReturn(newCustomer);
+
+        // Act
+        Customer result = customerService.getOrCreate("Oleg");
+
+        // Assert
+        assertEquals(newCustomer, result);
+
+        // Verify
+        InOrder inOrder = inOrder(customerRepository);
+        inOrder.verify(customerRepository, times(1)).getByName("Oleg");
+        inOrder.verify(customerRepository, times(1)).add(any(Customer.class));
     }
 
 }
