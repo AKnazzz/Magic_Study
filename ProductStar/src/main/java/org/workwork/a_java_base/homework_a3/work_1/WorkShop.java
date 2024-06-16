@@ -2,9 +2,7 @@ package org.workwork.a_java_base.homework_a3.work_1;
 
 import java.util.Arrays;
 
-
 public class WorkShop {
-
 
     public static void main(String[] args) {
         Friend[] friends = {
@@ -15,7 +13,6 @@ public class WorkShop {
                 new Friend("Мария", Integer.parseInt("20"), false, 5)
         };
 
-
         System.out.println("My friends: " + Arrays.toString(friends));
     }
 }
@@ -23,25 +20,21 @@ public class WorkShop {
 
 class Friend {
 
-
-    boolean isFriendFromSchool;
-    float hoursSpentTogetherLastWeek;
+    private boolean isFriendFromSchool;
+    private float hoursSpentTogetherLastWeek;
     private String name;
     private int age;
-
 
     public Friend(String name,
             int age,
             boolean isFriendFromSchool,
             float hoursSpentTogetherLastWeek) {
 
-
         this.name = name;
         this.age = age;
         this.isFriendFromSchool = isFriendFromSchool;
         this.hoursSpentTogetherLastWeek = hoursSpentTogetherLastWeek;
     }
-
 
     @Override
     public String toString() {

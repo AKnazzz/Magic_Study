@@ -5,6 +5,9 @@ import java.util.Arrays;
 public class SolutionTest {
     public static void main(String[] args) {
 
+        // String str = "Пример строки";
+        // char[] charArray = str.toCharArray();
+
         char[] s = {'H', 'e', 'l', 'l', 'o'};
 
         Solution solution = new Solution();

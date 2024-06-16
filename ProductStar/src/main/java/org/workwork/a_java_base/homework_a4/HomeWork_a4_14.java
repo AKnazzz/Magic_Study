@@ -1,6 +1,6 @@
 package org.workwork.a_java_base.homework_a4;
 
-public class Main {
+public class HomeWork_a4_14 {
     public static void main(String[] args) {
         int a = 15;
         int b = 3;

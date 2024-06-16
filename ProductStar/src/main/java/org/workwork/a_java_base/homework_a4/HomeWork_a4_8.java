@@ -2,7 +2,7 @@ package org.workwork.a_java_base.homework_a4;
 
 import java.util.Scanner;
 
-public class HomeWork8 {
+public class HomeWork_a4_8 {
 
     static Scanner sc = new Scanner(System.in);
 
@@ -14,7 +14,7 @@ public class HomeWork8 {
             if (i == 0) {
                 System.out.print("0 ");
             } else if (i % 3 == 0 && i % 5 == 0) {
-                System.out.print("fizzbuzz ");
+                System.out.print("Solution_a4 ");
             } else if (i % 5 == 0) {
                 System.out.print("buzz ");
             } else if (i % 3 == 0) {

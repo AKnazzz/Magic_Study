@@ -2,7 +2,7 @@ package org.workwork.a_java_base.homework_a4;
 
 import java.util.Scanner;
 
-public class HW4ConditionalStatements {
+public class HomeWork_a4_13 {
     public static void main(String[] args) {
         System.out.println("Введите число:");
         Scanner scan = new Scanner(System.in);

@@ -2,7 +2,7 @@ package org.workwork.a_java_base.homework_a4;
 
 import java.util.Scanner;
 
-public class HomeWork3 {
+public class HomeWork_a4_3 {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
             System.out.println("Введите число:");

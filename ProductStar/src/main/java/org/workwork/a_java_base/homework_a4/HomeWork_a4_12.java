@@ -2,7 +2,7 @@ package org.workwork.a_java_base.homework_a4;
 
 import java.util.Scanner;
 
-public class Loop {
+public class HomeWork_a4_12 {
     public static void main(String[] args) {
 
 

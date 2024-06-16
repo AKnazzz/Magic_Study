@@ -2,10 +2,10 @@ package org.workwork.a_java_base.homework_a4;
 
 import java.util.Scanner;
 
-public class HomeWork5 {
+public class HomeWork_a4_5 {
     private static String FIZZ = "fizz ";
     private static String BUZZ = "buzz ";
-    private static String FIZZ_BUZZ = "fizzbuzz ";
+    private static String FIZZ_BUZZ = "Solution_a4 ";
 
     public static void main(String[] args) {
         try (var scanner = new Scanner(System.in)) {

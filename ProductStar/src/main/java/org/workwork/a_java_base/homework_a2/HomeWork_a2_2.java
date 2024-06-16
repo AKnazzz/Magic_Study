@@ -2,7 +2,7 @@ package org.workwork.a_java_base.homework_a2;
 
 import java.util.Scanner;
 
-public class HomeWorkOne {
+public class HomeWork_a2_2 {
     public static void main(String[] args) {
         System.out.println("Расскажите о вашем друге");
         System.out.println("Как зовут вашего друга ?");
