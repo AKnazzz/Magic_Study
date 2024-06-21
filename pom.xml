@@ -15,8 +15,6 @@
         <module>LetItCode</module>
         <module>CodeWars</module>
         <module>Practicum</module>
-        <module>ProductStar/src/main/java/org/workwork/k_test_mock/homework_k10/integration_test</module>
-        <module>ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test</module>
     </modules>
 
     <properties>
