@@ -4,107 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="21.06.2024 MOCKITO">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/0591335db2a5a01dc6c7ab24b48c01562e73303f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/1279bb37ba7d68bc1e88b6c0f06c74bb8f979a17" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bfa87e1941013a6f393310c02b458a41b5f1ca5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e45d6760cbba4b612666a1506d87166de361c03" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/33cb76ac4e0dbebb7464a1d6c0aadfab133c3661" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/3826eb5bbde4e976ed3cde1ff151f1759efe49ed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46914e242085008d3e14f02ca4798c79c4c8f580" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d42634f10cb288f7750f693e193eb67968b0454" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/61a0ca8ff1d788447c66661d60ffb2aa2ecc8142" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/6492a1a5508f54a18657bd7d113542edc1ddc600" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/64c85c1f0ffc0dca857fff36ab3228b134bf3083" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78af622f545b4867aa189b41cdf1e2786001b388" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cf1a36d31027c14cee28edd56c716f506658f1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a933f31af444d3e28ed4518ec3439ef17be23807" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aebb8e2d91c29e9f0551f899338d3922b619571b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bbcd402339e0266ac21e9e52ba94d27fc90c422e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c520a089c3404c3db9b6619087fbd330ee92d9dc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d34daa52f084f38fb84325bd624961debe341ae9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d91ca9776b1b76471251519899f97bcccaf7eaf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e075f2a571824f44640d8d304f89b8d27ed4a299" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3c1a9c3c85c038751351c70d31ebc1f82f0cf99" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f8da940d49d5132d05eac9ef65d9317f217eca48" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/5/0591335db2a5a01dc6c7ab24b48c01562e73303f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/2/1279bb37ba7d68bc1e88b6c0f06c74bb8f979a17" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/b/1bfa87e1941013a6f393310c02b458a41b5f1ca5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/e/1e45d6760cbba4b612666a1506d87166de361c03" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/3/33cb76ac4e0dbebb7464a1d6c0aadfab133c3661" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/8/3826eb5bbde4e976ed3cde1ff151f1759efe49ed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/6/46914e242085008d3e14f02ca4798c79c4c8f580" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/d/5d42634f10cb288f7750f693e193eb67968b0454" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/1/61a0ca8ff1d788447c66661d60ffb2aa2ecc8142" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/4/6492a1a5508f54a18657bd7d113542edc1ddc600" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/4/64c85c1f0ffc0dca857fff36ab3228b134bf3083" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/8/78af622f545b4867aa189b41cdf1e2786001b388" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5cf1a36d31027c14cee28edd56c716f506658f1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/9/a933f31af444d3e28ed4518ec3439ef17be23807" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/e/aebb8e2d91c29e9f0551f899338d3922b619571b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/b/bbcd402339e0266ac21e9e52ba94d27fc90c422e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/5/c520a089c3404c3db9b6619087fbd330ee92d9dc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/3/d34daa52f084f38fb84325bd624961debe341ae9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/9/d91ca9776b1b76471251519899f97bcccaf7eaf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/0/e075f2a571824f44640d8d304f89b8d27ed4a299" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/3/e3c1a9c3c85c038751351c70d31ebc1f82f0cf99" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/8/f8da940d49d5132d05eac9ef65d9317f217eca48" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_1/Action.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_1/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_1/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_1/StudentCommandHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_1/StudentStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_1/StudentSurnameStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k10/integration_test/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k10/integration_test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k10/integration_test/src/main/java/org/hogwarts/MyTranslationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k10/integration_test/src/main/java/org/hogwarts/MyTranslationServiceException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k10/integration_test/src/test/java/org/hogwarts/MyTranslationServiceTest_TODO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k10/Чек-лист - Основы интеграционного тестирования.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/main/java/org/productstar/mockito/ProductNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/main/java/org/productstar/mockito/model/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/main/java/org/productstar/mockito/model/Delivery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/main/java/org/productstar/mockito/model/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/main/java/org/productstar/mockito/model/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/main/java/org/productstar/mockito/model/Stock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/main/java/org/productstar/mockito/model/Warehouse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/main/java/org/productstar/mockito/repository/CustomerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/main/java/org/productstar/mockito/repository/InitRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/main/java/org/productstar/mockito/repository/OrderRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/main/java/org/productstar/mockito/repository/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/main/java/org/productstar/mockito/repository/WarehouseRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/main/java/org/productstar/mockito/service/CustomerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/main/java/org/productstar/mockito/service/OrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/main/java/org/productstar/mockito/service/WarehouseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/test/java/org/productstar/mockito/repository/CustomerRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/test/java/org/productstar/mockito/repository/InitRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/test/java/org/productstar/mockito/repository/ProductRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/test/java/org/productstar/mockito/repository/WarehouseRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/test/java/org/productstar/mockito/service/CustomerServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/test/java/org/productstar/mockito/service/OrderServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/test/java/org/productstar/mockito/service/OrderServiceTest_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/mock_simple_test/src/test/java/org/productstar/mockito/service/WarehouseServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test_mock/homework_k7/Чек-лист - Среда тестирования Mockito.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="21.06.2024 MOCKITO" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +64,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3321839",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "f07d775a77dc86802aceeaaf7ef76c9a",
+    "spring.configuration.checksum": "0f44218fcc314ac0df087f7800e00696",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -315,6 +215,7 @@
       <workItem from="1718828539837" duration="1583000" />
       <workItem from="1718912779817" duration="1287000" />
       <workItem from="1718997854480" duration="6411000" />
+      <workItem from="1719257283513" duration="829000" />
     </task>
     <task id="LOCAL-00001" summary="07.06.2024 add text">
       <option name="closed" value="true" />
