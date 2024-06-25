@@ -3,6 +3,8 @@ package org.workwork.c_java_core_one.homework_c4.workshop;
 
 import org.workwork.c_java_core_one.homework_c4.workshop.exceptions.ItemNotFoundException;
 
+import java.util.List;
+
 //- Добавление товара на склад (идентификатор, название, количество, категория, место хранения)
 //    - Добавление списком
 //- Удаление товара со склада
@@ -20,6 +22,7 @@ public interface Storage {
 
     boolean containsItem(String id);
 
-    Wheel removeItem(String id);
+    Wheel removeItem(String id) throws ItemNotFoundException;
 
+    void putAllItem(List<Wheel> items);
 }

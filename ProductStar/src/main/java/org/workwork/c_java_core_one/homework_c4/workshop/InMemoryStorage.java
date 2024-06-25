@@ -3,6 +3,7 @@ package org.workwork.c_java_core_one.homework_c4.workshop;
 import org.workwork.c_java_core_one.homework_c4.workshop.exceptions.ItemNotFoundException;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class InMemoryStorage implements Storage {
@@ -16,7 +17,7 @@ public class InMemoryStorage implements Storage {
     }
 
     @Override
-    public Wheel getItem(String id) {
+    public Wheel getItem(String id) throws ItemNotFoundException {
         Wheel wheel = items.get(id);
         if (wheel == null) {
             throw new ItemNotFoundException(id);
@@ -30,7 +31,18 @@ public class InMemoryStorage implements Storage {
     }
 
     @Override
-    public Wheel removeItem(String id) {
-        return null;
+    public Wheel removeItem(String id) throws ItemNotFoundException {
+        Wheel remove = items.remove(id);
+        if (remove == null) {
+            throw new ItemNotFoundException(id);
+        }
+        return remove;
+    }
+
+    @Override
+    public void putAllItem(List<Wheel> items) {
+        for (Wheel item : items) {
+            putItem(item);
+        }
     }
 }
