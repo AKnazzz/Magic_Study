@@ -4,6 +4,8 @@ package org.workwork.c_java_core_one.homework_c4.workshop;
 import org.workwork.c_java_core_one.homework_c4.workshop.exceptions.ItemNotFoundException;
 
 import java.util.List;
+import java.util.Map;
+import java.util.function.Predicate;
 
 //- Добавление товара на склад (идентификатор, название, количество, категория, место хранения)
 //    - Добавление списком
@@ -24,5 +26,9 @@ public interface Storage {
 
     Wheel removeItem(String id) throws ItemNotFoundException;
 
-    void putAllItem(List<Wheel> items);
+    void putAllItems(List<Wheel> items);
+
+    Map<String, Wheel> getAllItems();
+
+    List<Wheel> getAllItemsSorted(Predicate<Wheel> predicate);
 }

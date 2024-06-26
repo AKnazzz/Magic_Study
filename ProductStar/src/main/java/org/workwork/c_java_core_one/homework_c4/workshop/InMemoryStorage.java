@@ -2,9 +2,12 @@ package org.workwork.c_java_core_one.homework_c4.workshop;
 
 import org.workwork.c_java_core_one.homework_c4.workshop.exceptions.ItemNotFoundException;
 
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class InMemoryStorage implements Storage {
 
@@ -13,7 +16,7 @@ public class InMemoryStorage implements Storage {
 
     @Override
     public void putItem(Wheel wheel) {
-        items.put(wheel.id(), wheel);
+        items.put(wheel.getId(), wheel);
     }
 
     @Override
@@ -40,9 +43,24 @@ public class InMemoryStorage implements Storage {
     }
 
     @Override
-    public void putAllItem(List<Wheel> items) {
+    public void putAllItems(List<Wheel> items) {
         for (Wheel item : items) {
             putItem(item);
         }
+    }
+
+    @Override
+    public Map<String, Wheel> getAllItems() {
+        return new HashMap<>(items);
+    }
+
+    @Override
+    public List<Wheel> getAllItemsSorted(Predicate<Wheel> predicate) {
+        return items.values().stream().filter(predicate)
+                .sorted(Comparator.comparing(Wheel::getModel)
+                        .thenComparing(Wheel::getCategory)
+                        .thenComparing(Wheel::getPlate)
+                        .thenComparing(Wheel::getId))
+                .collect(Collectors.toList());
     }
 }

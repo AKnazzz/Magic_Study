@@ -17,23 +17,23 @@ public final class Wheel {
         this.quantity = quantity;
     }
 
-    public String id() {
+    public String getId() {
         return id;
     }
 
-    public String model() {
+    public String getModel() {
         return model;
     }
 
-    public String category() {
+    public String getCategory() {
         return category;
     }
 
-    public String plate() {
+    public String getPlate() {
         return plate;
     }
 
-    public int quantity() {
+    public int getQuantity() {
         return quantity;
     }
 
