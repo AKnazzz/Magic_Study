@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="26.06.2024 Wednesday">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_06_2024_22_42_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_06_2024_22_42__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="02.07.2024 Wednesday">
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/Analytics.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/Analytics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -107,7 +104,7 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Matrices">
+  <component name="RunManager" selected="JUnit.BasicAnalyticsTest.getCategories">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.workwork.d_java_core_two.homeWork_d1.work_1d.Main" />
       <module name="ProductStar" />
@@ -134,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InMemoryStorageTest.addListOfItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasicAnalyticsTest.getCategories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
@@ -143,8 +140,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop" />
-      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop.InMemoryStorageTest" />
-      <option name="METHOD_NAME" value="addListOfItems" />
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop.BasicAnalyticsTest" />
+      <option name="METHOD_NAME" value="getCategories" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BasicAnalyticsTest.getCategories" />
         <item itemvalue="Application.Matrices" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.InMemoryStorageTest.getAlllSortedByModel" />
         <item itemvalue="JUnit.InMemoryStorageTest.getAlll" />
-        <item itemvalue="JUnit.InMemoryStorageTest.addListOfItems" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +221,7 @@
       <workItem from="1719512217464" duration="4001000" />
       <workItem from="1719783354039" duration="2053000" />
       <workItem from="1719862944812" duration="2064000" />
-      <workItem from="1719946598353" duration="1046000" />
+      <workItem from="1719946598353" duration="4420000" />
     </task>
     <task id="LOCAL-00001" summary="07.06.2024 add text">
       <option name="closed" value="true" />
@@ -410,7 +407,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719349362523</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="02.07.2024 Wednesday">
+      <option name="closed" value="true" />
+      <created>1719952951653</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1719952951653</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,6 +462,7 @@
     <MESSAGE value="21.06.2024 MOCKITO" />
     <MESSAGE value="24.06.2024 Monday" />
     <MESSAGE value="26.06.2024 Wednesday" />
-    <option name="LAST_COMMIT_MESSAGE" value="26.06.2024 Wednesday" />
+    <MESSAGE value="02.07.2024 Wednesday" />
+    <option name="LAST_COMMIT_MESSAGE" value="02.07.2024 Wednesday" />
   </component>
 </project>
