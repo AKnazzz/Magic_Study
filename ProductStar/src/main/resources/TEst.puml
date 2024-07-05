@@ -1,0 +1,25 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+
+abstract class DiagnosticTarget
+    protected  Logger logger
+    protected String clazz // класс и имя объекта диагностики
+    protected String objectName // полное имя объекта (задается в конфигурации в секции name="object")
+    protected String description
+    protected long lastTim // время последней диагностики (или 0)
+    protected long period // этот параметр всегда присутствует (храню в миллисекундах)
+    private DiagnosticResult diagnosticResult; // результаты
+
+
+@enduml
+
+autonumber
+
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
+

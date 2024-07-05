@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="02.07.2024 Wednesday">
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/Analytics.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/Analytics.java" afterDir="false" />
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="05.07.2024 Wednesday">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,42 +35,37 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2hWFrLr5Sskndlx0aGCCMfCO3Qi" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Андрей/dev/magic/Magic/ProductStar/src/main/java/org/workwork/d_java_core_two/homeWork_d1/work_1d&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3321839&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;0f44218fcc314ac0df087f7800e00696&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
+    "last_opened_file_path": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/main/java/org/workwork/d_java_core_two/homeWork_d1/work_1d",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3321839",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "0f44218fcc314ac0df087f7800e00696",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\d_java_core_two\homeWork_d1\work_1d" />
@@ -222,6 +217,7 @@
       <workItem from="1719783354039" duration="2053000" />
       <workItem from="1719862944812" duration="2064000" />
       <workItem from="1719946598353" duration="4420000" />
+      <workItem from="1720164945540" duration="2471000" />
     </task>
     <task id="LOCAL-00001" summary="07.06.2024 add text">
       <option name="closed" value="true" />
@@ -415,7 +411,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719952951653</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="05.07.2024 Wednesday">
+      <option name="closed" value="true" />
+      <created>1720165077452</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1720165077452</updated>
+    </task>
+    <task id="LOCAL-00026" summary="05.07.2024 Wednesday">
+      <option name="closed" value="true" />
+      <created>1720167541147</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1720167541147</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,6 +475,7 @@
     <MESSAGE value="24.06.2024 Monday" />
     <MESSAGE value="26.06.2024 Wednesday" />
     <MESSAGE value="02.07.2024 Wednesday" />
-    <option name="LAST_COMMIT_MESSAGE" value="02.07.2024 Wednesday" />
+    <MESSAGE value="05.07.2024 Wednesday" />
+    <option name="LAST_COMMIT_MESSAGE" value="05.07.2024 Wednesday" />
   </component>
 </project>
