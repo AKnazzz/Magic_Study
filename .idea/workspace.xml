@@ -29,6 +29,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -58,7 +59,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/Андрей/Downloads/Методы-20240704T210856Z-001/Методы",
+    "last_opened_file_path": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,11 +75,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c7\work_1" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\d_java_core_two\homeWork_d1\work_1d" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c6\work_3" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\test\java" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c4" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test_mock\homework_k10\integration_test\src\test\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test_mock\homework_k7\mock_simple_test1" />
@@ -105,7 +106,7 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BasicAnalyticsTest.getCategories">
+  <component name="RunManager" selected="Application.org.workwork.c_java_core_one.homework_c7.work_1.src.org.db.students.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.workwork.d_java_core_two.homeWork_d1.work_1d.Main" />
       <module name="ProductStar" />
@@ -132,6 +133,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.workwork.c_java_core_one.homework_c7.work_1.src.org.db.students.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c7.work_1.src.org.db.students.Main" />
+      <module name="ProductStar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c7.work_1.src.org.db.students.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BasicAnalyticsTest.getCategories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProductStar" />
       <extension name="coverage">
@@ -143,22 +157,6 @@
       <option name="PACKAGE_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop" />
       <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop.BasicAnalyticsTest" />
       <option name="METHOD_NAME" value="getCategories" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InMemoryStorageTest.getAlll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProductStar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c4.workshop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop" />
-      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop.InMemoryStorageTest" />
-      <option name="METHOD_NAME" value="getAlll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.workwork.c_java_core_one.homework_c7.work_1.src.org.db.students.Main" />
         <item itemvalue="JUnit.BasicAnalyticsTest.getCategories" />
         <item itemvalue="Application.Matrices" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.InMemoryStorageTest.getAlllSortedByModel" />
-        <item itemvalue="JUnit.InMemoryStorageTest.getAlll" />
       </list>
     </recent_temporary>
   </component>
@@ -225,6 +223,8 @@
       <workItem from="1719946598353" duration="4420000" />
       <workItem from="1720038250518" duration="894000" />
       <workItem from="1720127024111" duration="1099000" />
+      <workItem from="1720216564900" duration="951000" />
+      <workItem from="1720385810069" duration="2129000" />
     </task>
     <task id="LOCAL-00001" summary="07.06.2024 add text">
       <option name="closed" value="true" />
@@ -418,7 +418,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719952951653</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="02.07.2024 Wednesday">
+      <option name="closed" value="true" />
+      <created>1720216706117</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1720216706117</updated>
+    </task>
+    <task id="LOCAL-00026" summary="02.07.2024 Wednesday">
+      <option name="closed" value="true" />
+      <created>1720217096619</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1720217096619</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
