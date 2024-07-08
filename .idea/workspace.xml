@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="05.07.2024 BIRTMAN">
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="02.07.2024 Wednesday">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +29,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -35,9 +37,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2hWFrLr5Sskndlx0aGCCMfCO3Qi" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -46,13 +52,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/akniazev/Desktop/Warehouse/Mag",
+    "last_opened_file_path": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,11 +75,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\akniazev\Desktop\Warehouse\Mag\ProductStar\src\main\resources" />
-      <recent name="C:\Users\akniazev\Desktop\Warehouse\Mag\ProductStar\src\main\java\org\workwork" />
+      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c7\work_1" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\d_java_core_two\homeWork_d1\work_1d" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c6\work_3" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\test\java" />
+      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test_mock\homework_k7\mock_simple_test1" />
@@ -99,7 +106,7 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BasicAnalyticsTest.getCategories">
+  <component name="RunManager" selected="Application.org.workwork.c_java_core_one.homework_c7.work_1.src.org.db.students.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.workwork.d_java_core_two.homeWork_d1.work_1d.Main" />
       <module name="ProductStar" />
@@ -126,6 +133,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.workwork.c_java_core_one.homework_c7.work_1.src.org.db.students.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c7.work_1.src.org.db.students.Main" />
+      <module name="ProductStar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c7.work_1.src.org.db.students.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BasicAnalyticsTest.getCategories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProductStar" />
       <extension name="coverage">
@@ -137,22 +157,6 @@
       <option name="PACKAGE_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop" />
       <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop.BasicAnalyticsTest" />
       <option name="METHOD_NAME" value="getCategories" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InMemoryStorageTest.getAlll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProductStar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c4.workshop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop" />
-      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop.InMemoryStorageTest" />
-      <option name="METHOD_NAME" value="getAlll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.workwork.c_java_core_one.homework_c7.work_1.src.org.db.students.Main" />
         <item itemvalue="JUnit.BasicAnalyticsTest.getCategories" />
         <item itemvalue="Application.Matrices" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.InMemoryStorageTest.getAlllSortedByModel" />
-        <item itemvalue="JUnit.InMemoryStorageTest.getAlll" />
       </list>
     </recent_temporary>
   </component>
@@ -217,9 +221,10 @@
       <workItem from="1719783354039" duration="2053000" />
       <workItem from="1719862944812" duration="2064000" />
       <workItem from="1719946598353" duration="4420000" />
-      <workItem from="1720164945540" duration="2471000" />
-      <workItem from="1720167862149" duration="2285000" />
-      <workItem from="1720419721206" duration="302000" />
+      <workItem from="1720038250518" duration="894000" />
+      <workItem from="1720127024111" duration="1099000" />
+      <workItem from="1720216564900" duration="951000" />
+      <workItem from="1720385810069" duration="2129000" />
     </task>
     <task id="LOCAL-00001" summary="07.06.2024 add text">
       <option name="closed" value="true" />
@@ -413,39 +418,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719952951653</updated>
     </task>
-    <task id="LOCAL-00025" summary="05.07.2024 Wednesday">
+    <task id="LOCAL-00025" summary="02.07.2024 Wednesday">
       <option name="closed" value="true" />
-      <created>1720165077452</created>
+      <created>1720216706117</created>
       <option name="number" value="00025" />
       <option name="presentableId" value="LOCAL-00025" />
       <option name="project" value="LOCAL" />
-      <updated>1720165077452</updated>
+      <updated>1720216706117</updated>
     </task>
-    <task id="LOCAL-00026" summary="05.07.2024 Wednesday">
+    <task id="LOCAL-00026" summary="02.07.2024 Wednesday">
       <option name="closed" value="true" />
-      <created>1720167541147</created>
+      <created>1720217096619</created>
       <option name="number" value="00026" />
       <option name="presentableId" value="LOCAL-00026" />
       <option name="project" value="LOCAL" />
-      <updated>1720167541147</updated>
+      <updated>1720217096619</updated>
     </task>
-    <task id="LOCAL-00027" summary="05.07.2024 BIRTMAN">
-      <option name="closed" value="true" />
-      <created>1720167966845</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1720167966845</updated>
-    </task>
-    <task id="LOCAL-00028" summary="05.07.2024 BIRTMAN">
-      <option name="closed" value="true" />
-      <created>1720171289555</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1720171289555</updated>
-    </task>
-    <option name="localTasksCounter" value="29" />
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,8 +482,6 @@
     <MESSAGE value="24.06.2024 Monday" />
     <MESSAGE value="26.06.2024 Wednesday" />
     <MESSAGE value="02.07.2024 Wednesday" />
-    <MESSAGE value="05.07.2024 Wednesday" />
-    <MESSAGE value="05.07.2024 BIRTMAN" />
-    <option name="LAST_COMMIT_MESSAGE" value="05.07.2024 BIRTMAN" />
+    <option name="LAST_COMMIT_MESSAGE" value="02.07.2024 Wednesday" />
   </component>
 </project>
