@@ -83,7 +83,7 @@ class InMemoryStorageTest {
     }
 
     @Test
-    void getAlll() {
+    void getAll() {
         Wheel hakka = new Wheel(UUID.randomUUID().toString(), "hakkapelita", "winter", "A", 10);
         Wheel michelin = new Wheel(UUID.randomUUID().toString(), "michelin", "winter", "B", 10);
         Wheel hakkaSummer = new Wheel(UUID.randomUUID().toString(), "hakkapelita", "summer", "A", 10);

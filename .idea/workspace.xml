@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="18.07.2024 Tuesday">
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="18.07.2024 Thursday">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/test/java/org/workwork/c_java_core_one/homework_c4/workshop/InMemoryStorageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/test/java/org/workwork/c_java_core_one/homework_c4/workshop/InMemoryStorageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +226,7 @@
       <workItem from="1721070059055" duration="1324000" />
       <workItem from="1721157734427" duration="3093000" />
       <workItem from="1721244003163" duration="2815000" />
-      <workItem from="1721326968031" duration="4549000" />
+      <workItem from="1721326968031" duration="6183000" />
     </task>
     <task id="LOCAL-00001" summary="07.06.2024 add text">
       <option name="closed" value="true" />
@@ -467,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721332113397</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="18.07.2024 Thursday">
+      <option name="closed" value="true" />
+      <created>1721334727020</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1721334727020</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,6 +527,7 @@
     <MESSAGE value="15.07.2024 MonDay" />
     <MESSAGE value="17.07.2024 MonDay" />
     <MESSAGE value="18.07.2024 Tuesday" />
-    <option name="LAST_COMMIT_MESSAGE" value="18.07.2024 Tuesday" />
+    <MESSAGE value="18.07.2024 Thursday" />
+    <option name="LAST_COMMIT_MESSAGE" value="18.07.2024 Thursday" />
   </component>
 </project>

@@ -20,6 +20,7 @@ import java.util.function.Predicate;
 //    - Вывод общего количества товаров на складе
 public interface Storage {
     void putItem(Wheel wheel);
+
     Wheel getItem(String id) throws ItemNotFoundException;
 
     boolean containsItem(String id);
