@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="15.07.2024 MonDay">
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="17.07.2024 MonDay">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
     </list>
@@ -105,7 +105,7 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.HomeWork_a4_19">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="HomeWork_a4_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.workwork.a_java_base.homework_a4.HomeWork_a4_19" />
       <module name="ProductStar" />
@@ -120,11 +120,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.d_java_core_two.homeWork_d1.work_1d.Main" />
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c5.work_10.Main" />
       <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.d_java_core_two.homeWork_d1.work_1d.*" />
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c5.work_10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +132,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Matrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.b_java_objects.homework_b5.work_6.Matrices" />
+    <configuration name="Matrices$Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.b_java_objects.homework_b5.work_7.Matrices$Matrix" />
       <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.b_java_objects.homework_b5.work_6.*" />
+          <option name="PATTERN" value="org.workwork.b_java_objects.homework_b5.work_7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.workwork.b_java_objects.homework_b5.solution.Matrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.b_java_objects.homework_b5.solution.Matrices" />
+      <module name="ProductStar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.workwork.b_java_objects.homework_b5.solution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,29 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicAnalyticsTest.getCategories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProductStar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c4.workshop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop" />
-      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop.BasicAnalyticsTest" />
-      <option name="METHOD_NAME" value="getCategories" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Matrices$Matrix" />
+        <item itemvalue="Application.org.workwork.b_java_objects.homework_b5.solution.Matrices" />
         <item itemvalue="Application.HomeWork_a4_19" />
         <item itemvalue="Application.org.workwork.c_java_core_one.homework_c7.work_1.src.org.db.students.Main" />
-        <item itemvalue="JUnit.BasicAnalyticsTest.getCategories" />
-        <item itemvalue="Application.Matrices" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +224,8 @@
       <workItem from="1720725545498" duration="1378000" />
       <workItem from="1721070059055" duration="1324000" />
       <workItem from="1721157734427" duration="3093000" />
-      <workItem from="1721244003163" duration="2118000" />
+      <workItem from="1721244003163" duration="2815000" />
+      <workItem from="1721326968031" duration="2543000" />
     </task>
     <task id="LOCAL-00001" summary="07.06.2024 add text">
       <option name="closed" value="true" />
@@ -453,7 +451,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721073613292</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="17.07.2024 MonDay">
+      <option name="closed" value="true" />
+      <created>1721247898704</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1721247898704</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,6 +508,7 @@
     <MESSAGE value="26.06.2024 Wednesday" />
     <MESSAGE value="02.07.2024 Wednesday" />
     <MESSAGE value="15.07.2024 MonDay" />
-    <option name="LAST_COMMIT_MESSAGE" value="15.07.2024 MonDay" />
+    <MESSAGE value="17.07.2024 MonDay" />
+    <option name="LAST_COMMIT_MESSAGE" value="17.07.2024 MonDay" />
   </component>
 </project>
