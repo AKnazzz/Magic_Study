@@ -1,5 +1,6 @@
 package org.workwork.b_java_objects.homework_b5.work_7;
 
+
 import java.util.Arrays;
 
 public class Matrices {
@@ -10,8 +11,6 @@ public class Matrices {
     public static int elem(int row, int col) {
         return 0;
     }
-
-
 
     public static int[][] indices;
     public static int[][] values;
@@ -131,6 +130,7 @@ public class Matrices {
         }
 
     }
+
 
     /**
      * Представляет матрицу (m x n)
@@ -351,94 +351,95 @@ public class Matrices {
             return result;
         }
 
+    }
 
-        public static void main(String[] args) {
-            // Пример создания нулевого вектора длины 3
-            Vector zeroVector = new Vector(3);
-            System.out.println("Нулевой вектор длины 3: " + zeroVector);
 
-            // Пример создания вектора с заданными элементами
-            int[] items = {1, 2, 3};
-            Vector vectorA = new Vector(items);
-            System.out.println("Вектор A: " + vectorA);
+    public static void main(String[] args) {
+        // Пример создания нулевого вектора длины 3
+        Vector zeroVector = new Vector(3);
+        System.out.println("Нулевой вектор длины 3: " + zeroVector);
 
-            // Пример сложения двух векторов
-            int[] itemsB = {4, 5, 6};
-            Vector vectorB = new Vector(itemsB);
-            System.out.println("Вектор B: " + vectorB);
-            Vector sumVector = vectorA.add(vectorB);
-            System.out.println("Сумма векторов A и B: " + sumVector);
+        // Пример создания вектора с заданными элементами
+        int[] items = {1, 2, 3};
+        Vector vectorA = new Vector(items);
+        System.out.println("Вектор A: " + vectorA);
 
-            // Пример вычитания двух векторов
-            Vector diffVector = vectorA.subtract(vectorB);
-            System.out.println("Разность векторов A и B: " + diffVector);
+        // Пример сложения двух векторов
+        int[] itemsB = {4, 5, 6};
+        Vector vectorB = new Vector(itemsB);
+        System.out.println("Вектор B: " + vectorB);
+        Vector sumVector = vectorA.add(vectorB);
+        System.out.println("Сумма векторов A и B: " + sumVector);
 
-            // Пример скалярного произведения двух векторов
-            int dotProduct = vectorA.dotProduct(vectorB);
-            System.out.println("Скалярное произведение векторов A и B: " + dotProduct);
+        // Пример вычитания двух векторов
+        Vector diffVector = vectorA.subtract(vectorB);
+        System.out.println("Разность векторов A и B: " + diffVector);
 
-            // Пример умножения вектора на скаляр
-            int scalar = 2;
-            Vector scalarProduct = vectorA.scalarMultiply(scalar);
-            System.out.println("Умножение вектора A на скаляр 2: " + scalarProduct);
+        // Пример скалярного произведения двух векторов
+        int dotProduct = vectorA.dotProduct(vectorB);
+        System.out.println("Скалярное произведение векторов A и B: " + dotProduct);
 
-            // Пример вычисления длины (нормы) вектора
-            double length = vectorA.length();
-            System.out.println("Длина (норма) вектора A: " + length);
+        // Пример умножения вектора на скаляр
+        int scalar = 2;
+        Vector scalarProduct = vectorA.scalarMultiply(scalar);
+        System.out.println("Умножение вектора A на скаляр 2: " + scalarProduct);
 
-            // Создание матрицы A 2x2
-            Matrix A = new Matrix(2, 2);
-            A.rows[0] = new int[]{1, 2};
-            A.rows[1] = new int[]{3, 4};
-            System.out.println("Matrix A:");
-            System.out.println(A.toString());
+        // Пример вычисления длины (нормы) вектора
+        double length = vectorA.length();
+        System.out.println("Длина (норма) вектора A: " + length);
 
-            // Создание матрицы B 2x2
-            Matrix B = new Matrix(2, 2);
-            B.rows[0] = new int[]{2, 0};
-            B.rows[1] = new int[]{1, 2};
-            System.out.println("Matrix B:");
-            System.out.println(B.toString());
+        // Создание матрицы A 2x2
+        Matrix A = new Matrix(2, 2);
+        A.rows[0] = new int[]{1, 2};
+        A.rows[1] = new int[]{3, 4};
+        System.out.println("Matrix A:");
+        System.out.println(A.toString());
 
-            // Сложение матриц A и B
-            Matrix C = A.add(B);
-            System.out.println("Matrix A + B:");
-            System.out.println(C.toString());
+        // Создание матрицы B 2x2
+        Matrix B = new Matrix(2, 2);
+        B.rows[0] = new int[]{2, 0};
+        B.rows[1] = new int[]{1, 2};
+        System.out.println("Matrix B:");
+        System.out.println(B.toString());
 
-            // Вычитание матриц B из A
-            Matrix D = A.subtract(B);
-            System.out.println("Matrix A - B:");
-            System.out.println(D.toString());
+        // Сложение матриц A и B
+        Matrix C = A.add(B);
+        System.out.println("Matrix A + B:");
+        System.out.println(C.toString());
 
-            // Умножение матриц A и B
-            Matrix E = A.multiply(B);
-            System.out.println("Matrix A * B:");
-            System.out.println(E.toString());
+        // Вычитание матриц B из A
+        Matrix D = A.subtract(B);
+        System.out.println("Matrix A - B:");
+        System.out.println(D.toString());
 
-            // Умножение матрицы A на скаляр
-            int scalar3 = 3;
-            Matrix F = A.scalarMultiply(scalar3);
-            System.out.println("Matrix A * " + scalar3 + ":");
-            System.out.println(F.toString());
+        // Умножение матриц A и B
+        Matrix E = A.multiply(B);
+        System.out.println("Matrix A * B:");
+        System.out.println(E.toString());
 
-            // Транспонирование матрицы A
-            Matrix G = A.transpose();
-            System.out.println("Matrix A Transpose:");
-            System.out.println(G.toString());
+        // Умножение матрицы A на скаляр
+        int scalar3 = 3;
+        Matrix F = A.scalarMultiply(scalar3);
+        System.out.println("Matrix A * " + scalar3 + ":");
+        System.out.println(F.toString());
 
-            // Создание квадратной матрицы 3x3
-            Matrix H = new Matrix(3, 3);
-            H.rows[0] = new int[]{4, 3, 2};
-            H.rows[1] = new int[]{1, 3, 1};
-            H.rows[2] = new int[]{2, 1, 4};
-            System.out.println("Matrix H:");
-            System.out.println(H.toString());
+        // Транспонирование матрицы A
+        Matrix G = A.transpose();
+        System.out.println("Matrix A Transpose:");
+        System.out.println(G.toString());
 
-            // Вычисление определителя матрицы H
-            int det = H.determinant();
-            System.out.println("Determinant of Matrix H:");
-            System.out.println(det);
+        // Создание квадратной матрицы 3x3
+        Matrix H = new Matrix(3, 3);
+        H.rows[0] = new int[]{4, 3, 2};
+        H.rows[1] = new int[]{1, 3, 1};
+        H.rows[2] = new int[]{2, 1, 4};
+        System.out.println("Matrix H:");
+        System.out.println(H.toString());
 
-        }
+        // Вычисление определителя матрицы H
+        int det = H.determinant();
+        System.out.println("Determinant of Matrix H:");
+        System.out.println(det);
+
     }
 }

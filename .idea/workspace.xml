@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="18.07.2024 Thursday">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/test/java/org/workwork/c_java_core_one/homework_c4/workshop/InMemoryStorageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/test/java/org/workwork/c_java_core_one/homework_c4/workshop/InMemoryStorageTest.java" afterDir="false" />
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="26.06.2024 Wednesday">
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/b_java_objects/homework_b5/work_7/Matrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/b_java_objects/homework_b5/work_7/Matrices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +35,8 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2hWFrLr5Sskndlx0aGCCMfCO3Qi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -106,7 +98,7 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Matrices">
     <configuration name="HomeWork_a4_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.workwork.a_java_base.homework_a4.HomeWork_a4_19" />
       <module name="ProductStar" />
@@ -146,6 +138,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Matrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.b_java_objects.homework_b5.work_7.Matrices" />
+      <module name="ProductStar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.workwork.b_java_objects.homework_b5.work_7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.workwork.b_java_objects.homework_b5.solution.Matrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.workwork.b_java_objects.homework_b5.solution.Matrices" />
       <module name="ProductStar" />
@@ -159,26 +164,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.workwork.c_java_core_one.homework_c7.work_1.src.org.db.students.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c7.work_1.src.org.db.students.Main" />
-      <module name="ProductStar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c7.work_1.src.org.db.students.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Matrices" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Matrices$Matrix" />
         <item itemvalue="Application.org.workwork.b_java_objects.homework_b5.solution.Matrices" />
         <item itemvalue="Application.HomeWork_a4_19" />
-        <item itemvalue="Application.org.workwork.c_java_core_one.homework_c7.work_1.src.org.db.students.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -522,12 +514,12 @@
     <MESSAGE value="19.06.2024 MOCKITO" />
     <MESSAGE value="21.06.2024 MOCKITO" />
     <MESSAGE value="24.06.2024 Monday" />
-    <MESSAGE value="26.06.2024 Wednesday" />
     <MESSAGE value="02.07.2024 Wednesday" />
     <MESSAGE value="15.07.2024 MonDay" />
     <MESSAGE value="17.07.2024 MonDay" />
     <MESSAGE value="18.07.2024 Tuesday" />
     <MESSAGE value="18.07.2024 Thursday" />
-    <option name="LAST_COMMIT_MESSAGE" value="18.07.2024 Thursday" />
+    <MESSAGE value="26.06.2024 Wednesday" />
+    <option name="LAST_COMMIT_MESSAGE" value="26.06.2024 Wednesday" />
   </component>
 </project>
