@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="22.07.2024 Monday">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/test/java/org/workwork/c_java_core_one/homework_c4/workshop/CachedAnalyticsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/Analytics.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/Analytics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/BasicAnalytics.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/BasicAnalytics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/InMemoryStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/InMemoryStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/Wheel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/test/java/org/workwork/c_java_core_one/homework_c4/workshop/BasicAnalyticsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/test/java/org/workwork/c_java_core_one/homework_c4/workshop/BasicAnalyticsTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="23.07.2024" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -505,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721669437137</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="23.07.2024">
+      <option name="closed" value="true" />
+      <created>1721682124289</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1721682124289</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,6 +556,7 @@
     <MESSAGE value="18.07.2024 Thursday" />
     <MESSAGE value="26.06.2024 Wednesday" />
     <MESSAGE value="22.07.2024 Monday" />
-    <option name="LAST_COMMIT_MESSAGE" value="22.07.2024 Monday" />
+    <MESSAGE value="23.07.2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="23.07.2024" />
   </component>
 </project>
