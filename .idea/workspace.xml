@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="22.07.2024 Monday" />
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="22.07.2024 Monday">
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/test/java/org/workwork/c_java_core_one/homework_c4/workshop/CachedAnalyticsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/Analytics.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/Analytics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/BasicAnalytics.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/BasicAnalytics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/InMemoryStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/InMemoryStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/workshop/Wheel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/test/java/org/workwork/c_java_core_one/homework_c4/workshop/BasicAnalyticsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/test/java/org/workwork/c_java_core_one/homework_c4/workshop/BasicAnalyticsTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -96,46 +106,7 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Matrices">
-    <configuration name="HomeWork_a4_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.a_java_base.homework_a4.HomeWork_a4_19" />
-      <module name="ProductStar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.workwork.a_java_base.homework_a4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c5.work_10.Main" />
-      <module name="ProductStar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c5.work_10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Matrices$Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.b_java_objects.homework_b5.work_7.Matrices$Matrix" />
-      <module name="ProductStar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.workwork.b_java_objects.homework_b5.work_7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CachedAnalyticsTest.callManyTimesForPlaceRepeatingRequests">
     <configuration name="Matrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.workwork.b_java_objects.homework_b5.work_7.Matrices" />
       <module name="ProductStar" />
@@ -149,26 +120,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.workwork.b_java_objects.homework_b5.solution.Matrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.b_java_objects.homework_b5.solution.Matrices" />
+    <configuration name="BasicAnalyticsTest.getAggregationByCategoryAndPlace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.b_java_objects.homework_b5.solution.*" />
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c4.workshop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop" />
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop.BasicAnalyticsTest" />
+      <option name="METHOD_NAME" value="getAggregationByCategoryAndPlace" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicAnalyticsTest.getAggregationByCategoryAndPlaceSingleRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProductStar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c4.workshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop" />
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop.BasicAnalyticsTest" />
+      <option name="METHOD_NAME" value="getAggregationByCategoryAndPlaceSingleRequest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CachedAnalyticsTest.callManyTimesForPlaceRepeatingRequests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProductStar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c4.workshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop" />
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop.CachedAnalyticsTest" />
+      <option name="METHOD_NAME" value="callManyTimesForPlaceRepeatingRequests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CachedAnalyticsTest.callOnceAndPlaceRepeatingRequests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProductStar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c4.workshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop" />
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c4.workshop.CachedAnalyticsTest" />
+      <option name="METHOD_NAME" value="callOnceAndPlaceRepeatingRequests" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CachedAnalyticsTest.callManyTimesForPlaceRepeatingRequests" />
+        <item itemvalue="JUnit.CachedAnalyticsTest.callOnceAndPlaceRepeatingRequests" />
+        <item itemvalue="JUnit.BasicAnalyticsTest.getAggregationByCategoryAndPlaceSingleRequest" />
+        <item itemvalue="JUnit.BasicAnalyticsTest.getAggregationByCategoryAndPlace" />
         <item itemvalue="Application.Matrices" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Matrices$Matrix" />
-        <item itemvalue="Application.org.workwork.b_java_objects.homework_b5.solution.Matrices" />
-        <item itemvalue="Application.HomeWork_a4_19" />
       </list>
     </recent_temporary>
   </component>
@@ -475,7 +497,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721669411894</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="22.07.2024 Monday">
+      <option name="closed" value="true" />
+      <created>1721669437137</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1721669437137</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

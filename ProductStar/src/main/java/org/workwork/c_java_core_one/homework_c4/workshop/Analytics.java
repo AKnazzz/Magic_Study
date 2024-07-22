@@ -1,5 +1,6 @@
 package org.workwork.c_java_core_one.homework_c4.workshop;
 
+import java.util.Map;
 import java.util.Set;
 
 /*
@@ -10,8 +11,14 @@ import java.util.Set;
 
  */
 
+record  CategoryAndPlace (String category, String place){
+
+}
+
 public interface Analytics {
     Set<String> getCategories();
-    Integer getAggregationByCategoryAndPlace(String category, String place);
+    Map<CategoryAndPlace, Integer> getAggregationByCategoryAndPlace();
+
+    Integer getAggregationByCategoryAndPlace(CategoryAndPlace categoryAndPlace);
     Integer getTotalCount();
 }

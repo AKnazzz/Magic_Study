@@ -59,7 +59,7 @@ public class InMemoryStorage implements Storage {
         return items.values().stream().filter(predicate)
                 .sorted(Comparator.comparing(Wheel::getModel)
                         .thenComparing(Wheel::getCategory)
-                        .thenComparing(Wheel::getPlate)
+                        .thenComparing(Wheel::getPlace)
                         .thenComparing(Wheel::getId))
                 .collect(Collectors.toList());
     }
