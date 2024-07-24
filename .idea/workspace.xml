@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="24.07.2024" />
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="24.07.2024">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +52,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/ricks/Downloads/untitled1/untitled1",
+    "last_opened_file_path": "C:/Users/Андрей/Downloads/дз/дз",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -218,7 +221,8 @@
       <workItem from="1721244003163" duration="2815000" />
       <workItem from="1721326968031" duration="6183000" />
       <workItem from="1721505887359" duration="1794000" />
-      <workItem from="1721766833992" duration="1647000" />
+      <workItem from="1721766833992" duration="1736000" />
+      <workItem from="1721855021947" duration="687000" />
     </task>
     <task id="LOCAL-00001" summary="07.06.2024 add text">
       <option name="closed" value="true" />
@@ -500,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721768496752</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="24.07.2024">
+      <option name="closed" value="true" />
+      <created>1721768609451</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1721768609451</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
