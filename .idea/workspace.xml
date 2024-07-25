@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="24.07.2024">
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_2/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_2/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_2/StudentCommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_2/StudentStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_2/StudentSurnameStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_2/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_2/WrongDataFormatException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/Чек-лист - Практический проект по работе с коллекциями.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +61,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/Андрей/Downloads/дз/дз",
+    "last_opened_file_path": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,11 +77,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c7\work_2" />
+      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c7" />
+      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\test\java\org\workwork\c_java_core_one\homework_c4\workshop" />
+      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c4\HomeWork_2" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c7\work_1" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\d_java_core_two\homeWork_d1\work_1d" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c6\work_3" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\test\java" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test_mock\homework_k7\mock_simple_test1" />
@@ -83,6 +92,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.workwork.c_java_core_one.homework_c4" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.workwork.c_java_core_one.homework_c4.workshop" />
@@ -99,20 +111,7 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task_1_1">
-    <configuration name="DZ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.b_java_objects.homework_b7.DZ" />
-      <module name="ProductStar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.workwork.b_java_objects.homework_b7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Students">
     <configuration name="HomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.workwork.b_java_objects.homework_b6.homework_b6_1.HomeWork" />
       <module name="ProductStar" />
@@ -132,6 +131,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.workwork.b_java_objects.homework_b6.homework_b6_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Students" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c7.work_2.Students" />
+      <module name="ProductStar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c7.work_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Students" />
         <item itemvalue="Application.Task_1_1" />
         <item itemvalue="Application.Task_1" />
         <item itemvalue="Application.HomeWork" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.DZ" />
       </list>
     </recent_temporary>
   </component>
@@ -223,6 +235,7 @@
       <workItem from="1721505887359" duration="1794000" />
       <workItem from="1721766833992" duration="1736000" />
       <workItem from="1721855021947" duration="687000" />
+      <workItem from="1721941480147" duration="1382000" />
     </task>
     <task id="LOCAL-00001" summary="07.06.2024 add text">
       <option name="closed" value="true" />
