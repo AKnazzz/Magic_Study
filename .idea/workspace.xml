@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="31.07.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c5/workshop/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c5/workshop/Schedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c5/Чек-лист - Коллекции TreeMap, TreeSet.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicum/src/main/java/org/tinkoff/task_1/GaussSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practicum/src/main/java/org/tinkoff/task_1/GaussSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c5/Чек-лист - Коллекции TreeMap, TreeSet.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c5/Чек-лист - Коллекции TreeMap, TreeSet.pdf" afterDir="false" />
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="01.08.2024 WORK">
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +101,7 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Schedule">
+  <component name="RunManager" selected="Application.StringPractice">
     <configuration name="Schedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c5.workshop.Schedule" />
       <module name="ProductStar" />
@@ -119,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Students" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c7.work_2.Students" />
+    <configuration name="StringPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.b_java_objects.homework_b6.homework_b6_3.StringPractice" />
       <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c7.work_2.*" />
+          <option name="PATTERN" value="org.workwork.b_java_objects.homework_b6.homework_b6_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.b_java_objects.homework_b6.solution.Task_1" />
+    <configuration name="Students" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c7.work_2.Students" />
       <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.b_java_objects.homework_b6.solution.*" />
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c7.work_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringPractice" />
         <item itemvalue="Application.Schedule" />
         <item itemvalue="Application.org.workwork.d_java_core_two.homeWork_d1.work_2d.Main" />
         <item itemvalue="Application.Students" />
         <item itemvalue="Application.Task_1_1" />
-        <item itemvalue="Application.Task_1" />
       </list>
     </recent_temporary>
   </component>
@@ -545,7 +541,31 @@
       <option name="project" value="LOCAL" />
       <updated>1722415775371</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="31.07.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1722435990437</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1722435990437</updated>
+    </task>
+    <task id="LOCAL-00041" summary="31.07.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1722438019437</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1722438019437</updated>
+    </task>
+    <task id="LOCAL-00042" summary="01.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1722493283691</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1722493283691</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07.06.2024 add text" />
     <MESSAGE value="11.06.2024 add text" />
     <MESSAGE value="12.06.2024 Holly Days" />
     <MESSAGE value="16.06.2024 Sturday" />
@@ -603,6 +622,7 @@
     <MESSAGE value="29.07.2024" />
     <MESSAGE value="30.07.2024 HOME" />
     <MESSAGE value="31.07.2024 WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="31.07.2024 WORK" />
+    <MESSAGE value="01.08.2024 WORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="01.08.2024 WORK" />
   </component>
 </project>
