@@ -52,29 +52,32 @@ import java.util.Scanner;
 public class GaussSum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n;
+        int n = 0;
 
         // Запрашиваем ввод до тех пор, пока n не будет в допустимом диапазоне
         while (true) {
             System.out.print("Введите число n (должно быть >= 102 и <= 1_000_000_000): ");
-            n = scanner.nextInt();
-            if (n >= 102 && n <= 1_000_000_000) {
-                break; // Выход из цикла, если введено корректное значение
+            try {
+                n = scanner.nextInt();
+
+                if (n >= 102 && n <= 1_000_000_000) {
+
+                    // Сумма от 1 до n
+                    long sumToN = (long) n * (n + 1) / 2;
+
+                    // Сумма от 1 до 99
+                    long sumTo99 = 4950; // фиксированное значение
+                    long result = sumToN - sumTo99;
+                    System.out.println("Сумма чисел от 100 до " + n + " включительно: " + result);
+                    break;
+                } else {
+                    System.out.println("Ошибка: число должно быть больше или равно 102 и меньше или равно 1_000_000_000. Попробуйте снова.");
+                }
+            } catch (Exception e) {
+                System.out.println("Ошибка: введите целое число.");
+                scanner.next(); // Очистка некорректного ввода
             }
-            System.out.println("Ошибка: число должно быть больше или равно 102 и меньше или равно 1_000_000_000. Попробуйте снова.");
         }
-
-        // Сумма от 1 до n
-        long sumToN = (long) n * (n + 1) / 2;
-
-        // Сумма от 1 до 99
-        long sumTo99 = 4950; // фиксированное значение
-
-        // Сумма от 100 до n
-        long result = sumToN - sumTo99;
-
-        // Выводим результат
-        System.out.println("Сумма чисел от 100 до " + n + " включительно:" + result);
         scanner.close();
     }
 }
