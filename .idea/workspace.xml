@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="01.08.2024 WORK">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="05.08.2024 WORK">
       <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,31 +40,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ricks/Downloads/Weather-master/Weather-master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3321839&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;0f44218fcc314ac0df087f7800e00696&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
+    "last_opened_file_path": "C:/Users/ricks/Downloads/athletics-дз (1)/athletics-дз",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3321839",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "0f44218fcc314ac0df087f7800e00696",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\test\java\org\workwork\c_java_core_one\homework_c4" />
@@ -102,7 +101,7 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.InterestingPairs">
+  <component name="RunManager" selected="Application.LongestSegment2">
     <configuration name="GaussSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.tinkoff.task_1.GaussSum" />
       <module name="Practicum" />
@@ -129,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Schedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c5.workshop.Schedule" />
+    <configuration name="LongestSegment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c6.solution.LongestSegment" />
       <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c5.workshop.*" />
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c6.solution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.b_java_objects.homework_b6.homework_b6_3.StringPractice" />
+    <configuration name="LongestSegment2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c6.solution.LongestSegment2" />
       <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.b_java_objects.homework_b6.homework_b6_3.*" />
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c6.solution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSegment2" />
+        <item itemvalue="Application.LongestSegment" />
         <item itemvalue="Application.InterestingPairs" />
         <item itemvalue="Application.VirusSpread" />
         <item itemvalue="Application.GaussSum" />
-        <item itemvalue="Application.StringPractice" />
-        <item itemvalue="Application.Schedule" />
       </list>
     </recent_temporary>
   </component>
@@ -229,22 +228,6 @@
       <workItem from="1721941480147" duration="1382000" />
       <workItem from="1722278931150" duration="1870000" />
       <workItem from="1722364860638" duration="4098000" />
-    </task>
-    <task id="LOCAL-00001" summary="07.06.2024 add text">
-      <option name="closed" value="true" />
-      <created>1717787602346</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1717787602346</updated>
-    </task>
-    <task id="LOCAL-00002" summary="11.06.2024 add text">
-      <option name="closed" value="true" />
-      <created>1718124743272</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1718124743272</updated>
     </task>
     <task id="LOCAL-00003" summary="12.06.2024 Holly Days">
       <option name="closed" value="true" />
@@ -590,7 +573,55 @@
       <option name="project" value="LOCAL" />
       <updated>1722518674850</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="02.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1722585290752</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1722585290752</updated>
+    </task>
+    <task id="LOCAL-00047" summary="02.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1722592596199</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1722592596199</updated>
+    </task>
+    <task id="LOCAL-00048" summary="05.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1722842208117</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1722842208117</updated>
+    </task>
+    <task id="LOCAL-00049" summary="05.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1722847540923</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1722847540923</updated>
+    </task>
+    <task id="LOCAL-00050" summary="05.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1722848212812</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1722848212813</updated>
+    </task>
+    <task id="LOCAL-00051" summary="05.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1722863221746</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1722863221746</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,8 +654,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="11.06.2024 add text" />
-    <MESSAGE value="12.06.2024 Holly Days" />
     <MESSAGE value="16.06.2024 Sturday" />
     <MESSAGE value="16.06.2024 Sunday" />
     <MESSAGE value="16.06.2024 Sunday 3" />
@@ -648,6 +677,8 @@
     <MESSAGE value="30.07.2024 HOME" />
     <MESSAGE value="31.07.2024 WORK" />
     <MESSAGE value="01.08.2024 WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="01.08.2024 WORK" />
+    <MESSAGE value="02.08.2024 WORK" />
+    <MESSAGE value="05.08.2024 WORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="05.08.2024 WORK" />
   </component>
 </project>
