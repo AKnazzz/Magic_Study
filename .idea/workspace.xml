@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="05.08.2024 WORK">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
-    </list>
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="06.08.2024 WORK" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,11 +72,11 @@
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\test\java\org\workwork\c_java_core_one\homework_c4\workshop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\resources" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c5" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test_mock\homework_k7\mock_simple_test1" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\h_jdbc" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test_mock\homework_k7\solution" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -102,13 +99,13 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestSegment2">
-    <configuration name="GaussSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.tinkoff.task_1.GaussSum" />
-      <module name="Practicum" />
+  <component name="RunManager" selected="Application.FileLoader">
+    <configuration name="FileLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.d_java_core_two.homeWork_d1.work_5d.FileLoader" />
+      <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.tinkoff.task_1.*" />
+          <option name="PATTERN" value="org.workwork.d_java_core_two.homeWork_d1.work_5d.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileLoader" />
         <item itemvalue="Application.LongestSegment2" />
         <item itemvalue="Application.LongestSegment" />
         <item itemvalue="Application.InterestingPairs" />
         <item itemvalue="Application.VirusSpread" />
-        <item itemvalue="Application.GaussSum" />
       </list>
     </recent_temporary>
   </component>
@@ -229,38 +226,6 @@
       <workItem from="1721941480147" duration="1382000" />
       <workItem from="1722278931150" duration="1870000" />
       <workItem from="1722364860638" duration="4098000" />
-    </task>
-    <task id="LOCAL-00003" summary="12.06.2024 Holly Days">
-      <option name="closed" value="true" />
-      <created>1718213553706</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1718213553706</updated>
-    </task>
-    <task id="LOCAL-00004" summary="12.06.2024 Holly Days">
-      <option name="closed" value="true" />
-      <created>1718216475850</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1718216475850</updated>
-    </task>
-    <task id="LOCAL-00005" summary="16.06.2024 Sturday">
-      <option name="closed" value="true" />
-      <created>1718463638368</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1718463638368</updated>
-    </task>
-    <task id="LOCAL-00006" summary="16.06.2024 Sunday">
-      <option name="closed" value="true" />
-      <created>1718534209995</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1718534209995</updated>
     </task>
     <task id="LOCAL-00007" summary="16.06.2024 Sunday 3">
       <option name="closed" value="true" />
@@ -622,7 +587,39 @@
       <option name="project" value="LOCAL" />
       <updated>1722863221746</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="05.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1722863665375</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1722863665375</updated>
+    </task>
+    <task id="LOCAL-00053" summary="06.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1722930959252</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1722930959252</updated>
+    </task>
+    <task id="LOCAL-00054" summary="06.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1722932518820</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1722932518821</updated>
+    </task>
+    <task id="LOCAL-00055" summary="06.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1722938070541</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1722938070542</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -655,7 +652,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="16.06.2024 Sturday" />
     <MESSAGE value="16.06.2024 Sunday" />
     <MESSAGE value="16.06.2024 Sunday 3" />
     <MESSAGE value="16.06.2024 Sunday 4" />
@@ -680,6 +676,7 @@
     <MESSAGE value="01.08.2024 WORK" />
     <MESSAGE value="02.08.2024 WORK" />
     <MESSAGE value="05.08.2024 WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="05.08.2024 WORK" />
+    <MESSAGE value="06.08.2024 WORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="06.08.2024 WORK" />
   </component>
 </project>
