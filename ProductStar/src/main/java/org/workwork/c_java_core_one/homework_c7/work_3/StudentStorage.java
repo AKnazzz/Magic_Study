@@ -1,60 +1,56 @@
-package org.workwork.c_java_core_one.homework_c7.workshop;
+package org.workwork.c_java_core_one.homework_c7.work_3;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class StudentStorage {
 
+public class StudentStorage {
     private Map<Long, Student> studentStorageMap = new HashMap<>();
     private StudentSurnameStorage studentSurnameStorage = new StudentSurnameStorage();
     private Long currentId = 0L;
 
     /**
      * Создание данных о студенте
-     *
      * @param student данные о студенте
-     * @return сгенерированный уникальный идентификатор студента
+     * @return сгенерированный уникаольный индентификатор студента
      */
-
     public Long createStudent(Student student) {
-        Long nextId = getNextId();
-        studentStorageMap.put(nextId, student);
-        studentSurnameStorage.studentCreate(nextId, student.getSurname());
-        return nextId;
+        Long id = nextId();
+        studentStorageMap.put(id, student);
+        studentSurnameStorage.studentCreate(id, student.getSurname());
+        return id;
     }
 
     /**
      * Обновление данных о студенте
-     *
-     * @param id      идентификатор студента
-     * @param student новые данные о студенте
-     * @return true если обновлено, false если студент не найден
+     * @param id индетификатор студента
+     * @param student данные студента
+     * @return true если данные были обновлены
      */
-
-    public boolean updateStudent(Long id, Student student) {
-        if (!studentStorageMap.containsKey(id)) {
+    public Boolean updateStudent(Long id, Student student) {
+        if(!studentStorageMap.containsKey(id)) {
             return false;
         } else {
-            String newSurname = student.getSurname();
+            String newStudent = student.getSurname();
             String oldSurname = studentStorageMap.get(id).getSurname();
+            studentSurnameStorage.studentUpdated(id, oldSurname, newStudent);
             studentStorageMap.put(id, student);
-            studentSurnameStorage.studentUpdate(id, oldSurname, newSurname);
             return true;
         }
     }
 
     /**
-     * Удаление студента по id
-     *
+     * Удаляет данные о студенте
      * @param id идентификатор студента
-     * @return true если студент успешно удалён, false если студент не найден
+     * @return возвращает true, если был удален, false если не найден по id
      */
-    public boolean deleteStudent(Long id) {
+    public Boolean deleteStudent(Long id) {
         Student removed = studentStorageMap.remove(id);
-        if (removed != null) {
-            studentSurnameStorage.studentDeleted(id, removed.getSurname());
+        if(removed != null) {
+            String surname = removed.getSurname();
+            studentSurnameStorage.studentDeleted(id, surname);
         }
         return removed != null;
     }
@@ -78,7 +74,7 @@ public class StudentStorage {
     private void searchBySurname(String surname) {
         Set<Long> studentIds = studentSurnameStorage.getStudentBySurnameLessOrEqualThan(surname);
         if(studentIds.isEmpty()){
-            System.out.println("Студенты с фамилией " + surname + "не найдены");
+            System.out.println("Студенты с фамилие " + surname + "не найдены");
         } else {
             for (Long studentId : studentIds){
                 Student student = studentStorageMap.get(studentId);
@@ -90,17 +86,7 @@ public class StudentStorage {
     }
 
     private void searchBySurnameRange(String startSurname, String endSurname) {
-        if (startSurname.compareTo(endSurname) > 0) {
-            // Меняем местами параметры, если `startSurname` больше `endSurname`
-            System.out.println(startSurname + endSurname);
-            String temp = startSurname;
-            startSurname = endSurname;
-            endSurname = temp;
-            System.out.println(startSurname + endSurname);
-        }
-
         Set<Long> studentIds = studentSurnameStorage.getStudentBySurnameInRange(startSurname, endSurname);
-
         if (studentIds.isEmpty()) {
             System.out.println("Студенты с фамилиями в диапазоне от " + startSurname + " до " + endSurname + " не найдены.");
         } else {
@@ -113,52 +99,48 @@ public class StudentStorage {
         }
     }
 
-    public Long getNextId() {
+    public Long nextId(){
         currentId = currentId + 1;
         return currentId;
     }
 
-    public void printAll() {
+    public void printAll(){
         System.out.println(studentStorageMap);
     }
 
-    public void printMap(Map<String, Long> data) {
+    public void printMap(Map<String, Long> data){
         data.entrySet().stream().forEach(e -> {
             System.out.println(e.getKey() + " - " + e.getValue());
         });
     }
 
-
     public Map<String, Long> getCountByCourse() {
-
-        /*
-
-        Map<String, Long> res = new HashMap<>();
-        for (Student student : studentStorageMap.values()) {
-            String key = student.getCourse();
-            Long count = res.getOrDefault(key, 0L);
-            count++;
-            res.put(key, count);
-        }
-        return res;\
-
-        */
-
         Map<String, Long> res = studentStorageMap.values().stream()
                 .collect(Collectors.toMap(
-                        student -> student.getCourse(),
-                        student -> 1L,
-                        (count1, count2) -> count1 + count2));
-        return res;
-    }
-
-    public Map<String, Long> getCountByCity() {
-        Map<String, Long> res = studentStorageMap.values().stream()
-                .collect(Collectors.toMap(
-                        student -> student.getCity(),
+                        Student::getCourse,
                         student -> 1L,
                         (count1, count2) -> count1 + count2
                 ));
         return res;
     }
+
+    public Map<String, Long> getCountByCity() {
+        Map<String, Long> res = studentStorageMap.values().stream()
+                .collect(Collectors.groupingBy(
+                  Student::getCity,
+                  Collectors.counting()
+                ));
+        return res;
+    }
+
+
+
+        /*Map<String, Long> res = new HashMap<>();
+        for(Student student : studentStorageMap.values()) {
+            String key = student.getCourse();
+            Long count = res.getOrDefault(key,0L);
+            count++;
+            res.put(key, count);
+        }
+        return res; }*/
 }
