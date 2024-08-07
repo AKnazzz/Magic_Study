@@ -23,7 +23,6 @@ public class StudentCommandHandler {
                 System.out.println("Действие " + action + " не поддерживается.");
             }
         }
-
         System.out.println("Обработка команды. Действие: " + command.getAction().name() + " ,данные: " + command.getData());
     }
 
