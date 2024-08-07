@@ -1,12 +1,15 @@
 package org.workwork.c_java_core_one.homework_c7.workshop;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class StudentCommandHandler {
 
     private StudentStorage studentStorage = new StudentStorage();
 
     public void processCommand(Command command) {
         Action action = command.getAction();
-        switch (action){
+        switch (action) {
             case CREATE -> {
                 processCreateCommand(command);
                 break;
@@ -17,6 +20,14 @@ public class StudentCommandHandler {
             }
             case DELETE -> {
                 processDeleteCommand(command);
+                break;
+            }
+            case STATS_BY_COURSES -> {
+                processStatsByCourseCount(command);
+                break;
+            }
+            case SEARCH -> {
+                processSearchCommand(command);
                 break;
             }
             default -> {
@@ -42,8 +53,7 @@ public class StudentCommandHandler {
         studentStorage.printAll();
     }
 
-
-    private void processUpdateCommand(Command command){
+    private void processUpdateCommand(Command command) {
         String data = command.getData();
         String[] dataArray = data.split(",");
 
@@ -59,11 +69,22 @@ public class StudentCommandHandler {
         studentStorage.printAll();
     }
 
-    private void processDeleteCommand(Command command){
+    private void processDeleteCommand(Command command) {
         String data = command.getData();
         Long id = Long.valueOf(data);
         studentStorage.deleteStudent(id);
 
         studentStorage.printAll();
     }
+
+    private void processStatsByCourseCount(Command command) {
+        Map<String, Long> data = studentStorage.getCountByCourse();
+        studentStorage.printMap(data);
+    }
+
+    private void processSearchCommand(Command command){
+        String surname = command.getData();
+        studentStorage.search(surname);
+    }
+
 }

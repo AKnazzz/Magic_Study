@@ -8,30 +8,28 @@ public class Main {
 
     public static void main(String[] args) {
 
-
         while (true) {
-            // выводим список вариантов
-            printMessage();
+            printMessage();  // выводим список вариантов
 
-            // считываем номер действия и дополнительные данные
-            Command command = readCommand();
-            if (command.getAction() == Action.EXIT) {
+            Command command = readCommand(); // считываем номер действия и дополнительные данные
+
+            if (command.getAction() == Action.EXIT) {  // выполняем действия
                 return;
             } else if (command.getAction() == Action.ERROR) {
                 continue;
             } else
-
-                // выполняем действия
                 STUDENT_COMMAND_HANDLER.processCommand(command);
         }
     }
 
     private static Command readCommand() {
         Scanner scanner = new Scanner(System.in);
+
         try {
             String code = scanner.nextLine();
             Integer actionCode = Integer.valueOf(code);
             Action action = Action.fromCode(actionCode);
+
             if (action.isRequiredAdditionalData()) {
                 String data = scanner.nextLine();
                 return new Command(action, data);
@@ -53,7 +51,7 @@ public class Main {
         System.out.println("2. Обновление данных");
         System.out.println("3. Удаление данных");
         System.out.println("4. Вывод статистики по курсам");
-        System.out.println("5. ");
+        System.out.println("5. Вывод статистики по городам");
         System.out.println("6. Поиск по фамилии");
         System.out.println("-----------------------------");
     }
