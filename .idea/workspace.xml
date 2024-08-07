@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="07.08.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/b_java_objects/homework_b6/homework_b6_4/homework/task1/StringAndRegex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/b_java_objects/homework_b6/homework_b6_4/homework/task2/StringAndRegex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/b_java_objects/homework_b6/homework_b6_4/homework/task3/StringAndRegex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="08.08.2024 WORK">
       <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +54,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/main/java/org/workwork/b_java_objects/homework_b6/homework_b6_4",
+    "last_opened_file_path": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/main/java/org/workwork/g_spring/homework_g6/work_1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,18 +70,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\g_spring\homework_g6\work_1" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\b_java_objects\homework_b6\homework_b6_4" />
       <recent name="C:\Users\akniazev\Desktop\Warehouse\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c7\workshop" />
       <recent name="C:\Users\akniazev\Desktop\Warehouse\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c7" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\test\java\org\workwork\c_java_core_one\homework_c4" />
-      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\g_spring\homework_g6" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\resources" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c5" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test_mock\homework_k7\mock_simple_test1" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\h_jdbc" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -236,14 +232,6 @@
       <workItem from="1722278931150" duration="1870000" />
       <workItem from="1722364860638" duration="4098000" />
       <workItem from="1723014340575" duration="18262000" />
-    </task>
-    <task id="LOCAL-00009" summary="16.06.2024 Sunday 4">
-      <option name="closed" value="true" />
-      <created>1718537738656</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1718537738656</updated>
     </task>
     <task id="LOCAL-00010" summary="16.06.2024 Sunday 55">
       <option name="closed" value="true" />
@@ -629,7 +617,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723033800933</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="08.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1723064865487</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1723064865488</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -662,7 +658,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="16.06.2024 Sunday 3" />
     <MESSAGE value="16.06.2024 Sunday 4" />
     <MESSAGE value="16.06.2024 Sunday 55" />
     <MESSAGE value="17.06.2024" />
@@ -687,6 +682,7 @@
     <MESSAGE value="05.08.2024 WORK" />
     <MESSAGE value="06.08.2024 WORK" />
     <MESSAGE value="07.08.2024 WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="07.08.2024 WORK" />
+    <MESSAGE value="08.08.2024 WORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="08.08.2024 WORK" />
   </component>
 </project>
