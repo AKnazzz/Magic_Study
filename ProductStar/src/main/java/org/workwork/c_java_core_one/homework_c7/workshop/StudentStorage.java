@@ -6,7 +6,6 @@ import java.util.Map;
 public class StudentStorage {
 
     private Map<Long, Student> studentStorageMap = new HashMap<>();
-
     private Long currentId = 0L;
 
     /**
