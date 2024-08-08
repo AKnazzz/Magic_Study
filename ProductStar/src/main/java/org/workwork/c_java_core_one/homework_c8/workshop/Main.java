@@ -1,6 +1,7 @@
-package org.workwork.c_java_core_one.homework_c8;
+package org.workwork.c_java_core_one.homework_c8.workshop;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
@@ -27,11 +28,11 @@ public class Main {
 
         //-----------------
 
-        ObjectSpawner<String,ArrayList> os = new ObjectSpawner<>(String.class,ArrayList.class);
+        ObjectSpawner<String, ArrayList> os = new ObjectSpawner<>(String.class, ArrayList.class);
         String newStr = os.createC();
         ArrayList newList = os.createT();
 
-        ObjectSpawner<Object, HashSet> os2 = new ObjectSpawner<>(Object.class,HashSet.class);
+        ObjectSpawner<Object, HashSet> os2 = new ObjectSpawner<>(Object.class, HashSet.class);
         Object obj = os2.createC();
         HashSet hashSet = os2.createT();
 
@@ -54,6 +55,20 @@ public class Main {
         // Processor<String> strProcessor = new Processor<>(string); // - нельзя только наследники String
 
 
+        //-------------------------
+
+        Garage<Car> oldGarage = new Garage<>();
+        Garage<Driveable> newGarage = new Garage<>();
+
+        move(oldGarage,newGarage);
+
+        oldGarage.add(new Ferrari());
+        oldGarage.add(new Mazerati());
+
+        List<Mazerati> mazeratiList = Arrays.asList(new Mazerati(), new Mazerati());
+
+        oldGarage.addAll(mazeratiList);
+
     }
 
     // параметризация в аргументе - в самом классе явно не указан Car
@@ -75,7 +90,9 @@ public class Main {
         return object;
     }
 
-
+    public static <T> void move(Garage<? extends T> source, Garage<? super T> destianation) {
+        destianation.addAll(source.assets);
+    }
 }
 
 

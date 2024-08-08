@@ -1,4 +1,4 @@
-package org.workwork.c_java_core_one.homework_c8;
+package org.workwork.c_java_core_one.homework_c8.workshop;
 
 public class Processor<T extends Person> {
     private T object;
