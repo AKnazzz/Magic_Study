@@ -1,4 +1,4 @@
-package org.workwork.g_spring.homework_g6.work_1.main.java.org.example.report;
+package org.workwork.g_spring.homework_g6.work_1.example.report;
 
 import jakarta.servlet.AsyncContext;
 import jakarta.servlet.ServletException;

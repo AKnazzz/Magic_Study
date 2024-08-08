@@ -1,4 +1,4 @@
-package org.workwork.g_spring.homework_g6.work_1.main.java.org.example.filters;
+package org.workwork.g_spring.homework_g6.work_1.example.filters;
 
 import jakarta.servlet.*;
 

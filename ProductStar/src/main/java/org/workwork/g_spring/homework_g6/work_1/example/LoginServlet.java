@@ -1,4 +1,4 @@
-package org.workwork.g_spring.homework_g6.work_1.main.java.org.example;
+package org.workwork.g_spring.homework_g6.work_1.example;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -20,7 +20,7 @@ public class LoginServlet extends HttpServlet {
 
         if (passwd.equals(password)) {
             HttpSession session = req.getSession();
-            session.setMaxInactiveInterval(10);
+            session.setMaxInactiveInterval(60*2);
             resp.sendRedirect("/summary");
         } else {
             resp.getWriter().println("Wrong password");
