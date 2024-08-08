@@ -5,32 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="08.08.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/homework/task_1/Stable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/homework/task_2/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/homework/task_2/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/homework/task_2/Mustang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/homework/task_2/Pony.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/homework/task_2/Stable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/homework/task_3/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/homework/task_3/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/homework/task_3/Mustang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/homework/task_3/Pony.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/homework/task_3/Stable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/workshop/Driveable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/workshop/Ferrari.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/workshop/Garage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/workshop/Mazerati.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/workshop/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/CarWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/workshop/CarWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/Docent.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/workshop/Docent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/workshop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/ObjectSpawner.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/workshop/ObjectSpawner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/ObjectSpawner2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/workshop/ObjectSpawner2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/workshop/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/workshop/Processor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/StringSpawner.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/workshop/StringSpawner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/workshop/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/Wrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/workshop/Wrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c9/outOfMemoryError/OutOfMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c9/stackOverFlowError/StackOverflow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +57,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/akniazev/Desktop/Warehouse/Magic_Study/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/homework/task_3",
+    "last_opened_file_path": "C:/Users/akniazev/Desktop/Warehouse/Magic_Study/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/homework/task_4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -96,11 +73,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\akniazev\Desktop\Warehouse\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c8\homework\task_4" />
       <recent name="C:\Users\akniazev\Desktop\Warehouse\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c8\homework\task_3" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\g_spring\homework_g6\work_1" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\b_java_objects\homework_b6\homework_b6_4" />
       <recent name="C:\Users\akniazev\Desktop\Warehouse\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c7\workshop" />
-      <recent name="C:\Users\akniazev\Desktop\Warehouse\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c7" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\g_spring\homework_g6" />
@@ -130,20 +107,7 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.org.workwork.c_java_core_one.homework_c8.homework.task_3.Main">
-    <configuration name="FileLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.d_java_core_two.homeWork_d1.work_5d.FileLoader" />
-      <module name="ProductStar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.workwork.d_java_core_two.homeWork_d1.work_5d.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StackOverflow">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c7.workshop.Main" />
       <module name="ProductStar" />
@@ -157,12 +121,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.workwork.c_java_core_one.homework_c7.work_1.src.org.db.students.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c7.work_1.src.org.db.students.Main" />
+    <configuration name="OutOfMemory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c9.outOfMemoryError.OutOfMemory" />
       <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c7.work_1.src.org.db.students.*" />
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c9.outOfMemoryError.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackOverflow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c9.stackOverFlowError.StackOverflow" />
+      <module name="ProductStar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c9.stackOverFlowError.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackOverflow" />
+        <item itemvalue="Application.OutOfMemory" />
         <item itemvalue="Application.org.workwork.c_java_core_one.homework_c8.homework.task_3.Main" />
         <item itemvalue="Application.org.workwork.c_java_core_one.homework_c8.workshop.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.org.workwork.c_java_core_one.homework_c7.work_1.src.org.db.students.Main" />
-        <item itemvalue="Application.FileLoader" />
       </list>
     </recent_temporary>
   </component>
@@ -258,15 +235,7 @@
       <workItem from="1722278931150" duration="1870000" />
       <workItem from="1722364860638" duration="4098000" />
       <workItem from="1723014340575" duration="18262000" />
-      <workItem from="1723105778340" duration="9843000" />
-    </task>
-    <task id="LOCAL-00013" summary="16.06.2024 Sunday 55">
-      <option name="closed" value="true" />
-      <created>1718542509094</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1718542509094</updated>
+      <workItem from="1723105778340" duration="14693000" />
     </task>
     <task id="LOCAL-00014" summary="16.06.2024 Sunday 55">
       <option name="closed" value="true" />
@@ -652,7 +621,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723113863129</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="08.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1723116840949</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1723116840949</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
