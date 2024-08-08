@@ -5,9 +5,9 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.example.model.Id;
-import org.example.model.Transaction;
-import org.example.model.Type;
+import org.workwork.g_spring.homework_g6.work_1.example.model.Id;
+import org.workwork.g_spring.homework_g6.work_1.example.model.Transaction;
+import org.workwork.g_spring.homework_g6.work_1.example.model.Type;
 
 import java.io.IOException;
 import java.util.LinkedHashMap;
