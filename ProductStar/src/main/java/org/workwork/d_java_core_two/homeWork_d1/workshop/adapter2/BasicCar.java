@@ -101,7 +101,6 @@ class Example {
         cp.work();
 
         CarAdapter carAdapter = new CarAdapter(new AudiA3Rus());
-
         cp = new CentralProcessor(carAdapter);
         cp.work();
     }
