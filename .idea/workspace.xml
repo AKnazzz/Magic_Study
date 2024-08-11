@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="09.08.2024 WORK">
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="12.08.2024 WORK">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
     </list>
@@ -235,14 +235,6 @@
       <workItem from="1722364860638" duration="4098000" />
       <workItem from="1723014340575" duration="18262000" />
       <workItem from="1723105778340" duration="23351000" />
-    </task>
-    <task id="LOCAL-00018" summary="17.06.2024 MOCKITO">
-      <option name="closed" value="true" />
-      <created>1718574272731</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1718574272731</updated>
     </task>
     <task id="LOCAL-00019" summary="19.06.2024 MOCKITO">
       <option name="closed" value="true" />
@@ -628,7 +620,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723203849313</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="12.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1723411202545</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1723411202545</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -661,7 +661,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="16.06.2024 Sunday 55" />
     <MESSAGE value="17.06.2024" />
     <MESSAGE value="17.06.2024 MOCKITO" />
     <MESSAGE value="19.06.2024 MOCKITO" />
@@ -686,6 +685,7 @@
     <MESSAGE value="07.08.2024 WORK" />
     <MESSAGE value="08.08.2024 WORK" />
     <MESSAGE value="09.08.2024 WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="09.08.2024 WORK" />
+    <MESSAGE value="12.08.2024 WORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.08.2024 WORK" />
   </component>
 </project>
