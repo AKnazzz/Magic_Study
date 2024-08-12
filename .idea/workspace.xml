@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="12.08.2024 WORK">
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="09.08.2024 WORK">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,14 +234,6 @@
       <workItem from="1722364860638" duration="4098000" />
       <workItem from="1723014340575" duration="18262000" />
       <workItem from="1723105778340" duration="23351000" />
-    </task>
-    <task id="LOCAL-00019" summary="19.06.2024 MOCKITO">
-      <option name="closed" value="true" />
-      <created>1718745390929</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1718745390929</updated>
     </task>
     <task id="LOCAL-00020" summary="19.06.2024 MOCKITO">
       <option name="closed" value="true" />
@@ -628,7 +619,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723411202545</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="09.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1723444150254</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1723444150255</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,8 +683,8 @@
     <MESSAGE value="06.08.2024 WORK" />
     <MESSAGE value="07.08.2024 WORK" />
     <MESSAGE value="08.08.2024 WORK" />
-    <MESSAGE value="09.08.2024 WORK" />
     <MESSAGE value="12.08.2024 WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.08.2024 WORK" />
+    <MESSAGE value="09.08.2024 WORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="09.08.2024 WORK" />
   </component>
 </project>
