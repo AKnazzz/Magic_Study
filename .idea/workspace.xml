@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="09.08.2024 WORK">
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL_windows/work_6/work_1/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL_windows/work_6/work_1/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL_windows/work_6/work_1/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL_windows/work_6/work_1/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL_windows/work_6/work_1/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL_windows/work_6/Чек-лист для проверки ДЗ - Оконные функции.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +62,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/akniazev/Desktop/Warehouse/Magic_Study/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c8/homework/task_4&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Андрей/Downloads/дз (1)/дз&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -78,11 +85,11 @@
       <recent name="C:\Users\akniazev\Desktop\Warehouse\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c7\workshop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\i_SQL_windows\work_6\work_1" />
+      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\i_SQL_windows\work_6" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\g_spring\homework_g6" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\resources" />
-      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c5" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test_mock\homework_k7\mock_simple_test1" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -105,7 +112,7 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Example">
+  <component name="RunManager" selected="Application.ResultsBoard">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.workwork.d_java_core_two.homeWork_d1.workshop.adapter2.Example" />
       <module name="ProductStar" />
@@ -125,6 +132,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c9.outOfMemoryError.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResultsBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c5.work_12.ResultsBoard" />
+      <module name="ProductStar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c5.work_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,26 +178,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.workwork.c_java_core_one.homework_c8.workshop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c8.workshop.Main" />
-      <module name="ProductStar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c8.workshop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ResultsBoard" />
         <item itemvalue="Application.Example" />
         <item itemvalue="Application.StackOverflow" />
         <item itemvalue="Application.OutOfMemory" />
         <item itemvalue="Application.org.workwork.c_java_core_one.homework_c8.homework.task_3.Main" />
-        <item itemvalue="Application.org.workwork.c_java_core_one.homework_c8.workshop.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -234,6 +241,7 @@
       <workItem from="1722364860638" duration="4098000" />
       <workItem from="1723014340575" duration="18262000" />
       <workItem from="1723105778340" duration="23351000" />
+      <workItem from="1723576858885" duration="1099000" />
     </task>
     <task id="LOCAL-00020" summary="19.06.2024 MOCKITO">
       <option name="closed" value="true" />
