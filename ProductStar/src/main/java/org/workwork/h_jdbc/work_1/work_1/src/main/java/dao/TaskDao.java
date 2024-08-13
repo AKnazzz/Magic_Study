@@ -1,6 +1,7 @@
 package org.workwork.h_jdbc.work_1.work_1.src.main.java.dao;
 
-import entity.Task;
+
+import org.workwork.h_jdbc.work_1.work_1.src.main.java.entity.Task;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

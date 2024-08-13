@@ -1,7 +1,14 @@
 package org.workwork.h_jdbc.work_1.work_1.src.test.java.dao;
 
 import com.opentable.db.postgres.embedded.EmbeddedPostgres;
-import entity.Task;
+import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.TestInstance;
+import org.workwork.h_jdbc.work_1.work_1.src.main.java.dao.TaskDao;
+import org.workwork.h_jdbc.work_1.work_1.src.main.java.entity.Task;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Connection;
@@ -11,7 +18,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 import javax.sql.DataSource;
 
-import org.junit.jupiter.api.*;
+
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class TaskDaoTest {
