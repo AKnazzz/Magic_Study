@@ -5,39 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="14.08.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_13_BDD/work_1/Основы BDD.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_13_BDD/Чек-лист - Основы BDD.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/work_1/Java-Cucumber-JVM-Cukes-rest-JBehave/Home_work/maven/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/work_1/Java-Cucumber-JVM-Cukes-rest-JBehave/Home_work/maven/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/work_1/Java-Cucumber-JVM-Cukes-rest-JBehave/Home_work/maven/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/work_1/Java-Cucumber-JVM-Cukes-rest-JBehave/Home_work/maven/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/work_1/Java-Cucumber-JVM-Cukes-rest-JBehave/Home_work/maven/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/work_1/Java-Cucumber-JVM-Cukes-rest-JBehave/Home_work/maven/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/work_1/Java-Cucumber-JVM-Cukes-rest-JBehave/Home_work/maven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/work_1/Java-Cucumber-JVM-Cukes-rest-JBehave/Home_work/maven/src/main/java/io/cucumber/skeleton/Belly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/work_1/Java-Cucumber-JVM-Cukes-rest-JBehave/Home_work/maven/src/test/java/io/cucumber/skeleton/RunCucumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/work_1/Java-Cucumber-JVM-Cukes-rest-JBehave/Home_work/maven/src/test/java/io/cucumber/skeleton/StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/work_1/Java-Cucumber-JVM-Cukes-rest-JBehave/Home_work/maven/src/test/resources/io/cucumber/skeleton/belly.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/work_1/Java-Cucumber-JVM-Cukes-rest-JBehave/Home_work/maven/src/test/resources/junit-platform.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/work_1/Java-Cucumber-JVM-Cukes-rest-JBehave/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/Чек-лист - Инструменты BDD для Java_ Cucumber-JVM, Cukes-rest, JBehave.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/ProductNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/ProductNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/model/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/model/Delivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/model/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/model/Stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/model/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/model/Warehouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/repository/InitRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/repository/InitRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/repository/WarehouseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/repository/WarehouseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/service/WarehouseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/service/WarehouseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/test/java/ru/productstar/mockito/repository/CustomerRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/test/java/ru/productstar/mockito/repository/CustomerRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/test/java/ru/productstar/mockito/repository/InitRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/test/java/ru/productstar/mockito/repository/InitRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/test/java/ru/productstar/mockito/repository/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/test/java/ru/productstar/mockito/repository/ProductRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/test/java/ru/productstar/mockito/repository/WarehouseRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/test/java/ru/productstar/mockito/repository/WarehouseRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/test/java/ru/productstar/mockito/service/CustomerServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/test/java/ru/productstar/mockito/service/CustomerServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/test/java/ru/productstar/mockito/service/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/test/java/ru/productstar/mockito/service/OrderServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/test/java/ru/productstar/mockito/service/WarehouseServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/test/java/ru/productstar/mockito/service/WarehouseServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +55,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -87,7 +81,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/ricks/IdeaProjects/Magic/Magic_Study/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz",
+    "last_opened_file_path": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/work_1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,11 +97,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test\work_14_BDD_2\work_1" />
+      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test\work_14_BDD_2" />
+      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test\work_13_BDD\work_1" />
+      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test\work_13_BDD" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_7_mockito\work_1\mockito_dz" />
-      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_7_mockito\work_1" />
-      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_9_runner\work_1" />
-      <recent name="C:\Users\akniazev\Desktop\Warehouse\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c8\homework\task_4" />
-      <recent name="C:\Users\akniazev\Desktop\Warehouse\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c8\homework\task_3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_7_mockito\work_1" />
