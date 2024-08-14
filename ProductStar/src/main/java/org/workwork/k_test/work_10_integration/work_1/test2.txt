@@ -1,0 +1,73 @@
+package org.mycompany;
+
+import com.google.cloud.translate.Translate;
+import com.google.cloud.translate.Translation;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.function.Executable;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+
+import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.*;
+
+class MyTranslationServiceTest {
+
+    private static final String SENTENCE = "Hello, world!";
+    private static final String TARGET_LANGUAGE_RU = "ru";
+    private static final String TARGET_LANGUAGE_FR = "fr";
+    private static final String TRANSLATED_TEXT = "Привет, мир!";
+
+    @Mock
+    private Translate googleTranslate;
+
+    @InjectMocks
+    private MyTranslationService myTranslationService;
+
+    private Translation translation;
+
+    @BeforeEach
+    void setUp() {
+        MockitoAnnotations.openMocks(this);
+        translation = mock(Translation.class);
+    }
+
+    @Test
+    @DisplayName("Перевести предложение на русский успешно")
+    void translateWithGoogle_anySentenceAndTargetLanguageIsRu_success() {
+        when(translation.getTranslatedText()).thenReturn(TRANSLATED_TEXT);
+        when(googleTranslate.translate(eq(SENTENCE), any(Translate.TranslateOption.class))).thenReturn(translation);
+
+        String result = myTranslationService.translateWithGoogle(SENTENCE, TARGET_LANGUAGE_RU);
+
+        assertEquals(TRANSLATED_TEXT, result);
+        verify(googleTranslate, times(1)).translate(eq(SENTENCE), any(Translate.TranslateOption.class));
+        verifyNoMoreInteractions(googleTranslate);
+    }
+
+    @Test
+    @DisplayName("Выбросить исключение для неподдерживаемого целевого языка")
+    void translateWithGoogle_anySentenceAndTargetLanguageIsNotRu_failure() {
+        Executable action = () -> myTranslationService.translateWithGoogle(SENTENCE, TARGET_LANGUAGE_FR);
+
+        assertThrows(IllegalArgumentException.class, action);
+        verifyNoInteractions(googleTranslate);
+    }
+
+    @Test
+    @DisplayName("Обработать исключение от Google Translate API")
+    void translateWithGoogle_googleTranslateThrowsException_failure() {
+        when(googleTranslate.translate(eq(SENTENCE), any(Translate.TranslateOption.class)))
+                .thenThrow(new RuntimeException("Google API failed"));
+
+        Executable action = () -> myTranslationService.translateWithGoogle(SENTENCE, TARGET_LANGUAGE_RU);
+
+        MyTranslationServiceException exception = assertThrows(MyTranslationServiceException.class, action);
+        assertEquals("Exception while calling Google Translate API", exception.getMessage());
+        assertEquals("Google API failed", exception.getCause().getMessage());
+        verify(googleTranslate, times(1)).translate(eq(SENTENCE), any(Translate.TranslateOption.class));
+        verifyNoMoreInteractions(googleTranslate);
+    }
+}
