@@ -4,15 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="09.08.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL_windows/work_6/work_1/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL_windows/work_6/work_1/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL_windows/work_6/work_1/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL_windows/work_6/work_1/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL_windows/work_6/work_1/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL_windows/work_6/Чек-лист для проверки ДЗ - Оконные функции.docx" afterDir="false" />
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="14.08.2024 WORK">
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/ProductNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/ProductNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/model/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/model/Delivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/model/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/model/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/model/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/model/Warehouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/repository/InitRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/repository/InitRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/repository/WarehouseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/repository/WarehouseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/main/java/ru/productstar/mockito/service/WarehouseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/main/java/ru/productstar/mockito/service/WarehouseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/test/java/ru/productstar/mockito/repository/CustomerRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/test/java/ru/productstar/mockito/repository/CustomerRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/test/java/ru/productstar/mockito/repository/InitRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/test/java/ru/productstar/mockito/repository/InitRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/test/java/ru/productstar/mockito/repository/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/test/java/ru/productstar/mockito/repository/ProductRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/test/java/ru/productstar/mockito/repository/WarehouseRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/test/java/ru/productstar/mockito/repository/WarehouseRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/test/java/ru/productstar/mockito/service/CustomerServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/test/java/ru/productstar/mockito/service/CustomerServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/test/java/ru/productstar/mockito/service/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/test/java/ru/productstar/mockito/service/OrderServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/src/test/java/ru/productstar/mockito/service/WarehouseServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/src/test/java/ru/productstar/mockito/service/WarehouseServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,45 +76,45 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Андрей/Downloads/дз (1)/дз&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3321839&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;0f44218fcc314ac0df087f7800e00696&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
+    "last_opened_file_path": "C:/Users/ricks/IdeaProjects/Magic/Magic_Study/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3321839",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "0f44218fcc314ac0df087f7800e00696",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_7_mockito\work_1\mockito_dz" />
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_7_mockito\work_1" />
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_9_runner\work_1" />
       <recent name="C:\Users\akniazev\Desktop\Warehouse\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c8\homework\task_4" />
       <recent name="C:\Users\akniazev\Desktop\Warehouse\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c8\homework\task_3" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\g_spring\homework_g6\work_1" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\b_java_objects\homework_b6\homework_b6_4" />
-      <recent name="C:\Users\akniazev\Desktop\Warehouse\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c7\workshop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\i_SQL_windows\work_6\work_1" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\i_SQL_windows\work_6" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\g_spring\homework_g6" />
-      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study" />
-      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\resources" />
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_7_mockito\work_1" />
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_7_mockito\work_1\src" />
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_1_artifact\work_1" />
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_1_artifact" />
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\y_web\work_7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -112,13 +137,13 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ResultsBoard">
+  <component name="RunManager" selected="Application.Example">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.d_java_core_two.homeWork_d1.workshop.adapter2.Example" />
+      <option name="MAIN_CLASS_NAME" value="org.workwork.d_java_core_two.work_1_adapter.workshop.adapter2.Example" />
       <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.d_java_core_two.homeWork_d1.workshop.adapter2.*" />
+          <option name="PATTERN" value="org.workwork.d_java_core_two.work_1_adapter.workshop.adapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,10 +203,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="book-library" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.workwork.i_SQL.homework_8_todo.bookLibrary.src.main.java.com.greatbit.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ResultsBoard" />
         <item itemvalue="Application.Example" />
+        <item itemvalue="Application.ResultsBoard" />
         <item itemvalue="Application.StackOverflow" />
         <item itemvalue="Application.OutOfMemory" />
         <item itemvalue="Application.org.workwork.c_java_core_one.homework_c8.homework.task_3.Main" />
@@ -242,46 +274,6 @@
       <workItem from="1723014340575" duration="18262000" />
       <workItem from="1723105778340" duration="23351000" />
       <workItem from="1723576858885" duration="1099000" />
-    </task>
-    <task id="LOCAL-00020" summary="19.06.2024 MOCKITO">
-      <option name="closed" value="true" />
-      <created>1718745509777</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1718745509777</updated>
-    </task>
-    <task id="LOCAL-00021" summary="21.06.2024 MOCKITO">
-      <option name="closed" value="true" />
-      <created>1718998092613</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1718998092613</updated>
-    </task>
-    <task id="LOCAL-00022" summary="24.06.2024 Monday">
-      <option name="closed" value="true" />
-      <created>1719258242474</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1719258242474</updated>
-    </task>
-    <task id="LOCAL-00023" summary="26.06.2024 Wednesday">
-      <option name="closed" value="true" />
-      <created>1719349362523</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1719349362523</updated>
-    </task>
-    <task id="LOCAL-00024" summary="02.07.2024 Wednesday">
-      <option name="closed" value="true" />
-      <created>1719952951653</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1719952951653</updated>
     </task>
     <task id="LOCAL-00025" summary="02.07.2024 Wednesday">
       <option name="closed" value="true" />
@@ -635,7 +627,47 @@
       <option name="project" value="LOCAL" />
       <updated>1723444150255</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="14.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1723625237223</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1723625237223</updated>
+    </task>
+    <task id="LOCAL-00070" summary="14.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1723626930356</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1723626930356</updated>
+    </task>
+    <task id="LOCAL-00071" summary="14.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1723639458808</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1723639458808</updated>
+    </task>
+    <task id="LOCAL-00072" summary="14.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1723643654769</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1723643654769</updated>
+    </task>
+    <task id="LOCAL-00073" summary="14.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1723643860286</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1723643860286</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -668,8 +700,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="17.06.2024" />
-    <MESSAGE value="17.06.2024 MOCKITO" />
     <MESSAGE value="19.06.2024 MOCKITO" />
     <MESSAGE value="21.06.2024 MOCKITO" />
     <MESSAGE value="24.06.2024 Monday" />
@@ -691,8 +721,10 @@
     <MESSAGE value="06.08.2024 WORK" />
     <MESSAGE value="07.08.2024 WORK" />
     <MESSAGE value="08.08.2024 WORK" />
-    <MESSAGE value="12.08.2024 WORK" />
     <MESSAGE value="09.08.2024 WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="09.08.2024 WORK" />
+    <MESSAGE value="12.08.2024 WORK" />
+    <MESSAGE value="13.08.2024 WORK" />
+    <MESSAGE value="14.08.2024 WORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="14.08.2024 WORK" />
   </component>
 </project>
