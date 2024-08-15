@@ -12,10 +12,11 @@
         <option value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_7_mockito/work_1/mockito_dz/pom.xml" />
         <option value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/work_1/Java-Cucumber-JVM-Cukes-rest-JBehave/Home_work/maven/pom.xml" />
         <option value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend/work_1/UsersHW/pom.xml" />
+        <option value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend/UsersHW/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="22 (2)" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="corretto-21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="ProjectType">

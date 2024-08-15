@@ -1,4 +1,4 @@
-package org.workwork.i_SQL.homework_8_todo.bookLibrary.src.main.java.com.greatbit.models;
+package com.greatbit.models;
 
 import java.util.Objects;
 

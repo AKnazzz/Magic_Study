@@ -1,4 +1,4 @@
-package org.workwork.i_SQL.homework_8_todo.bookLibrary.src.main.java.com.greatbit.dao;
+package com.greatbit.dao;
 
 import com.greatbit.models.Book;
 import org.springframework.beans.factory.annotation.Autowired;

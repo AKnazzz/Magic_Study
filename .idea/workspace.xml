@@ -5,28 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="15.08.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_15_test/work_1/image (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_15_test/work_1/image (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_15_test/work_1/Инструменты тестировщика Java.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_15_test/work_1/изображение_2024-08-15_125943656.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_15_test/Чек-лист - Инструменты тестировщика Java.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend/work_1/1 (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend/work_1/2 (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend/work_1/UsersHW/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend/work_1/UsersHW/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend/work_1/UsersHW/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend/work_1/UsersHW/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend/work_1/UsersHW/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend/work_1/UsersHW/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend/work_1/UsersHW/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend/work_1/UsersHW/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend/work_1/UsersHW/src/main/java/org/app/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend/work_1/UsersHW/src/main/java/org/app/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend/work_1/UsersHW/src/main/java/org/app/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend/work_1/UsersHW/src/main/java/org/app/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend/work_1/UsersHW/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend/Чек-лист для проверки ДЗ_Java интеграция с backend.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/d_java_core_two/work_1_adapter/workshop/decorator/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/d_java_core_two/work_1_adapter/workshop/decorator/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/controllers/BooksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/controllers/BooksController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/dao/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/dao/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/models/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/models/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/work_1/Java-Cucumber-JVM-Cukes-rest-JBehave/Home_work/maven/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/work_1/Java-Cucumber-JVM-Cukes-rest-JBehave/Home_work/maven/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +70,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3321839",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -127,7 +114,7 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Main (1)">
+  <component name="RunManager" selected="Application.org.workwork.d_java_core_two.work_1_adapter.workshop.decorator.Example">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.workwork.d_java_core_two.work_1_adapter.workshop.adapter2.Example" />
       <module name="ProductStar" />
@@ -167,15 +154,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackOverflow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c9.stackOverFlowError.StackOverflow" />
+    <configuration name="org.workwork.d_java_core_two.work_1_adapter.workshop.decorator.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.d_java_core_two.work_1_adapter.workshop.decorator.Example" />
       <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c9.stackOverFlowError.*" />
+          <option name="PATTERN" value="org.workwork.d_java_core_two.work_1_adapter.workshop.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="book-library" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.greatbit.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -200,6 +194,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="UsersHW" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.workwork.m_backend.work_2_backend.UsersHW.src.main.java.org.app.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="UsersHW" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.workwork.m_backend.work_2_backend.work_1.UsersHW.src.main.java.org.app.Main" />
@@ -209,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.workwork.d_java_core_two.work_1_adapter.workshop.decorator.Example" />
         <item itemvalue="Spring Boot.Main (1)" />
         <item itemvalue="Application.MergeTask" />
         <item itemvalue="Application.Example" />
         <item itemvalue="Application.ResultsBoard" />
-        <item itemvalue="Application.StackOverflow" />
       </list>
     </recent_temporary>
   </component>

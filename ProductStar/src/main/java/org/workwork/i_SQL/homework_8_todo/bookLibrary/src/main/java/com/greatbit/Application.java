@@ -1,6 +1,7 @@
-package org.workwork.i_SQL.homework_8_todo.bookLibrary.src.main.java.com.greatbit;
+package com.greatbit;
 
 
+import com.greatbit.models.Book;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -49,7 +50,7 @@ public class Application {
                     System.out.println("Printing books from db...");
                     ResultSet resultSet = statement.executeQuery("SELECT id, name, author, pages FROM books");
                     while (resultSet.next()) {
-                        org.workwork.i_SQL.homework_8_todo.bookLibrary.src.main.java.com.greatbit.models.Book book = new Book(resultSet.getLong(1), resultSet.getString(2), resultSet.getString(3), resultSet.getInt(4));
+                        Book book = new Book(resultSet.getLong(1), resultSet.getString(2), resultSet.getString(3), resultSet.getInt(4));
                         System.out.println(book);
                     }
                 }
