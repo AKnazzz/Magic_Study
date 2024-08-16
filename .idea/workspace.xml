@@ -5,15 +5,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="15.08.2024 WORK">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/d_java_core_two/work_1_adapter/workshop/decorator/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/d_java_core_two/work_1_adapter/workshop/decorator/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/controllers/BooksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/controllers/BooksController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/dao/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/dao/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/dao/BookDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/models/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL/homework_8_todo/bookLibrary/src/main/java/com/greatbit/models/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/work_1/Java-Cucumber-JVM-Cukes-rest-JBehave/Home_work/maven/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_14_BDD_2/work_1/Java-Cucumber-JVM-Cukes-rest-JBehave/Home_work/maven/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/OOP_Java.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/src/main/java/org/oop/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/src/main/java/org/oop/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/src/main/java/org/oop/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/src/main/java/org/oop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/src/main/java/org/oop/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/src/main/java/org/oop/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/src/main/resources/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/IArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/IAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/ICommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/ICommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/IConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/IDatabaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/IOService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/dao/IArticleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/dao/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/AddCommentCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/AddUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/ArticleSearchCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/ChangePasswordCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/CreateArticleCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/DeleteArticleCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/DeleteUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/LoginCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/LogoutCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/RegisterCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/ShowAllUsersCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/UpdateUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/ViewAllArticlesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/ArticleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/BaseCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/UserMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/dao/ArticleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/dao/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/dao/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/di/Injector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/di/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/model/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/model/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/service/ConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/service/ConsoleIOService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/service/DatabaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/service/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/resources/app.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +129,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/ricks/IdeaProjects/Magic/Magic_Study/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend/work_1",
+    "last_opened_file_path": "C:/Users/ricks/IdeaProjects/Magic/Magic_Study/ProductStar/src/main/java/org/workwork/l_oop/work_1/OOP-in-Java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,18 +145,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\l_oop\work_1\OOP-in-Java" />
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\l_oop\work_1\OOP-in-Java\java-oop-ps\src\main\java\org\oop" />
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\l_oop\work_1" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\m_backend\work_2_backend\work_1" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test\work_14_BDD_2\work_1" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test\work_14_BDD_2" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test\work_13_BDD\work_1" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test\work_13_BDD" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\m_backend\work_2_backend\work_1" />
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\l_oop\work_1" />
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\l_oop\work_1\OOP-in-Java\java-oop-ps" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\m_backend\work_2_backend" />
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\m_backend\work_2_backend\work_1" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_15_test\work_1" />
-      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_15_test" />
-      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_7_mockito\work_1" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -114,7 +179,7 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.org.workwork.d_java_core_two.work_1_adapter.workshop.decorator.Example">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.workwork.d_java_core_two.work_1_adapter.workshop.adapter2.Example" />
       <module name="ProductStar" />
@@ -128,12 +193,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.let.task_faang_1.MergeTask" />
-      <module name="LetItCode" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.oop.Main" />
+      <module name="java-oop (1)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.let.task_faang_1.*" />
+          <option name="PATTERN" value="org.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +206,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResultsBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c5.work_12.ResultsBoard" />
-      <module name="ProductStar" />
+    <configuration name="MergeTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.let.task_faang_1.MergeTask" />
+      <module name="LetItCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c5.work_12.*" />
+          <option name="PATTERN" value="org.let.task_faang_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,11 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.workwork.d_java_core_two.work_1_adapter.workshop.decorator.Example" />
         <item itemvalue="Spring Boot.Main (1)" />
         <item itemvalue="Application.MergeTask" />
         <item itemvalue="Application.Example" />
-        <item itemvalue="Application.ResultsBoard" />
       </list>
     </recent_temporary>
   </component>
@@ -272,14 +337,6 @@
       <workItem from="1723014340575" duration="18262000" />
       <workItem from="1723105778340" duration="23351000" />
       <workItem from="1723576858885" duration="1099000" />
-    </task>
-    <task id="LOCAL-00026" summary="02.07.2024 Wednesday">
-      <option name="closed" value="true" />
-      <created>1720217096619</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1720217096619</updated>
     </task>
     <task id="LOCAL-00027" summary="02.07.2024 Wednesday">
       <option name="closed" value="true" />
@@ -665,7 +722,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723722459084</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="15.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1723724010346</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1723724010346</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
