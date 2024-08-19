@@ -5,46 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="16.08.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/api/DrawMeny.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/api/Scann.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/api/SearchNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/drow/DrawAdminFilmsMeny.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/drow/DrawAdminUsersMeny.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/drow/DrawMenyAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/drow/DrawMenyInlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/drow/DrawMenyUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/model/Films.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/AddFilms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/AdminFilmSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/AdminSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/AllFilm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/AllUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/InletSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/Registration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/ScanFromCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/SearchUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/UserOrAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/UserSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/storage/StorageFilms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/storage/StorageUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/Чек-лист - Принципы SOLID.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/b_java_objects/homework_b5/work_8/Matrices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/i_SQL_windows/work_9/~$к-лист - Воркшоп_ реальный Postgres.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/main/java/KeyFileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/main/java/KeyFileParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/main/java/ResultsProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/main/java/ResultsProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/main/java/StudentFileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/main/java/StudentFileParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/main/resources/keyFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/main/resources/keyFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/main/resources/studentFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/main/resources/studentFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/test/java/KeyFileParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/test/java/KeyFileParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/test/java/ResultsProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/test/java/ResultsProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/test/java/StudentFileParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/test/java/StudentFileParserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +31,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -85,35 +59,35 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/ricks/IdeaProjects/Magic/Magic_Study/ProductStar/src/main/java/org/workwork/l_oop/work_2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3321839",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "de0958ce9287ea93bb5f6ab526037cc3",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ricks/IdeaProjects/Magic/Magic_Study/ProductStar/src/main/java/org/workwork/l_oop/work_2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3321839&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;de0958ce9287ea93bb5f6ab526037cc3&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\l_oop\work_2" />
@@ -150,13 +124,13 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.d_java_core_two.work_1_adapter.workshop.adapter2.Example" />
-      <module name="ProductStar" />
+  <component name="RunManager" selected="Application.Matrices">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.oop.Main" />
+      <module name="java-oop (1)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.d_java_core_two.work_1_adapter.workshop.adapter2.*" />
+          <option name="PATTERN" value="org.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.oop.Main" />
-      <module name="java-oop (1)" />
+    <configuration name="Matrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.b_java_objects.homework_b5.work_8.Matrices" />
+      <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.oop.*" />
+          <option name="PATTERN" value="org.workwork.b_java_objects.homework_b5.work_8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Matrices" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.workwork.d_java_core_two.work_1_adapter.workshop.decorator.Example" />
         <item itemvalue="Spring Boot.Main (1)" />
         <item itemvalue="Application.MergeTask" />
-        <item itemvalue="Application.Example" />
       </list>
     </recent_temporary>
   </component>
@@ -316,14 +290,7 @@
       <workItem from="1723105778340" duration="23351000" />
       <workItem from="1723576858885" duration="1099000" />
       <workItem from="1723873847269" duration="1156000" />
-    </task>
-    <task id="LOCAL-00030" summary="18.07.2024 Tuesday">
-      <option name="closed" value="true" />
-      <created>1721332113397</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1721332113397</updated>
+      <workItem from="1724048501023" duration="2920000" />
     </task>
     <task id="LOCAL-00031" summary="18.07.2024 Thursday">
       <option name="closed" value="true" />
@@ -709,7 +676,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723794318559</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="16.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1724048575498</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1724048575499</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
@@ -19,7 +20,13 @@
         <option value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/pom.xml" />
         <option value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/pom.xml" />
         <option value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/SOLID_JAVA/HomeWork/pom.xml" />
+        <option value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">

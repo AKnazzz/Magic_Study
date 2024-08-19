@@ -1,4 +1,4 @@
-package org.workwork.g_spring.homework_g3.work_1.src.test.java;
+package javaa;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package org.workwork.g_spring.homework_g3.work_1.src.main.java;
+package javaa;
 
 import java.io.IOException;
 import java.nio.file.Files;

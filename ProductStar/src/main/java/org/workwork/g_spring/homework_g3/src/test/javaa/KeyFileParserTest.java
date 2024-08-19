@@ -1,9 +1,11 @@
-package org.workwork.g_spring.homework_g3.work_1.src.test.java;
+package javaa;
 
-import org.workwork.g_spring.homework_g3.work_1.src.main.java.KeyFileParser;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 
 public class KeyFileParserTest {
