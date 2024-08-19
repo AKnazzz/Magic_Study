@@ -1,0 +1,35 @@
+import IArticleService;
+import ICommand;
+import BaseCommand;
+import MainMenu;
+import Injector;
+import Article;
+
+import java.util.List;
+
+public class ViewAllArticlesCommand extends BaseCommand {
+
+    private final IArticleService articleService;
+
+    public ViewAllArticlesCommand() {
+        this.articleService = Injector.getInstance().getService(IArticleService.class);
+    }
+
+    @Override
+    public ICommand execute() {
+        List<Article> articles = articleService.getAllArticles();
+
+        if (articles.isEmpty()) {
+            ioService.printLine("Нет доступных статей для просмотра.");
+        } else {
+            ioService.printArticles(articles, Injector.getInstance().getService(IArticleService.class));
+        }
+
+        return new MainMenu();
+    }
+
+    @Override
+    public String getDescription() {
+        return "Посмотреть все статьи";
+    }
+}
