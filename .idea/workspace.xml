@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="16.08.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/b_java_objects/homework_b5/work_8/Matrices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="19.08.2024 WORK">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/main/java/KeyFileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/main/java/KeyFileParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/main/java/ResultsProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/main/java/ResultsProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/main/java/StudentFileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/main/java/StudentFileParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/main/resources/keyFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/main/resources/keyFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/main/resources/studentFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/main/resources/studentFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/test/java/KeyFileParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/test/java/KeyFileParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/test/java/ResultsProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/test/java/ResultsProcessorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/test/java/StudentFileParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/src/test/java/StudentFileParserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -290,15 +277,7 @@
       <workItem from="1723105778340" duration="23351000" />
       <workItem from="1723576858885" duration="1099000" />
       <workItem from="1723873847269" duration="1156000" />
-      <workItem from="1724048501023" duration="2920000" />
-    </task>
-    <task id="LOCAL-00031" summary="18.07.2024 Thursday">
-      <option name="closed" value="true" />
-      <created>1721334727020</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1721334727020</updated>
+      <workItem from="1724048501023" duration="4262000" />
     </task>
     <task id="LOCAL-00032" summary="22.07.2024 Monday">
       <option name="closed" value="true" />
@@ -684,7 +663,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724048575499</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="19.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1724054507340</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1724054507340</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -717,7 +704,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="24.06.2024 Monday" />
     <MESSAGE value="02.07.2024 Wednesday" />
     <MESSAGE value="15.07.2024 MonDay" />
     <MESSAGE value="17.07.2024 MonDay" />
@@ -742,6 +728,7 @@
     <MESSAGE value="14.08.2024 WORK" />
     <MESSAGE value="15.08.2024 WORK" />
     <MESSAGE value="16.08.2024 WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="16.08.2024 WORK" />
+    <MESSAGE value="19.08.2024 WORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="19.08.2024 WORK" />
   </component>
 </project>
