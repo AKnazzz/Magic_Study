@@ -10427,6 +10427,71 @@ JUnit — это инструмент для проверки кода в Java, 
 Продолжай в том же духе!
 
 =====================================================================================================
+
+Привет, Ибрагим!
+Спасибо за домашнюю работу!
+Давай разберём, как реализовать LRU (Least Recently Used) Cache для хранения и вычисления средней оценки студентов.
+Мы создадим класс LRUCache, который будет наследоваться от LinkedHashMap, и добавим тесты, чтобы убедиться в его корректности.
+
+Шаг 1: Реализация LRUCache
+Вот пример реализации класса LRUCache:
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class LRUCache<KEY, VALUE> extends LinkedHashMap<KEY, VALUE> {
+ private final int capacity;
+
+ public LRUCache(int capacity) {
+ super(capacity, 0.75f, true); // 'true' для доступа по порядку использования
+ this.capacity = capacity;
+ }
+
+ @Override
+ protected boolean removeEldestEntry(Map.Entry<KEY, VALUE> eldest) {
+ return size() > capacity;
+ }
+}
+
+
+Шаг 2: Использование LRUCache для хранения оценок
+Теперь создадим класс для управления оценками студентов с использованием нашего LRUCache. Этот класс будет добавлять оценки студентов и вычислять среднюю оценку.
+import java.util.Objects;
+
+public class StudentGrades {
+ private final LRUCache<String, Integer> gradesCache;
+
+ public StudentGrades(int capacity) {
+ gradesCache = new LRUCache<>(capacity);
+ }
+
+ public void addGrade(String studentId, int grade) {
+ gradesCache.put(studentId, grade);
+ }
+
+ public double getAverageGrade() {
+ if (gradesCache.isEmpty()) {
+ return 0.0;
+ }
+ int total = 0;
+ for (Integer grade : gradesCache.values()) {
+ total += grade;
+ }
+ return (double) total / gradesCache.size();
+ }
+}
+Шаг 3: Написание тестов — надо написать
+…
+Если будут трудности, посмотри ещё раз материалы урока.
+Продолжай в том же духе!
+
 =====================================================================================================
+
+Привет, Sophia!
+Спасибо за домашнюю работу! Ты отлично справилась с заданием!
+Для Java-разработчиков знание о транзакциях и уровнях изоляции — это основа для создания надёжных и эффективных приложений, работающих с базами данных.
+Это помогает обеспечить целостность данных и оптимальную производительность, что критически важно для успешного функционирования программного обеспечения.
+Ты успешно выполнила все задачи! Супер!
+Продолжай в том же духе!
+
 =====================================================================================================
 =====================================================================================================
