@@ -1,12 +1,9 @@
 package org.oop.service;
 
 import org.oop.api.IArticleService;
-import org.oop.api.IAuthService;
 import org.oop.api.IOService;
-import org.oop.di.Injector;
 import org.oop.model.Article;
 
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;

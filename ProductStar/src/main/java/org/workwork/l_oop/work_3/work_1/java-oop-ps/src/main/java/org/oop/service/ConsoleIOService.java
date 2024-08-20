@@ -1,10 +1,10 @@
-import IArticleService;
-import IAuthService;
-import IOService;
-import Injector;
-import Article;
+package org.oop.service;
 
-import java.util.LinkedHashMap;
+
+import org.oop.api.IArticleService;
+import org.oop.api.IOService;
+import org.oop.model.Article;
+
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;

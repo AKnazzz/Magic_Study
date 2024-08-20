@@ -5,8 +5,6 @@ import org.example.drow.DrawMenyAdmin;
 import org.example.drow.DrawMenyInlet;
 import org.example.drow.DrawMenyUsers;
 
-import java.util.Scanner;
-
 public class Entry implements Scann {
 
     private UserOrAdmin userOrAdmin = new UserOrAdmin();

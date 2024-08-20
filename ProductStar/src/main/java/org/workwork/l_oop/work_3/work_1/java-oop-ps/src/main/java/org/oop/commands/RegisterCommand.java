@@ -1,9 +1,11 @@
-import IUserService;
-import ICommand;
-import BaseCommand;
-import MainMenu;
-import Injector;
-import Role;
+package org.oop.commands;
+
+import org.oop.api.ICommand;
+import org.oop.api.IUserService;
+import org.oop.commands.menu.BaseCommand;
+import org.oop.commands.menu.MainMenu;
+import org.oop.di.Injector;
+import org.oop.model.Role;
 
 public class RegisterCommand extends BaseCommand {
     private final IUserService userService;

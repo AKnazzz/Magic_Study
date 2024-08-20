@@ -1,3 +1,5 @@
+package org.oop;
+
 public class Article {
     public Long id;
     public String title;

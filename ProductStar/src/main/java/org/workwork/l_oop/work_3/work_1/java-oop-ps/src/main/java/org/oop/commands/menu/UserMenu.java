@@ -1,6 +1,7 @@
-import org.oop.commands.*;
-import ICommand;
+package org.oop.commands.menu;
 
+import org.oop.api.ICommand;
+import org.oop.commands.*;
 
 
 public class UserMenu extends BaseCommand {

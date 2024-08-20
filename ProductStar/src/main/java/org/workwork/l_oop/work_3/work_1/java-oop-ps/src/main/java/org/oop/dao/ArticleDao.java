@@ -1,4 +1,7 @@
-import IArticleDao;
+package org.oop.dao;
+
+
+import org.oop.api.dao.IArticleDao;
 import org.oop.model.Article;
 
 import java.sql.*;

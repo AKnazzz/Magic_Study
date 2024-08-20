@@ -1,7 +1,6 @@
 package org.example.drow;
 
 import org.example.api.DrawMeny;
-import org.example.api.Scann;
 import org.example.service.AllUser;
 
 import static org.example.api.Scann.scanner;
@@ -13,11 +12,12 @@ public class DrawAdminUsersMeny implements DrawMeny {
                 "1.Все Пользователи\n" +
                 "2.Назад\n");
     }
+
     public void drawAdminUsers() {
         drawMeny();
         int number = scanner.nextInt();
 
-        switch (number){
+        switch (number) {
             case 1:
                 new AllUser().allUser();
                 new DrawAdminUsersMeny().drawAdminUsers();
@@ -25,8 +25,8 @@ public class DrawAdminUsersMeny implements DrawMeny {
             case 2:
                 new DrawMenyAdmin().drawMenyAdmin();
                 break;
-                default:
-                    System.out.println(" ");
+            default:
+                System.out.println(" ");
         }
     }
 

@@ -1,3 +1,5 @@
+package org.oop;
+
 import java.util.Objects;
 
 public class User {

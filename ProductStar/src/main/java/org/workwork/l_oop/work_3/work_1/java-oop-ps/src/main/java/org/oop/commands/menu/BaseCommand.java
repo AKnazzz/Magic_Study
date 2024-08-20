@@ -1,6 +1,8 @@
-import ICommand;
-import IOService;
-import Injector;
+package org.oop.commands.menu;
+
+
+import org.oop.api.ICommand;
+import org.oop.api.IOService;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -11,6 +13,7 @@ import java.util.stream.Collectors;
 public abstract class BaseCommand implements ICommand {
     protected final Map<Integer, Supplier<ICommand>> commandSuppliers = new LinkedHashMap<>();
     protected IOService ioService;
+
     protected BaseCommand() {
         this.ioService = Injector.getInstance().getService(IOService.class);
     }

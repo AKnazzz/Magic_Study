@@ -1,3 +1,5 @@
+package org.oop.model;
+
 public class Article {
     private Long id;
     private String title;
@@ -21,29 +23,29 @@ public class Article {
         return this.id;
     }
 
-    public String getTitle() {
-        return this.title;
-    }
-
-    public String getContent() {
-        return this.content;
-    }
-
-    public Long getAuthorId() {
-        return this.authorId;
-    }
-
     // Сеттеры
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getTitle() {
+        return this.title;
     }
 
     public void setTitle(String title) {
         this.title = title;
     }
 
+    public String getContent() {
+        return this.content;
+    }
+
     public void setContent(String content) {
         this.content = content;
+    }
+
+    public Long getAuthorId() {
+        return this.authorId;
     }
 
     public void setAuthorId(Long authorId) {

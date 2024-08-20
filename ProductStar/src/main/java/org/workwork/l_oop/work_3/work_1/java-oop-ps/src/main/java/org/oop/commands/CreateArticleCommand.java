@@ -1,8 +1,10 @@
-import IArticleService;
-import ICommand;
-import ArticleMenu;
-import BaseCommand;
-import Injector;
+package org.oop.commands;
+
+import org.oop.api.IArticleService;
+import org.oop.api.ICommand;
+import org.oop.commands.menu.ArticleMenu;
+import org.oop.commands.menu.BaseCommand;
+import org.oop.di.Injector;
 
 public class CreateArticleCommand extends BaseCommand {
     private final IArticleService articleService;

@@ -13,6 +13,7 @@ import java.util.stream.Collectors;
 public abstract class BaseCommand implements ICommand {
     protected final Map<Integer, Supplier<ICommand>> commandSuppliers = new LinkedHashMap<>();
     protected IOService ioService;
+
     protected BaseCommand() {
         this.ioService = Injector.getInstance().getService(IOService.class);
     }

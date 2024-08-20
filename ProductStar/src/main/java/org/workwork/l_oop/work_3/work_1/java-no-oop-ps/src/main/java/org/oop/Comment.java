@@ -1,3 +1,5 @@
+package org.oop;
+
 public class Comment {
     Long id;
     Long articleId;

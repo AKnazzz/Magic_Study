@@ -8,7 +8,8 @@ import java.util.List;
 public class StorageUsers {
 
     private static List<User> users = new ArrayList<>();
-    public static List<User> getUsers(){
+
+    public static List<User> getUsers() {
         return users;
     }
 

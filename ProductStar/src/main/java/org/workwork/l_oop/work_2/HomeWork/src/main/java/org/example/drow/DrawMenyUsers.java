@@ -1,9 +1,6 @@
 package org.example.drow;
 
 import org.example.api.DrawMeny;
-import org.example.api.SearchNumber;
-import org.example.service.InletSearch;
-import org.example.service.ScanFromCmd;
 import org.example.service.UserSearch;
 
 public class DrawMenyUsers implements DrawMeny {

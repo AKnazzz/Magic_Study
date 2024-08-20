@@ -1,9 +1,12 @@
+package org.oop.service;
+
 import org.mindrot.jbcrypt.BCrypt;
-import IAuthService;
-import IUserService;
-import Injector;
-import Role;
-import User;
+import org.oop.api.IAuthService;
+import org.oop.api.IUserService;
+import org.oop.di.Injector;
+import org.oop.model.Role;
+import org.oop.model.User;
+
 
 public class AuthService implements IAuthService {
     private final IUserService userService;

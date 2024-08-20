@@ -1,17 +1,17 @@
-package javaa;
+package org.workwork.g_spring.homework_g3.src.test.javaa;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 public class StudentFileParserTest {
 
     @Test
     public void testParseFile() {
-        StudentFileParser studentFileParser = new StudentFileParser();
+        javaa.StudentFileParser studentFileParser = new javaa.StudentFileParser();
         List<String> studentAnswers = studentFileParser.parseFile("src\\main\\resources\\studentFile.txt");
 
         assertNotEquals(9, studentAnswers.size());

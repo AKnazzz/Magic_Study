@@ -1,6 +1,8 @@
-import IConfigService;
-import IDatabaseService;
-import Injector;
+package org.oop.service;
+
+import org.oop.api.IConfigService;
+import org.oop.api.IDatabaseService;
+import org.oop.di.Injector;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -13,6 +15,7 @@ public class DatabaseService implements IDatabaseService {
     public DatabaseService() {
         this.configService = Injector.getInstance().getService(IConfigService.class);
     }
+
     @Override
     public void initializeDatabase() {
         {

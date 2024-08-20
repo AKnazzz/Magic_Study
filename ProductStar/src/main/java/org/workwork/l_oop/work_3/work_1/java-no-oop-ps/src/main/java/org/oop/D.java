@@ -1,3 +1,5 @@
+package org.oop;
+
 import org.mindrot.jbcrypt.BCrypt;
 
 import java.sql.*;
@@ -65,7 +67,7 @@ public class D {
 
     public Article ca(Article article) {
         String query = "INSERT INTO articles (title, content, author_id) VALUES (?, ?, ?)";
-        try (Connection connection =  DriverManager.getConnection(
+        try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/oopshop",
                 "exampleuser",
                 "examplepass"
@@ -100,7 +102,7 @@ public class D {
 
     public Article gai(long id) {
         String query = "SELECT id, title, content, author_id FROM articles WHERE id = ?";
-        try (Connection connection =  DriverManager.getConnection(
+        try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/oopshop",
                 "exampleuser",
                 "examplepass"
@@ -127,7 +129,7 @@ public class D {
     public List<Article> ga(String title) {
         List<Article> articles = new ArrayList<>();
         String query = "SELECT id, title, content, author_id FROM articles WHERE title LIKE ?";
-        try (Connection connection =  DriverManager.getConnection(
+        try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/oopshop",
                 "exampleuser",
                 "examplepass"
@@ -154,7 +156,7 @@ public class D {
     public List<Article> ga() {
         List<Article> articles = new ArrayList<>();
         String query = "SELECT id, title, content, author_id FROM articles";
-        try (Connection connection =  DriverManager.getConnection(
+        try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/oopshop",
                 "exampleuser",
                 "examplepass"
@@ -201,7 +203,7 @@ public class D {
 
     public boolean da(long id) {
         String query = "DELETE FROM articles WHERE id = ?";
-        try (Connection connection =  DriverManager.getConnection(
+        try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/oopshop",
                 "exampleuser",
                 "examplepass"
@@ -256,7 +258,7 @@ public class D {
 
     public User gu(String username) {
         String query = "SELECT id, username, password, email, role FROM users WHERE username = ?";
-        try (Connection connection =  DriverManager.getConnection(
+        try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/oopshop",
                 "exampleuser",
                 "examplepass"
@@ -306,7 +308,7 @@ public class D {
 
     public boolean du(long id) {
         String query = "DELETE FROM users WHERE id = ?";
-        try (Connection connection =  DriverManager.getConnection(
+        try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/oopshop",
                 "exampleuser",
                 "examplepass"
@@ -371,17 +373,17 @@ public class D {
         public String email;
         public Role role;
 
-        public enum Role {
-            USER,
-            ADMIN
-        }
-
         public User(Long id, String username, String password, String email, Role role) {
             this.id = id;
             this.username = username;
             this.password = password;
             this.email = email;
             this.role = role;
+        }
+
+        public enum Role {
+            USER,
+            ADMIN
         }
     }
 }

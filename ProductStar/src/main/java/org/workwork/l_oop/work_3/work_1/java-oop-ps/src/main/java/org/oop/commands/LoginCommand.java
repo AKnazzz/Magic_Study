@@ -1,8 +1,10 @@
-import IAuthService;
-import ICommand;
-import BaseCommand;
-import MainMenu;
-import Injector;
+package org.oop.commands;
+
+import org.oop.api.IAuthService;
+import org.oop.api.ICommand;
+import org.oop.commands.menu.BaseCommand;
+import org.oop.commands.menu.MainMenu;
+import org.oop.di.Injector;
 
 public class LoginCommand extends BaseCommand {
     private final IAuthService authService;

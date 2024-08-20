@@ -1,9 +1,11 @@
+package org.oop.service;
+
 import org.mindrot.jbcrypt.BCrypt;
-import IUserService;
-import IUserDao;
-import Injector;
-import Role;
-import User;
+import org.oop.api.IUserService;
+import org.oop.api.dao.IUserDao;
+import org.oop.di.Injector;
+import org.oop.model.Role;
+import org.oop.model.User;
 
 import java.util.List;
 

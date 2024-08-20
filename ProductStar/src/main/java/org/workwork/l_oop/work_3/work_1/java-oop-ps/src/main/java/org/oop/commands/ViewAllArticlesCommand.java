@@ -1,9 +1,11 @@
-import IArticleService;
-import ICommand;
-import BaseCommand;
-import MainMenu;
-import Injector;
-import Article;
+package org.oop.commands;
+
+import org.oop.api.IArticleService;
+import org.oop.api.ICommand;
+import org.oop.commands.menu.BaseCommand;
+import org.oop.commands.menu.MainMenu;
+import org.oop.di.Injector;
+import org.oop.model.Article;
 
 import java.util.List;
 

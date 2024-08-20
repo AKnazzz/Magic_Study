@@ -1,10 +1,12 @@
-import IUserDao;
+package org.oop.dao;
+
+import org.oop.api.dao.IUserDao;
 import org.oop.model.Role;
 import org.oop.model.User;
 
 import java.sql.*;
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 public class UserDao extends Dao implements IUserDao {
     @Override

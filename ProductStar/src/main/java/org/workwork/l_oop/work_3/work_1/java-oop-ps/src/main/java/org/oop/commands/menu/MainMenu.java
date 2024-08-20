@@ -1,7 +1,6 @@
-import IAuthService;
-import ICommand;
-import org.oop.commands.*;
-import Injector;
+package org.oop.commands.menu;
+
+import org.oop.api.IAuthService;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

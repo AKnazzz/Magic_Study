@@ -15,6 +15,7 @@ public class DatabaseService implements IDatabaseService {
     public DatabaseService() {
         this.configService = Injector.getInstance().getService(IConfigService.class);
     }
+
     @Override
     public void initializeDatabase() {
         {

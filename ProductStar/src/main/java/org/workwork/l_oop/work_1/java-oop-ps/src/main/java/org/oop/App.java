@@ -1,21 +1,13 @@
 package org.oop;
 
-import org.oop.api.IDatabaseService;
 import org.oop.api.ICommand;
+import org.oop.api.IDatabaseService;
 import org.oop.commands.menu.MainMenu;
 import org.oop.di.Injector;
 
 public class App {
 
     private static App instance;
-
-    public static App getInstance() {
-        if (instance == null) {
-            instance = new App();
-        }
-        return instance;
-    }
-
     private ICommand command;
 
     App() {
@@ -23,6 +15,13 @@ public class App {
 
         IDatabaseService databaseService = Injector.getInstance().getService(IDatabaseService.class);
         databaseService.initializeDatabase();
+    }
+
+    public static App getInstance() {
+        if (instance == null) {
+            instance = new App();
+        }
+        return instance;
     }
 
     public void run() {

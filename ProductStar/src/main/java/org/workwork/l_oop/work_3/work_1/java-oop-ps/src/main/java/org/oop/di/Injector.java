@@ -1,7 +1,10 @@
+package org.oop.di;
+
 import org.oop.api.*;
 import org.oop.api.dao.IArticleDao;
 import org.oop.api.dao.IUserDao;
-import org.oop.dao.*;
+import org.oop.dao.ArticleDao;
+import org.oop.dao.UserDao;
 import org.oop.service.*;
 
 import java.util.HashMap;
@@ -10,21 +13,8 @@ import java.util.function.Supplier;
 
 public class Injector {
     private static volatile Injector instance;
-
-    public static Injector getInstance() {
-        if (instance == null) {
-            synchronized (Injector.class) {
-                if (instance == null) {
-                    instance = new Injector();
-                }
-            }
-        }
-        return instance;
-    }
-
     private final Map<Class<?>, Supplier<?>> serviceFactories = new HashMap<>();
     private final Map<Class<?>, Object> serviceCache = new HashMap<>();
-
     private Injector() {
 
         registerService(IAuthService.class, AuthService::new);
@@ -37,6 +27,17 @@ public class Injector {
 
         registerService(IUserDao.class, UserDao::new);
         registerService(IArticleDao.class, ArticleDao::new);
+    }
+
+    public static Injector getInstance() {
+        if (instance == null) {
+            synchronized (Injector.class) {
+                if (instance == null) {
+                    instance = new Injector();
+                }
+            }
+        }
+        return instance;
     }
 
     public <T> void registerService(Class<T> serviceType, Supplier<? extends T> factory) {

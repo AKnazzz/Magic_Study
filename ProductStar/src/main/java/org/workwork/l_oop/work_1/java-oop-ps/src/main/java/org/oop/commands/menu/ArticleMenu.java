@@ -1,7 +1,8 @@
 package org.oop.commands.menu;
 
-import org.oop.commands.*;
 import org.oop.api.ICommand;
+import org.oop.commands.CreateArticleCommand;
+import org.oop.commands.DeleteArticleCommand;
 
 
 public class ArticleMenu extends BaseCommand {

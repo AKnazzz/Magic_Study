@@ -1,5 +1,7 @@
-import IConfigService;
-import Injector;
+package org.oop.dao;
+
+import org.oop.api.IConfigService;
+import org.oop.di.Injector;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,6 +9,7 @@ import java.sql.SQLException;
 
 public abstract class Dao {
     protected final IConfigService configService;
+
     Dao() {
         this.configService = Injector.getInstance().getService(IConfigService.class);
         try {

@@ -1,7 +1,7 @@
 package org.oop.commands;
 
-import org.oop.api.IUserService;
 import org.oop.api.ICommand;
+import org.oop.api.IUserService;
 import org.oop.commands.menu.BaseCommand;
 import org.oop.commands.menu.UserMenu;
 import org.oop.di.Injector;
@@ -11,6 +11,7 @@ import java.util.Optional;
 
 public class AddUserCommand extends BaseCommand {
     private final IUserService userService;
+
     public AddUserCommand() {
         this.userService = Injector.getInstance().getService(IUserService.class);
     }

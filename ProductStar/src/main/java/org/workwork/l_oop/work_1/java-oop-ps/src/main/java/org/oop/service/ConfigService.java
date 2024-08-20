@@ -8,6 +8,7 @@ import java.util.Properties;
 
 public class ConfigService implements IConfigService {
     private final Properties properties;
+
     public ConfigService() {
         this.properties = new Properties();
         try (InputStream input = getClass().getClassLoader().getResourceAsStream("app.properties")) {

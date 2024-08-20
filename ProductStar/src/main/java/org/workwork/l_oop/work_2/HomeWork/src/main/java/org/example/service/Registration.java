@@ -8,7 +8,7 @@ import org.example.storage.StorageUsers;
 
 public class Registration implements Scann {
 
-    public void registration(){
+    public void registration() {
 
         System.out.println(scann());
         new DrawMenyInlet().drawMeny();

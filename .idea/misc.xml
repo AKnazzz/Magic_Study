@@ -21,6 +21,8 @@
         <option value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/pom.xml" />
         <option value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/SOLID_JAVA/HomeWork/pom.xml" />
         <option value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/work_1/src/pom.xml" />
+        <option value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-no-oop-ps/pom.xml" />
+        <option value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -29,7 +31,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="ProjectType">

@@ -1,3 +1,5 @@
+package org.oop.model;
+
 import java.util.Date;
 
 public class Comment {

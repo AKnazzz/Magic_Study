@@ -9,6 +9,7 @@ import java.sql.SQLException;
 
 public abstract class Dao {
     protected final IConfigService configService;
+
     Dao() {
         this.configService = Injector.getInstance().getService(IConfigService.class);
         try {

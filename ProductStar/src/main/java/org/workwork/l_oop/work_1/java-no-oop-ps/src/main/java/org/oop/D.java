@@ -1,10 +1,6 @@
 package org.oop;
 
 import org.mindrot.jbcrypt.BCrypt;
-import org.oop.Article;
-import org.oop.Comment;
-import org.oop.Role;
-import org.oop.User;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -12,6 +8,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class D {
+    private List<Comment> comments = new ArrayList<>();
+
     public void initializeDatabase() {
         {
             String[] initializationQueries = new String[]{
@@ -65,9 +63,10 @@ public class D {
         // Возвращает хешированный пароль
         return BCrypt.hashpw(plainTextPassword, BCrypt.gensalt());
     }
+
     public Article ca(Article article) {
         String query = "INSERT INTO articles (title, content, author_id) VALUES (?, ?, ?)";
-        try (Connection connection =  DriverManager.getConnection(
+        try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/oopshop",
                 "exampleuser",
                 "examplepass"
@@ -100,7 +99,7 @@ public class D {
 
     public Article gai(long id) {
         String query = "SELECT id, title, content, author_id FROM articles WHERE id = ?";
-        try (Connection connection =  DriverManager.getConnection(
+        try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/oopshop",
                 "exampleuser",
                 "examplepass"
@@ -127,7 +126,7 @@ public class D {
     public List<Article> ga(String title) {
         List<Article> articles = new ArrayList<>();
         String query = "SELECT id, title, content, author_id FROM articles WHERE title LIKE ?";
-        try (Connection connection =  DriverManager.getConnection(
+        try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/oopshop",
                 "exampleuser",
                 "examplepass"
@@ -154,7 +153,7 @@ public class D {
     public List<Article> ga() {
         List<Article> articles = new ArrayList<>();
         String query = "SELECT id, title, content, author_id FROM articles";
-        try (Connection connection =  DriverManager.getConnection(
+        try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/oopshop",
                 "exampleuser",
                 "examplepass"
@@ -202,7 +201,7 @@ public class D {
 
     public boolean da(long id) {
         String query = "DELETE FROM articles WHERE id = ?";
-        try (Connection connection =  DriverManager.getConnection(
+        try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/oopshop",
                 "exampleuser",
                 "examplepass"
@@ -217,6 +216,7 @@ public class D {
         }
         return false;
     }
+
     public User cu(User user) {
         // Хеширование пароля перед сохранением в базу данных
         user.password = hashPassword(user.password);
@@ -256,7 +256,7 @@ public class D {
         User user = null;
         String query = "SELECT id, username, password, email, role FROM users WHERE id = ?";
 
-        try (Connection connection =  DriverManager.getConnection(
+        try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/oopshop",
                 "exampleuser",
                 "examplepass"
@@ -286,7 +286,7 @@ public class D {
         User user = null;
         String query = "SELECT id, username, password, email, role FROM users WHERE username = ?";
 
-        try (Connection connection =  DriverManager.getConnection(
+        try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/oopshop",
                 "exampleuser",
                 "examplepass"
@@ -315,7 +315,7 @@ public class D {
     public List<User> gau() {
         List<User> users = new ArrayList<>();
         String query = "SELECT id, username, password, email, role FROM users";
-        try (Connection connection =  DriverManager.getConnection(
+        try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/oopshop",
                 "exampleuser",
                 "examplepass"
@@ -341,7 +341,7 @@ public class D {
 
     public boolean uu(User user) {
         String query = "UPDATE users SET username = ?, password = ?, email = ?, role = ? WHERE id = ?";
-        try (Connection connection =  DriverManager.getConnection(
+        try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/oopshop",
                 "exampleuser",
                 "examplepass"
@@ -364,7 +364,7 @@ public class D {
 
     public boolean du(int userId) {
         String query = "DELETE FROM users WHERE id = ?";
-        try (Connection connection =  DriverManager.getConnection(
+        try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/oopshop",
                 "exampleuser",
                 "examplepass"
@@ -382,7 +382,7 @@ public class D {
 
     public boolean cur(int userId, Role newRole) {
         String query = "UPDATE users SET role = ? WHERE id = ?";
-        try (Connection connection =  DriverManager.getConnection(
+        try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/oopshop",
                 "exampleuser",
                 "examplepass"
@@ -421,8 +421,6 @@ public class D {
         }
         return false;
     }
-
-    private List<Comment> comments = new ArrayList<>();
     // Other existing fields and methods...
 
     // Create a comment

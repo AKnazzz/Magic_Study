@@ -7,7 +7,7 @@ import org.example.storage.StorageFilms;
 
 public class AddFilms implements Scann {
 
-    public void addFilms(){
+    public void addFilms() {
         System.out.println(scann());
         new DrawAdminFilmsMeny().drawMeny();
     }

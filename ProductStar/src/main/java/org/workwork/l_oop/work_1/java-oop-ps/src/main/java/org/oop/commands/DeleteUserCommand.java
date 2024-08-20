@@ -1,8 +1,8 @@
 package org.oop.commands;
 
 import org.oop.api.IAuthService;
-import org.oop.api.IUserService;
 import org.oop.api.ICommand;
+import org.oop.api.IUserService;
 import org.oop.commands.menu.BaseCommand;
 import org.oop.commands.menu.UserMenu;
 import org.oop.di.Injector;

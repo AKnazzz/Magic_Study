@@ -5,9 +5,162 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="19.08.2024 WORK">
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/HomeWork_a4_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/HomeWork_a4_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/HomeWork_a4_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/HomeWork_a4_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/HomeWork_a4_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/HomeWork_a4_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/HomeWork_a4_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/HomeWork_a4_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/HomeWork_a4_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/HomeWork_a4_18.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/HomeWork_a4_19.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/HomeWork_a4_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/HomeWork_a4_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/HomeWork_a4_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/HomeWork_a4_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/HomeWork_a4_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/HomeWork_a4_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/HomeWork_a4_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/HomeWork_a4_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/Solution_a4.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/Solution_a4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a4/чек-лист Циклы и языковые конструкции в Java.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/чек-лист Циклы и языковые конструкции в Java.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a5/HomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_skobochki_a5/HomeWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a5/Skobochki.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_skobochki_a5/Skobochki.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a5/Skobochki2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_skobochki_a5/Skobochki2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a5/Skobochki3.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_skobochki_a5/Skobochki3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a5/SkobochkiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_skobochki_a5/SkobochkiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a5/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_skobochki_a5/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a5/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_skobochki_a5/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a5/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_skobochki_a5/Solution3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a5/Solution4.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_skobochki_a5/Solution4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a5/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_skobochki_a5/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_a5/Чек-лист Структуры данных.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_skobochki_a5/Чек-лист Структуры данных.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/src/main/java/org/oop/D.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-no-oop-ps/src/main/java/org/oop/D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/IArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/IArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/IAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/IAuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/ICommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/ICommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/IOService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/IOService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/dao/IArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/dao/IArticleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/dao/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/api/dao/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/AddCommentCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/AddCommentCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/AddUserCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/AddUserCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/ChangePasswordCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/ChangePasswordCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/DeleteUserCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/DeleteUserCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/RegisterCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/RegisterCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/ShowAllUsersCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/ShowAllUsersCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/UpdateUserCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/UpdateUserCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/ArticleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/ArticleMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/BaseCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/BaseCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/UserMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/UserMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/dao/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/dao/Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/dao/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/dao/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/di/Injector.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/di/Injector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/di/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/di/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/model/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/model/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/model/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/model/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/service/ConfigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/service/ConfigService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/service/ConsoleIOService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/service/ConsoleIOService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/service/DatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/service/DatabaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/service/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_1/java-oop-ps/src/main/java/org/oop/service/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/api/Scann.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/api/Scann.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/drow/DrawAdminFilmsMeny.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/drow/DrawAdminFilmsMeny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/drow/DrawAdminUsersMeny.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/drow/DrawAdminUsersMeny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/drow/DrawMenyAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/drow/DrawMenyAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/drow/DrawMenyInlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/drow/DrawMenyInlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/drow/DrawMenyUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/drow/DrawMenyUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/model/Films.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/model/Films.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/AddFilms.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/AddFilms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/AdminFilmSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/AdminFilmSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/AllFilm.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/AllFilm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/AllUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/AllUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/ScanFromCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/ScanFromCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/UserSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/service/UserSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/storage/StorageFilms.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/storage/StorageFilms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/storage/StorageUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_2/HomeWork/src/main/java/org/example/storage/StorageUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-no-oop-ps/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-no-oop-ps/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-no-oop-ps/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-no-oop-ps/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-no-oop-ps/src/main/java/org/oop/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-no-oop-ps/src/main/java/org/oop/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-no-oop-ps/src/main/java/org/oop/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-no-oop-ps/src/main/java/org/oop/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-no-oop-ps/src/main/java/org/oop/D.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-no-oop-ps/src/main/java/org/oop/D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-no-oop-ps/src/main/java/org/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-no-oop-ps/src/main/java/org/oop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-no-oop-ps/src/main/java/org/oop/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-no-oop-ps/src/main/java/org/oop/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-no-oop-ps/src/main/java/org/oop/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-no-oop-ps/src/main/java/org/oop/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/IArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/IArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/IAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/IAuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/ICommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/ICommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/ICommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/ICommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/IConfigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/IConfigService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/IDatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/IDatabaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/IOService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/IOService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/dao/IArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/dao/IArticleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/dao/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/api/dao/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/AddCommentCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/AddCommentCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/AddUserCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/AddUserCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/ArticleSearchCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/ArticleSearchCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/ChangePasswordCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/ChangePasswordCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/CreateArticleCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/CreateArticleCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/DeleteArticleCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/DeleteArticleCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/DeleteUserCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/DeleteUserCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/LoginCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/LoginCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/LogoutCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/LogoutCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/RegisterCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/RegisterCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/ShowAllUsersCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/ShowAllUsersCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/UpdateUserCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/UpdateUserCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/ViewAllArticlesCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/ViewAllArticlesCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/ArticleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/ArticleMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/BaseCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/BaseCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/UserMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/commands/menu/UserMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/dao/ArticleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/dao/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/dao/Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/dao/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/dao/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/di/Injector.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/di/Injector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/di/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/di/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/model/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/model/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/model/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/model/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/service/ConfigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/service/ConfigService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/service/ConsoleIOService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/service/ConsoleIOService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/service/DatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/service/DatabaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/service/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/service/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_3/work_1/java-oop-ps/src/main/java/org/oop/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,35 +200,35 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/Андрей/Downloads/students1/students",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3321839",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "de0958ce9287ea93bb5f6ab526037cc3",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Андрей/Downloads/students1/students&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3321839&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;de0958ce9287ea93bb5f6ab526037cc3&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\l_oop\work_2" />
@@ -112,7 +265,7 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Matrices">
+  <component name="RunManager" selected="Application.org.workwork.c_java_core_one.homework_c3.solution.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.oop.Main" />
       <module name="java-oop (1)" />
@@ -127,11 +280,11 @@
       </method>
     </configuration>
     <configuration name="Matrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.b_java_objects.homework_b5.work_8.Matrices" />
+      <option name="MAIN_CLASS_NAME" value="org.workwork.b_java_objects.homework_b5.Matrices" />
       <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.b_java_objects.homework_b5.work_8.*" />
+          <option name="PATTERN" value="org.workwork.b_java_objects.homework_b5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +292,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.let.task_faang_1.MergeTask" />
-      <module name="LetItCode" />
+    <configuration name="org.workwork.c_java_core_one.homework_c3.solution.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c3.solution.Main" />
+      <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.let.task_faang_1.*" />
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c3.solution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,11 +368,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.workwork.c_java_core_one.homework_c3.solution.Main" />
         <item itemvalue="Application.Matrices" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.workwork.d_java_core_two.work_1_adapter.workshop.decorator.Example" />
         <item itemvalue="Spring Boot.Main (1)" />
-        <item itemvalue="Application.MergeTask" />
       </list>
     </recent_temporary>
   </component>

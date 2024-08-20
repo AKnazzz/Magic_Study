@@ -1,10 +1,13 @@
-import ICommentService;
-import Comment;
+package org.oop.service;
+
+import org.oop.api.ICommentService;
+import org.oop.model.Comment;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
 
 public class CommentService implements ICommentService {
     private final Map<String, List<Comment>> articleComments = new HashMap<>();

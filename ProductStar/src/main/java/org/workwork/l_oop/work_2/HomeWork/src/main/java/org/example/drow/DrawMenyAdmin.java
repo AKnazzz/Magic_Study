@@ -1,10 +1,7 @@
 package org.example.drow;
 
 import org.example.api.DrawMeny;
-import org.example.api.SearchNumber;
 import org.example.service.AdminSearch;
-import org.example.service.InletSearch;
-import org.example.service.ScanFromCmd;
 
 public class DrawMenyAdmin implements DrawMeny {
 
@@ -16,7 +13,8 @@ public class DrawMenyAdmin implements DrawMeny {
                 "3.Выход\n");
 
     }
-   public void drawMenyAdmin(){
+
+    public void drawMenyAdmin() {
         drawMeny();
         new AdminSearch().adminSearch();
     }
