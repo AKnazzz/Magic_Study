@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="20.08.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/LetItCode/src/main/java/org/let/task_faang_1/MergeSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LetItCode/src/main/java/org/let/task_faang_2/MaximumAverageSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LetItCode/src/main/java/org/let/task_faang_3/MergeSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LetItCode/src/main/java/org/let/task_faang_3/photo_2024-01-19_14-14-53.jpg" afterDir="false" />
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="21.08.2024 MY TIME">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -115,7 +111,20 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaximumAverageSubarray">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.test.Main" />
+      <module name="ProductStar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.workwork.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaximumAverageSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.let.task_faang_2.MaximumAverageSubarray" />
       <module name="LetItCode" />
@@ -135,19 +144,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.let.task_faang_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.workwork.c_java_core_one.homework_c3.solution.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c3.solution.Main" />
-      <module name="ProductStar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c3.solution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MaximumAverageSubarray" />
         <item itemvalue="Application.MergeSortedLists" />
         <item itemvalue="JUnit.StudentsExaminationTest" />
         <item itemvalue="Application.org.workwork.d_java_core_two.work_1_adapter.workshop.decorator.Example" />
-        <item itemvalue="Application.org.workwork.c_java_core_one.homework_c3.solution.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -292,14 +288,6 @@
       <workItem from="1723873847269" duration="1156000" />
       <workItem from="1724048501023" duration="12793000" />
       <workItem from="1724224662048" duration="2232000" />
-    </task>
-    <task id="LOCAL-00038" summary="30.07.2024 HOME">
-      <option name="closed" value="true" />
-      <created>1722365109106</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1722365109106</updated>
     </task>
     <task id="LOCAL-00039" summary="31.07.2024 WORK">
       <option name="closed" value="true" />
@@ -685,7 +673,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724191192465</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="21.08.2024 MY TIME">
+      <option name="closed" value="true" />
+      <created>1724233012668</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1724233012668</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -718,7 +714,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="17.07.2024 MonDay" />
     <MESSAGE value="18.07.2024 Tuesday" />
     <MESSAGE value="18.07.2024 Thursday" />
     <MESSAGE value="26.06.2024 Wednesday" />
@@ -743,6 +738,7 @@
     <MESSAGE value="19.08.2024 WORK" />
     <MESSAGE value="20.08.2024 WORK" />
     <MESSAGE value="21.08.2024 WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="21.08.2024 WORK" />
+    <MESSAGE value="21.08.2024 MY TIME" />
+    <option name="LAST_COMMIT_MESSAGE" value="21.08.2024 MY TIME" />
   </component>
 </project>
