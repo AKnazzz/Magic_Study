@@ -13,7 +13,7 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            Optional<Segment> max = new BufferedReader(new FileReader("data.txt")).lines()
+            Optional<Segment> max = new BufferedReader(new FileReader("dataW1.txt")).lines()
                     .map(s -> readString(s))
                     .max(Segment::compareTo);
             if (max.isEmpty()) {

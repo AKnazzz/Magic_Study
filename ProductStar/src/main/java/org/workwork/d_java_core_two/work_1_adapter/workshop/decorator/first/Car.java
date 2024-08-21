@@ -1,4 +1,4 @@
-package org.workwork.d_java_core_two.work_1_adapter.workshop.decorator;
+package org.workwork.d_java_core_two.work_1_adapter.workshop.decorator.first;
 
 abstract class Car {
 

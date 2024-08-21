@@ -36,7 +36,7 @@ public class Main {
             }
         };
 
-        Optional<Double> maxDistance = new BufferedReader( new FileReader("C:\\Users\\Андрей\\dev\\magic\\Magic\\ProductStar\\src\\main\\java\\org\\workwork\\c_java_core_one\\homework_c6\\work_3\\data.txt")).lines()
+        Optional<Double> maxDistance = new BufferedReader( new FileReader("dataW3.txt")).lines()
                 .map(calculateDistance)
                 .max(Double::compare) ;
         System.out.println( maxDistance.orElseGet(()-> 0.0));
