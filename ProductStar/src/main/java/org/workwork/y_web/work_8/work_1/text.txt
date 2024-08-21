@@ -1,0 +1,22 @@
+/* Your existing styles */
+.selected {
+  border: 2px solid blue; /* Highlight selected image */
+}
+
+#fullscreenContainer {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#fullscreenImage {
+  max-width: 90%;
+  max-height: 80%;
+}
+
+#authorName {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
