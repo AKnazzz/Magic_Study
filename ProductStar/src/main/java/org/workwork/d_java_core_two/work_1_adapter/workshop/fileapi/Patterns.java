@@ -9,7 +9,7 @@ public class Patterns {
 
         OutputStreamWriter outputStreamWriter = new OutputStreamWriter(new FileOutputStream("NewFile.txt"));
 
-        outputStreamWriter.write("113452233");
+        outputStreamWriter.write(32144111);
         outputStreamWriter.close();
     }
 }
