@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="21.08.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_skobochki_a5/Unit4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_4/Чек-лист - Свойства хорошего кода. Abstraction, Composition, Coupling, Cohesion.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_5/work_1/Adapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_5/work_1/Adapter/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_5/work_1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_5/work_1/Singleton/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_5/work_1/Singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_5/work_1/Strategy/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_5/work_1/Strategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/l_oop/work_5/Чек-лист - Архитектурные паттерны_ шаблоны.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="21.08.2024 MY TIME">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
     </list>
@@ -30,8 +18,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,7 +61,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/Андрей/Downloads/Abstraction-Composition-Coupling-Cohesion-main (1)/Abstraction-Composition-Coupling-Cohesion-main",
+    "last_opened_file_path": "C:/Users/ricks/Downloads/java-internship-exam/java-internship-exam",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,20 +71,20 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3321839",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "9a472bb32fa8252fb9fcf1ab7b6910dc",
+    "spring.configuration.checksum": "de0958ce9287ea93bb5f6ab526037cc3",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\l_oop\work_4" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\l_oop\work_5\work_1" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\l_oop\work_5" />
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_10_integration\work_2" />
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_5_Lifecycle\work_1" />
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_5_Lifecycle" />
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\y_web\work_8" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test\work_0" />
-      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c4\HomeWork_7" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\a_java_base\homework_skobochki_a5" />
+      <recent name="C:\Users\akniazev\Desktop\Warehouse\Magic_Study\LetItCode\src\main\java\org\let\task_faang_3" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\i_SQL_windows\work_10\work_1" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c4\HomeWork_7" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\l_oop\work_3\work_1" />
@@ -123,13 +111,13 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Unit4">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.oop.Main" />
-      <module name="java-oop (1)" />
+      <option name="MAIN_CLASS_NAME" value="org.workwork.test.Main" />
+      <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.oop.*" />
+          <option name="PATTERN" value="org.workwork.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Matrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.b_java_objects.homework_b5.Matrices" />
-      <module name="ProductStar" />
+    <configuration name="MaximumAverageSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.let.task_faang_2.MaximumAverageSubarray" />
+      <module name="LetItCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.b_java_objects.homework_b5.*" />
+          <option name="PATTERN" value="org.let.task_faang_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unit4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.a_java_base.homework_skobochki_a5.Unit4" />
-      <module name="ProductStar" />
+    <configuration name="MergeSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.let.task_faang_3.MergeSortedLists" />
+      <module name="LetItCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.a_java_base.homework_skobochki_a5.*" />
+          <option name="PATTERN" value="org.let.task_faang_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.workwork.c_java_core_one.homework_c3.solution.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c3.solution.Main" />
+    <configuration name="org.workwork.d_java_core_two.work_1_adapter.workshop.decorator.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.d_java_core_two.work_1_adapter.workshop.decorator.Example" />
       <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c3.solution.*" />
+          <option name="PATTERN" value="org.workwork.d_java_core_two.work_1_adapter.workshop.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Unit4" />
-        <item itemvalue="JUnit.StudentsExaminationTest" />
-        <item itemvalue="Application.org.workwork.c_java_core_one.homework_c3.solution.Main" />
-        <item itemvalue="Application.Matrices" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MaximumAverageSubarray" />
+        <item itemvalue="Application.MergeSortedLists" />
+        <item itemvalue="JUnit.StudentsExaminationTest" />
+        <item itemvalue="Application.org.workwork.d_java_core_two.work_1_adapter.workshop.decorator.Example" />
       </list>
     </recent_temporary>
   </component>
@@ -299,14 +287,7 @@
       <workItem from="1723576858885" duration="1099000" />
       <workItem from="1723873847269" duration="1156000" />
       <workItem from="1724048501023" duration="12793000" />
-    </task>
-    <task id="LOCAL-00038" summary="30.07.2024 HOME">
-      <option name="closed" value="true" />
-      <created>1722365109106</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1722365109106</updated>
+      <workItem from="1724224662048" duration="2232000" />
     </task>
     <task id="LOCAL-00039" summary="31.07.2024 WORK">
       <option name="closed" value="true" />
@@ -692,7 +673,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724191192465</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="21.08.2024 MY TIME">
+      <option name="closed" value="true" />
+      <created>1724233012668</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1724233012668</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -725,7 +714,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="17.07.2024 MonDay" />
     <MESSAGE value="18.07.2024 Tuesday" />
     <MESSAGE value="18.07.2024 Thursday" />
     <MESSAGE value="26.06.2024 Wednesday" />
@@ -750,6 +738,7 @@
     <MESSAGE value="19.08.2024 WORK" />
     <MESSAGE value="20.08.2024 WORK" />
     <MESSAGE value="21.08.2024 WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="21.08.2024 WORK" />
+    <MESSAGE value="21.08.2024 MY TIME" />
+    <option name="LAST_COMMIT_MESSAGE" value="21.08.2024 MY TIME" />
   </component>
 </project>
