@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="22.08.2024 WORK">
+      <change afterPath="$PROJECT_DIR$/LetItCode/src/main/java/org/let/internship/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LetItCode/src/main/java/org/let/internship/Task1Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LetItCode/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LetItCode/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +63,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/ricks/Downloads/java-internship-exam/java-internship-exam",
+    "last_opened_file_path": "C:/Users/ricks/IdeaProjects/Magic/Magic_Study/LetItCode/src/main/java/org/let",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,11 +79,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\LetItCode\src\main\java\org\let" />
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\x_html_css\work_1" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_10_integration\work_2" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_5_Lifecycle\work_1" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\k_test\work_5_Lifecycle" />
-      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\y_web\work_8" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test\work_0" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\akniazev\Desktop\Warehouse\Magic_Study\LetItCode\src\main\java\org\let\task_faang_3" />
@@ -99,6 +102,7 @@
       <recent name="org.workwork.c_java_core_one.homework_c4.workshop" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.let.internship" />
       <recent name="org.workwork.c_java_core_one.homework_c4.workshop" />
       <recent name="org.hogwarts" />
     </key>
@@ -110,7 +114,20 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.StrategyTest">
+    <configuration name="AdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.l_oop.work_5.work_1.Adapter.AdapterTest" />
+      <module name="ProductStar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.workwork.l_oop.work_5.work_1.Adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.workwork.test.Main" />
       <module name="ProductStar" />
@@ -124,38 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumAverageSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.let.task_faang_2.MaximumAverageSubarray" />
-      <module name="LetItCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.let.task_faang_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.let.task_faang_3.MergeSortedLists" />
-      <module name="LetItCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.let.task_faang_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.workwork.d_java_core_two.work_1_adapter.workshop.decorator.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.d_java_core_two.work_1_adapter.workshop.decorator.Example" />
+    <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.l_oop.work_5.work_1.Singleton.SingletonTest" />
       <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.d_java_core_two.work_1_adapter.workshop.decorator.*" />
+          <option name="PATTERN" value="org.workwork.l_oop.work_5.work_1.Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,16 +154,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentsExaminationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="students" />
+    <configuration name="StrategyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.l_oop.work_5.work_1.Strategy.StrategyTest" />
+      <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.students.*" />
+          <option name="PATTERN" value="org.workwork.l_oop.work_5.work_1.Strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.students" />
-      <option name="MAIN_CLASS_NAME" value="org.example.students.StudentsExaminationTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LetItCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.let.internship.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.let.internship" />
+      <option name="MAIN_CLASS_NAME" value="org.let.internship.Task1Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -222,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrategyTest" />
+        <item itemvalue="Application.SingletonTest" />
+        <item itemvalue="Application.AdapterTest" />
+        <item itemvalue="JUnit.Task1Test" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MaximumAverageSubarray" />
-        <item itemvalue="Application.MergeSortedLists" />
-        <item itemvalue="JUnit.StudentsExaminationTest" />
-        <item itemvalue="Application.org.workwork.d_java_core_two.work_1_adapter.workshop.decorator.Example" />
       </list>
     </recent_temporary>
   </component>
@@ -287,14 +291,6 @@
       <workItem from="1723873847269" duration="1156000" />
       <workItem from="1724048501023" duration="12793000" />
       <workItem from="1724224662048" duration="2232000" />
-    </task>
-    <task id="LOCAL-00040" summary="31.07.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1722435990437</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1722435990437</updated>
     </task>
     <task id="LOCAL-00041" summary="31.07.2024 WORK">
       <option name="closed" value="true" />
@@ -680,7 +676,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724316679387</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="22.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1724317988183</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1724317988183</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
