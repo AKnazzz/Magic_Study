@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="21.08.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/d_java_core_two/work_4_OSI/work_1/2024-08-22_18-24-45.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/d_java_core_two/work_4_OSI/work_1/2024-08-22_19-51-55.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/d_java_core_two/work_4_OSI/Чек-лист - Работа с сетью. OSI, TCP_IP, UDP, HTTP .docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_10_integration/work_3/IntegrationTestsWorkshop/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_10_integration/work_3/IntegrationTestsWorkshop/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_10_integration/work_3/IntegrationTestsWorkshop/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_10_integration/work_3/IntegrationTestsWorkshop/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_10_integration/work_3/IntegrationTestsWorkshop/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_10_integration/work_3/IntegrationTestsWorkshop/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_10_integration/work_3/IntegrationTestsWorkshop/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_10_integration/work_3/IntegrationTestsWorkshop/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_10_integration/work_3/IntegrationTestsWorkshop/src/main/java/org/mycompany/MyTranslationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_10_integration/work_3/IntegrationTestsWorkshop/src/main/java/org/mycompany/MyTranslationServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/k_test/work_10_integration/work_3/IntegrationTestsWorkshop/src/test/java/org/mycompany/MyTranslationServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/x_html_css/work_3/Чек-лист  (1).docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
     </list>
@@ -75,7 +63,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/main/java/org/workwork/d_java_core_two/work_4_OSI",
+    "last_opened_file_path": "C:/Users/ricks/IdeaProjects/Magic/Magic_Study/ProductStar/src/main/java/org/workwork/x_html_css/work_3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,17 +73,17 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3321839",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "9a472bb32fa8252fb9fcf1ab7b6910dc",
+    "spring.configuration.checksum": "de0958ce9287ea93bb5f6ab526037cc3",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\x_html_css\work_3" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\d_java_core_two\work_4_OSI" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test\work_10_integration\work_3" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\l_oop\work_4" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\l_oop\work_5\work_1" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\l_oop\work_5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\d_java_core_two\work_4_OSI\work_1" />
@@ -301,6 +289,9 @@
       <workItem from="1723576858885" duration="1099000" />
       <workItem from="1723873847269" duration="1156000" />
       <workItem from="1724048501023" duration="12793000" />
+      <workItem from="1724402626839" duration="493000" />
+      <workItem from="1724404723231" duration="1159000" />
+      <workItem from="1724406611414" duration="2100000" />
     </task>
     <task id="LOCAL-00038" summary="30.07.2024 HOME">
       <option name="closed" value="true" />
