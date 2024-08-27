@@ -1,4 +1,4 @@
-package org.workwork.m_backend.work_4.work_1.HomeWork.src.main.java.org.example;
+package org.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
