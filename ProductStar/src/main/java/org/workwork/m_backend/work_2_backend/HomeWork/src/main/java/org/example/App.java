@@ -1,4 +1,4 @@
-package org.workwork.m_backend.work_2_backend.Java;
+package org.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

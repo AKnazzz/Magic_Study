@@ -1,4 +1,4 @@
-package org.workwork.m_backend.work_2_backend.Java;
+package org.example.model;
 
 import java.util.ArrayList;
 import java.util.List;
