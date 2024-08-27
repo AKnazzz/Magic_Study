@@ -7,6 +7,8 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.workwork.k_test.work_10_integration.work_3.IntegrationTestsWorkshop.src.main.java.org.mycompany.MyTranslationService;
+import org.workwork.k_test.work_10_integration.work_3.IntegrationTestsWorkshop.src.main.java.org.mycompany.MyTranslationServiceException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;

@@ -5,72 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="27.08.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.gradle/8.6/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.gradle/8.6/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.gradle/8.6/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.gradle/8.6/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.gradle/8.6/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.gradle/8.6/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.gradle/8.6/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.gradle/8.6/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.gradle/8.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.gradle/8.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.gradle/8.6/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.gradle/file-system.probe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/build/tmp/compileJava/compileTransaction/stash-dir/ApplicationConfig.class.uniqueId2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/build/tmp/compileJava/compileTransaction/stash-dir/UserController.class.uniqueId0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/build/tmp/compileJava/compileTransaction/stash-dir/UserDTO.class.uniqueId1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/build/tmp/compileJava/compileTransaction/stash-dir/UserDetailsServiceIml.class.uniqueId4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/build/tmp/compileJava/compileTransaction/stash-dir/UserService.class.uniqueId3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/java/com/product/start/security/Models/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/java/com/product/start/security/Models/BookStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/java/com/product/start/security/SecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/java/com/product/start/security/config/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/java/com/product/start/security/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/java/com/product/start/security/config/UserDetailsServiceIml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/java/com/product/start/security/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/java/com/product/start/security/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/java/com/product/start/security/dto/LoginPasswordDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/java/com/product/start/security/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/java/com/product/start/security/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/java/com/product/start/security/entity/UserDetailsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/java/com/product/start/security/example/BooksController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/java/com/product/start/security/filter/JWTRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/java/com/product/start/security/filter/UserAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/java/com/product/start/security/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/java/com/product/start/security/storage/UserStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/java/com/product/start/security/utils/JWTUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/resources/templates/Forma.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/resources/templates/books-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/resources/templates/create-form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/resources/templates/create-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/resources/templates/greeting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/main/resources/templates/update-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork/src/test/java/com/product/start/security/SecurityApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Чек-лист для ДЗ_Регистрация, аутентификация и авторизация.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/d_java_core_two/work_1_adapter/solution/FileUploader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,8 +34,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -142,7 +77,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/ricks/IdeaProjects/Magic/Magic_Study/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork",
+    "last_opened_file_path": "C:/Users/ricks/IdeaProjects/Magic/Magic_Study/ProductStar/src/main/java/org/workwork/m_backend/work_2_backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -158,11 +93,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\m_backend\work_2_backend" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\m_backend\work_1\Registration-authentication-and-authorization\HomeWork" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\m_backend\work_1" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\x_html_css\work_3" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\d_java_core_two\work_4_OSI" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test\work_10_integration\work_3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\d_java_core_two\work_4_OSI\work_1" />
@@ -192,13 +127,13 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Unit4">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.oop.Main" />
-      <module name="java-oop (1)" />
+  <component name="RunManager" selected="Application.FileUploader">
+    <configuration name="FileUploader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.d_java_core_two.work_1_adapter.solution.FileUploader" />
+      <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.oop.*" />
+          <option name="PATTERN" value="org.workwork.d_java_core_two.work_1_adapter.solution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,6 +195,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringBootRestService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.workwork.m_backend.work_2_backend.Java.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="book-library" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.greatbit.Application" />
@@ -311,11 +253,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileUploader" />
         <item itemvalue="Application.Unit4" />
         <item itemvalue="JUnit.StudentsExaminationTest" />
         <item itemvalue="Application.org.workwork.c_java_core_one.homework_c3.solution.Main" />
         <item itemvalue="Application.Matrices" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -378,15 +320,7 @@
       <workItem from="1724402626839" duration="493000" />
       <workItem from="1724404723231" duration="1159000" />
       <workItem from="1724406611414" duration="2100000" />
-      <workItem from="1724683818465" duration="2162000" />
-    </task>
-    <task id="LOCAL-00039" summary="31.07.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1722415775371</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1722415775371</updated>
+      <workItem from="1724683818465" duration="4610000" />
     </task>
     <task id="LOCAL-00040" summary="31.07.2024 WORK">
       <option name="closed" value="true" />
@@ -772,7 +706,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724746413802</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="27.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1724748729740</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1724748729740</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
