@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="30.08.2024 LAST DAY SUMMER">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_4/StudentBaza/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_4/StudentBaza/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_4/StudentBaza/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_4/StudentBaza/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_4/StudentBaza/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_4/StudentBaza/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_4/StudentBaza/src/main/java/org/db/students/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_4/StudentBaza/src/main/java/org/db/students/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_4/StudentBaza/src/main/java/org/db/students/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_4/StudentBaza/src/main/java/org/db/students/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_4/StudentBaza/src/main/java/org/db/students/StudentCommandHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_4/StudentBaza/src/main/java/org/db/students/StudentStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_4/StudentBaza/src/main/java/org/db/students/StudentSurnameStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c7/work_4/StudentBaza/src/test/java/org/db/students/StudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="03.09.2024 WORK">
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,11 +89,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c7\work_4" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c6" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test\work_1" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\x_html_css\work_3" />
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\d_java_core_two\work_4_OSI" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test\work_10_integration\work_3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c6" />
@@ -137,13 +123,13 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.org.db.students.Main">
-    <configuration name="Matrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.b_java_objects.homework_b5.Matrices" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.Main" />
       <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.b_java_objects.homework_b5.*" />
+          <option name="PATTERN" value="org.workwork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,6 +191,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringBootRestService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="book-library" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.greatbit.Application" />
@@ -233,6 +226,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="UsersHW" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.workwork.m_backend.work_2_backend.work_1.UsersHW.src.main.java.org.app.Main" />
@@ -249,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.db.students.Main" />
         <item itemvalue="Application.Unit4" />
         <item itemvalue="JUnit.StudentsExaminationTest" />
         <item itemvalue="Application.org.workwork.c_java_core_one.homework_c3.solution.Main" />
-        <item itemvalue="Application.Matrices" />
       </list>
     </recent_temporary>
   </component>
@@ -316,23 +316,7 @@
       <workItem from="1724402626839" duration="493000" />
       <workItem from="1724404723231" duration="1159000" />
       <workItem from="1724406611414" duration="2100000" />
-      <workItem from="1725269783946" duration="1444000" />
-    </task>
-    <task id="LOCAL-00043" summary="01.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1722506627871</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1722506627871</updated>
-    </task>
-    <task id="LOCAL-00044" summary="01.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1722512580171</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1722512580171</updated>
+      <workItem from="1725269783946" duration="5230000" />
     </task>
     <task id="LOCAL-00045" summary="01.08.2024 WORK">
       <option name="closed" value="true" />
@@ -710,7 +694,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725084581881</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="02.09.2024 SCHOOL SCHOOL SCHOOL">
+      <option name="closed" value="true" />
+      <created>1725272190894</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1725272190894</updated>
+    </task>
+    <task id="LOCAL-00093" summary="03.09.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1725358643948</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1725358643948</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -743,8 +743,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="22.07.2024 Monday" />
-    <MESSAGE value="23.07.2024" />
     <MESSAGE value="24.07.2024" />
     <MESSAGE value="29.07.2024" />
     <MESSAGE value="30.07.2024 HOME" />
@@ -768,6 +766,8 @@
     <MESSAGE value="29.08.2024 WORK" />
     <MESSAGE value="30.08.2024 WORK" />
     <MESSAGE value="30.08.2024 LAST DAY SUMMER" />
-    <option name="LAST_COMMIT_MESSAGE" value="30.08.2024 LAST DAY SUMMER" />
+    <MESSAGE value="02.09.2024 SCHOOL SCHOOL SCHOOL" />
+    <MESSAGE value="03.09.2024 WORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="03.09.2024 WORK" />
   </component>
 </project>

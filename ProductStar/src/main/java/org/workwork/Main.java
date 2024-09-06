@@ -6,66 +6,38 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
+
 public class Main {
-    public static void main(String[] args) {
-//        ArrayList<Double> listInteger = new ArrayList<>(Arrays.asList(1.0, 7.0, 9.0, 4.0, 3.0));
-//        int number = 4;
-//        System.out.println(getRollingAverage(listInteger, number));
-
-        ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(1, 2, 3, 5));
-        int k = 1;
-        searchForTheAverage(arr, k);
-    }
-
-    private static void searchForTheAverage(ArrayList<Integer> arr, int k) {
-
-        LinkedList<Double> average = new LinkedList<>();
-
-        double av = 0;
-        for (int i = 0; i < k; i++) {
-            av = av + arr.get(i);
-        }
-        average.add(av / k);
-
-        int j = k - 1;
-        for (int i = k; i < arr.size(); i++, j++) {
-            av = 0;
-            av = arr.get(j) + arr.get(i);
-            average.add(av / k);
-        }
-        System.out.println("Исходный массив:" + arr);
-        System.out.println("Массив из средних значений исходного:" + average);
-    }
-//    public static void printSubbary(ArrayList<Integer> list, int number){
-//        LinkedList<Integer> linkedList = new LinkedList<>();
-//        ArrayList<Double> resultList = new ArrayList<>();
-//        double result;
-//        for(int i = 0; i < number; i++){
-//            linkedList.add(list.get(i));
-//        }
-//        result = (linkedList.get(0) + linkedList.get(1)) / 2.0;
-//        resultList.add(result);
-//
-//
-//        for(int i = number; i < list.size(); i++ ){
-//            linkedList.add(list.get(i));
-//            linkedList.remove();
-//            result = (linkedList.get(0) + linkedList.get(1)) / 2.0;
-//            resultList.add(result);
-//
-//        }
-//        System.out.println(resultList);
-//    }
-
-    public static List<Double> getRollingAverage(ArrayList<Double> arr, int k) {
+    public static List<Double> getRollingAverage(ArrayList<Integer> arr, int k) {
         List<Double> result = new ArrayList<>();
-        for (int i = 0; i <= arr.size() - k; i++) {
-            double sum = 0;
+        int n = arr.size();
+        // Проверка на валидность входных данных
+        if (k <= 0 || k > n) {
+            throw new IllegalArgumentException("Parameter k must be in the range 1 to n.");
+        }
+        // Вычисление среднего значения для каждого подмассива длиной k
+        for (int i = 0; i <= n - k; i++) {
+            int sum = 0;
             for (int j = i; j < i + k; j++) {
                 sum += arr.get(j);
             }
-            result.add(sum / k);
+            double average = (double) sum / k;
+            result.add(average);
         }
         return result;
+    }
+    public static void main(String[] args) {
+
+
+
+        ArrayList<Integer> arr = new ArrayList<>();
+        arr.add(1);
+        arr.add(2);
+        arr.add(3);
+        arr.add(5);
+        //arr.add(3);
+        int k = 4;
+        List<Double> averages = getRollingAverage(arr, k);
+        System.out.println(averages); // Вывод: [1.5, 2.5, 4.0]
     }
 }
