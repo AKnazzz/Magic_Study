@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="10.09.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/Practicum/src/main/java/org/hh/task_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practicum/src/main/java/org/hh/task_2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practicum/src/main/java/org/hh/task_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practicum/src/main/java/org/hh/task_1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,20 +111,7 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Unit4">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.oop.Main" />
-      <module name="java-oop (1)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.org.hh.task_1.Main">
     <configuration name="Matrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.workwork.b_java_objects.homework_b5.Matrices" />
       <module name="ProductStar" />
@@ -146,6 +131,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.workwork.a_java_base.homework_skobochki_a5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.hh.task_1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hh.task_1.Main" />
+      <module name="Practicum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hh.task_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.hh.task_1.Main" />
         <item itemvalue="Application.Unit4" />
         <item itemvalue="JUnit.StudentsExaminationTest" />
         <item itemvalue="Application.org.workwork.c_java_core_one.homework_c3.solution.Main" />
         <item itemvalue="Application.Matrices" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -292,14 +290,6 @@
       <workItem from="1724402626839" duration="493000" />
       <workItem from="1724404723231" duration="1159000" />
       <workItem from="1724406611414" duration="2100000" />
-    </task>
-    <task id="LOCAL-00038" summary="30.07.2024 HOME">
-      <option name="closed" value="true" />
-      <created>1722365109106</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1722365109106</updated>
     </task>
     <task id="LOCAL-00039" summary="31.07.2024 WORK">
       <option name="closed" value="true" />
@@ -685,7 +675,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724191192465</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="10.09.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1725997432199</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1725997432199</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
