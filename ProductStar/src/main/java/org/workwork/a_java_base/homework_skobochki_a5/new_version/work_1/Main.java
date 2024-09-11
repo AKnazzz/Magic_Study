@@ -24,7 +24,7 @@ public class Main {
 
             while (j >= 0 && data[j] > key) {
                 data[j + 1] = data[j];
-                j = j - 1;
+                j--;
             }
             data[j + 1] = key;
         }
@@ -43,10 +43,9 @@ public class Main {
 
     static void add(int value) {
         if (size >= data.length) {
+            // Увеличиваем размер массива в два раза
             max_size *= 2;
-            int[] temp = Arrays.copyOf(data, size);
-            data = new int[max_size];
-            System.arraycopy(temp, 0, data, 0, temp.length);
+            data = Arrays.copyOf(data, max_size);
         }
         data[size] = value;
         size++;
