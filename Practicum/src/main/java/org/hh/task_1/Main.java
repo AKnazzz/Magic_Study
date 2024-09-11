@@ -48,38 +48,42 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner in = new Scanner(System.in);
-        String line = in.nextLine();
-        String[] splitLines = line.split(" ");
+        try (Scanner in = new Scanner(System.in)) {
+            String line = in.nextLine();
+            String[] splitLines = line.split(" ");
 
-        int n = splitLines.length;
+            int n = splitLines.length;
 
-        int[] lengths = new int[n];
+            int[] lengths = new int[n];
 
-        for (int i = 0; i < n; i++) {
-            lengths[i] = Integer.parseInt(splitLines[i]); // заполним массив длинами заборов
-        }
-
-        int left = 0;
-        int right = n - 1;
-        int maxArea = 0; // счетчик площади
-
-        while (left < right) {
-
-            int height = Math.min(lengths[left], lengths[right]);  // Мин высота между двумя заборами
-            int width = right - left; // ширина между заборами
-            int area = height * width; // Площадь
-
-            maxArea = Math.max(maxArea, area);
-
-            if (lengths[left] < lengths[right]) { // двигаем указатель с меньшей высотой
-                left++;
-            } else {
-                right--;
+            for (int i = 0; i < n; i++) {
+                lengths[i] = Integer.parseInt(splitLines[i]); // заполним массив длинами заборов
             }
+
+            int left = 0;
+            int right = n - 1;
+            int maxArea = 0; // счетчик площади
+
+            while (left < right) {
+
+                int height = Math.min(lengths[left], lengths[right]);  // Мин высота между двумя заборами
+                int width = right - left; // ширина между заборами
+                int area = height * width; // Площадь
+
+                maxArea = Math.max(maxArea, area);
+
+                if (lengths[left] < lengths[right]) { // двигаем указатель с меньшей высотой
+                    left++;
+                } else {
+                    right--;
+                }
+            }
+            System.out.println(maxArea);
+        } catch (NumberFormatException e) {
+            System.out.println("Ошибка: введено не число. Пожалуйста, введите корректные длины заборов.");
+        } catch (Exception e) {
+            System.out.println("Произошла ошибка: " + e.getMessage());
         }
-        in.close();
-        System.out.println(maxArea);
     }
 }
 
