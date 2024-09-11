@@ -60,30 +60,35 @@ public class Main {
                 lengths[i] = Integer.parseInt(splitLines[i]); // заполним массив длинами заборов
             }
 
-            int left = 0;
-            int right = n - 1;
-            int maxArea = 0; // счетчик площади
-
-            while (left < right) {
-
-                int height = Math.min(lengths[left], lengths[right]);  // Мин высота между двумя заборами
-                int width = right - left; // ширина между заборами
-                int area = height * width; // Площадь
-
-                maxArea = Math.max(maxArea, area);
-
-                if (lengths[left] < lengths[right]) { // двигаем указатель с меньшей высотой
-                    left++;
-                } else {
-                    right--;
-                }
-            }
+            int maxArea = getMaxArea(n, lengths);
             System.out.println(maxArea);
         } catch (NumberFormatException e) {
             System.out.println("Ошибка: введено не число. Пожалуйста, введите корректные длины заборов.");
         } catch (Exception e) {
             System.out.println("Произошла ошибка: " + e.getMessage());
         }
+    }
+
+    private static int getMaxArea(int n, int[] lengths) {
+        int left = 0;
+        int right = n - 1;
+        int maxArea = 0; // счетчик площади
+
+        while (left < right) {
+
+            int height = Math.min(lengths[left], lengths[right]);  // Мин высота между двумя заборами
+            int width = right - left; // ширина между заборами
+            int area = height * width; // Площадь
+
+            maxArea = Math.max(maxArea, area);
+
+            if (lengths[left] < lengths[right]) { // двигаем указатель с меньшей высотой
+                left++;
+            } else {
+                right--;
+            }
+        }
+        return maxArea;
     }
 }
 

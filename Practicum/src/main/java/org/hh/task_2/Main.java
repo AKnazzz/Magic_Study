@@ -62,12 +62,10 @@ package org.hh.task_2;
  * Тривиальный пример: требуется всего одно перемещение через портал от первого острова до последнего.
  */
 
-
 import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-
         try (Scanner in = new Scanner(System.in)) {
             String line = in.nextLine();
             String[] parts = line.split(" ");
@@ -77,9 +75,8 @@ public class Main {
             for (int i = 0; i < n; i++) {
                 islands[i] = Integer.parseInt(parts[i]);
             }
-            in.close();
-            System.out.println(minStepsToReachLastIsland(islands));
 
+            System.out.println(minStepsToReachLastIsland(islands));
         } catch (NumberFormatException e) {
             System.out.println("Ошибка: введено не число. Пожалуйста, введите корректные числа.");
         } catch (Exception e) {
@@ -94,7 +91,7 @@ public class Main {
             return 0;
         }
 
-        // Создаем список для хранения индексов островов по материкам
+        // Создаем карту для хранения индексов островов по материкам
         Map<Integer, List<Integer>> continentMap = new HashMap<>();
         for (int i = 0; i < n; i++) {
             continentMap.computeIfAbsent(islands[i], k -> new ArrayList<>()).add(i);
@@ -112,17 +109,17 @@ public class Main {
             for (int i = 0; i < size; i++) {
                 int current = queue.poll();
 
-                //  если наш остров — это последний (индекс n - 1), возвращаем количество шагов, которое было сделано.
+                // Если наш остров — это последний (индекс n - 1), возвращаем количество шагов, которое было сделано.
                 if (current == n - 1) {
                     return steps;
                 }
 
                 // Проверяем соседние острова
-                if (current > 0 && !visited[current - 1]) { // если есть левый сосед и он не был посещён, добавляем его в очередь и помечаем как посещённый.
+                if (current > 0 && !visited[current - 1]) {
                     visited[current - 1] = true;
                     queue.add(current - 1);
                 }
-                if (current < n - 1 && !visited[current + 1]) { // аналогично правый
+                if (current < n - 1 && !visited[current + 1]) {
                     visited[current + 1] = true;
                     queue.add(current + 1);
                 }
