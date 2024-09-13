@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="13.09.2024 WORK">
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/n_devops/work_8/work_2/HomeWork/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/n_devops/work_8/work_2/HomeWork/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/n_devops/work_8/work_2/HomeWork/compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/n_devops/work_8/work_2/HomeWork/infa.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/n_devops/work_8/work_2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +66,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/ricks/IdeaProjects/Magic/Magic_Study/ProductStar/src/main/java/org/workwork/g_spring/homework_g1",
+    "last_opened_file_path": "C:/Users/ricks/IdeaProjects/Magic/Magic_Study/ProductStar/src/main/java/org/workwork/n_devops/work_8/work_2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,11 +82,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\n_devops\work_8\work_2" />
+      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\d_java_core_two\work_1_adapter\work_7d" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\g_spring\homework_g1" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c4\HomeWrok_8\students" />
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\c_java_core_one\homework_c4\HomeWrok_8" />
-      <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\k_test\work_1" />
-      <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\x_html_css\work_3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\d_java_core_two\work_4_OSI\work_1" />
@@ -305,15 +311,7 @@
       <workItem from="1724402626839" duration="493000" />
       <workItem from="1724404723231" duration="1159000" />
       <workItem from="1724406611414" duration="2100000" />
-      <workItem from="1726139505575" duration="5605000" />
-    </task>
-    <task id="LOCAL-00044" summary="01.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1722512580171</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1722512580171</updated>
+      <workItem from="1726139505575" duration="6843000" />
     </task>
     <task id="LOCAL-00045" summary="01.08.2024 WORK">
       <option name="closed" value="true" />
@@ -699,7 +697,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726228565784</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="13.09.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1726229442945</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1726229442945</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
