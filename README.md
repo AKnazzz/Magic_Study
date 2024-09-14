@@ -1,5 +1,3 @@
 # Magic_Study
 
 
-
-
