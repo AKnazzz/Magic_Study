@@ -1,0 +1,70 @@
+---
+- hosts: all
+  become: true
+
+  vars:
+    db_name: drupal
+    db_user: drupal_user
+    db_password: drupal_pass
+    drupal_version: 9.5.0
+    drupal_root: /var/www/drupal
+
+  pre_tasks:
+    - name: Обновление apt-кэша
+      apt: update_cache=yes
+
+  roles:
+    - role: nginxinc.nginx
+    - role: geerlingguy.postgresql
+    - role: geerlingguy.php
+    - role: geerlingguy.drupal
+
+  tasks:
+    - name: Установка необходимых пакетов
+      apt:
+        name: 
+          - git
+          - curl
+        state: present
+
+    - name: Настройка базы данных PostgreSQL
+      postgresql_db:
+        name: "{{ db_name }}"
+        owner: "{{ db_user }}"
+        encoding: UTF8
+      become: yes
+
+    - name: Создание пользователя базы данных
+      postgresql_user:
+        name: "{{ db_user }}"
+        password: "{{ db_password }}"
+        role_attr_flags: CREATEDB
+      become: yes
+
+    - name: Настройка прав доступа к базе данных
+      postgresql_privs:
+        db: "{{ db_name }}"
+        type: database
+        privs: ALL
+        roles: "{{ db_user }}"
+
+    - name: Установка Drupal
+      shell: |
+        cd /var/www
+        curl -s https://www.drupal.org/download-latest/tar.gz | tar -xz
+        mv drupal-* drupal
+        chown -R www-data:www-data /var/www/drupal
+      become: yes
+
+    - name: Настройка NGINX для Drupal
+      template:
+        src: templates/nginx_drupal.j2
+        dest: /etc/nginx/sites-available/drupal
+      notify:
+        - Restart NGINX
+
+  handlers:
+    - name: Restart NGINX
+      service:
+        name: nginx
+        state: restarted

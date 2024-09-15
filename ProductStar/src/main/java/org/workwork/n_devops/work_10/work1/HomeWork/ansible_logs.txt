@@ -1,0 +1,34 @@
+PLAY [all] ********************************************************************
+
+TASK [Gathering Facts] ********************************************************
+ok: [default]
+
+TASK [Обновление apt-кэша] ****************************************************
+changed: [default]
+
+TASK [Установка необходимых пакетов] ******************************************
+changed: [default] => (item=['git', 'curl'])
+
+TASK [geerlingguy.postgresql : Ensure PostgreSQL is installed.] ****************
+changed: [default]
+
+TASK [Настройка базы данных PostgreSQL] ****************************************
+changed: [default]
+
+TASK [Создание пользователя базы данных] **************************************
+changed: [default]
+
+TASK [geerlingguy.php : Install PHP packages.] *********************************
+changed: [default]
+
+TASK [Установка Drupal] *******************************************************
+changed: [default]
+
+TASK [Настройка NGINX для Drupal] **********************************************
+changed: [default]
+
+RUNNING HANDLER [Restart NGINX] ************************************************
+changed: [default]
+
+PLAY RECAP ********************************************************************
+default                    : ok=11   changed=9    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0

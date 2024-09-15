@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="13.09.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/n_devops/work_8/work_2/HomeWork/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/n_devops/work_8/work_2/HomeWork/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/n_devops/work_8/work_2/HomeWork/compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/n_devops/work_8/work_2/HomeWork/infa.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/n_devops/work_8/work_2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c3/work7/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/n_devops/work_10/Чек-лист проверки ДЗ_Ansible. Роли и переменные.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
     </list>
@@ -66,7 +63,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/ricks/IdeaProjects/Magic/Magic_Study/ProductStar/src/main/java/org/workwork/n_devops/work_8/work_2",
+    "last_opened_file_path": "C:/Users/ricks/IdeaProjects/Magic/Magic_Study/ProductStar/src/main/java/org/workwork/n_devops/work_10",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -116,7 +113,20 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ExaminationTest">
+  <component name="RunManager" selected="Application.Home">
+    <configuration name="Home" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c3.work7.Home" />
+      <module name="ProductStar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c3.work7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unit4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.workwork.a_java_base.homework_skobochki_a5.Unit4" />
       <module name="ProductStar" />
@@ -136,19 +146,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.hh.task_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.workwork.c_java_core_one.homework_c3.solution.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c3.solution.Main" />
-      <module name="ProductStar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c3.solution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Home" />
         <item itemvalue="JUnit.ExaminationTest" />
         <item itemvalue="Application.org.hh.task_1.Main" />
         <item itemvalue="Application.Unit4" />
         <item itemvalue="JUnit.StudentsExaminationTest" />
-        <item itemvalue="Application.org.workwork.c_java_core_one.homework_c3.solution.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -312,6 +309,7 @@
       <workItem from="1724404723231" duration="1159000" />
       <workItem from="1724406611414" duration="2100000" />
       <workItem from="1726139505575" duration="6843000" />
+      <workItem from="1726402107476" duration="1687000" />
     </task>
     <task id="LOCAL-00045" summary="01.08.2024 WORK">
       <option name="closed" value="true" />
