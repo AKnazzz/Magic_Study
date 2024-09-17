@@ -1,0 +1,4 @@
+package org.workwork.g_spring.homework_g4.ContactsManager
+
+rootProject.name = 'Contacts'
+

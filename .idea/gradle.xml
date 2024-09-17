@@ -4,6 +4,14 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g4/ContactsManager" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g4/ContactsManager" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork" />
         <option name="modules">
           <set>

@@ -1,5 +1,11 @@
+package org.workwork.c_java_core_one.homework_c7.work_4.StudentBaza.src.test.java.org.db.students;
+
 import org.db.students.Student;
 import org.junit.jupiter.api.Test;
+
+import java.util.Optional;
+
+import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.*;
 
 
@@ -18,7 +24,7 @@ public class StudentTest {
         assertEquals("Ivan", student.getName());
         assertEquals("Computer Science", student.getCourse());
         assertEquals("Moscow", student.getCity());
-        assertEquals(20, student.getAge());
+        assertEquals(Optional.of(20), student.getAge());
     }
 
     @Test

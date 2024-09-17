@@ -1,8 +1,12 @@
-package org.example.students;
+package org.workwork.c_java_core_one.homework_c4.HomeWrok_8.students.src.test.java.org.example.students;
 
 import Exceptions.ItemNotFoundException;
+import org.example.students.AverageScoresCache;
+import org.example.students.Score;
+import org.example.students.StudentsExaminationDatabase;
+import org.junit.Test;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+
 
 import java.util.List;
 
