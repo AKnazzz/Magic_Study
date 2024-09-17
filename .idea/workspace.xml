@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="16.09.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/s_java_script/work_2/JS_first_homework-main/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/s_java_script/work_2/JS_first_homework-main/file.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/s_java_script/work_2/ЧЕК-ЛИСТ.docx" afterDir="false" />
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="17.09.2024 WORK">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
     </list>
@@ -312,14 +309,6 @@
       <workItem from="1726139505575" duration="6843000" />
       <workItem from="1726402107476" duration="1687000" />
       <workItem from="1726469407717" duration="1976000" />
-    </task>
-    <task id="LOCAL-00046" summary="02.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1722585290752</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1722585290752</updated>
     </task>
     <task id="LOCAL-00047" summary="02.08.2024 WORK">
       <option name="closed" value="true" />
@@ -705,7 +694,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726477005281</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="17.09.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1726560427646</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1726560427646</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,7 +735,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="22.07.2024 Monday" />
     <MESSAGE value="23.07.2024" />
     <MESSAGE value="24.07.2024" />
     <MESSAGE value="29.07.2024" />
@@ -763,6 +759,7 @@
     <MESSAGE value="12.09.2024 WORK" />
     <MESSAGE value="13.09.2024 WORK" />
     <MESSAGE value="16.09.2024 WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="16.09.2024 WORK" />
+    <MESSAGE value="17.09.2024 WORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="17.09.2024 WORK" />
   </component>
 </project>
