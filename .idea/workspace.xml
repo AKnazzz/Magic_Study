@@ -66,7 +66,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/main/java/org/workwork/g_spring/homework_g4",
+    "last_opened_file_path": "C:/Users/Андрей/Downloads/jdbc1-main/jdbc1-main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -312,6 +312,7 @@
       <workItem from="1724404723231" duration="1159000" />
       <workItem from="1724406611414" duration="2100000" />
       <workItem from="1726584073931" duration="2724000" />
+      <workItem from="1727026277663" duration="6426000" />
     </task>
     <task id="LOCAL-00042" summary="01.08.2024 WORK">
       <option name="closed" value="true" />
