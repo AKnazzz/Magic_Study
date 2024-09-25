@@ -1,4 +1,4 @@
-package org.workwork.c_java_core_one.homework_c4.HomeWrok_8.students.src.test.java.org.example.students;
+package org.workwork.c_java_core_one.homework_c4.HomeWork_8.students.src.test.java.org.example.students;
 
 import Exceptions.ItemNotFoundException;
 import org.example.students.AverageScoresCache;

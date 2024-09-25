@@ -4,8 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="25.09.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_skobochki_a5/new_version/work_4/DynamicArray.java" afterDir="false" />
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="24.09.2024 WORK">
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_9/Examination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_9/ExaminationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_9/GradeCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_9/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_9/Submission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c5/work_13/ResultsBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/src/main/java/Exceptions/ItemNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/src/main/java/Exceptions/ItemNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/src/main/java/org/example/students/AverageScoresCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/src/main/java/org/example/students/AverageScoresCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/src/main/java/org/example/students/Examination.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/src/main/java/org/example/students/Examination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/src/main/java/org/example/students/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/src/main/java/org/example/students/Score.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/src/main/java/org/example/students/StudentsExaminationDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/src/main/java/org/example/students/StudentsExaminationDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/src/main/java/org/example/students/StudentsSubjectsAverageCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/src/main/java/org/example/students/StudentsSubjectsAverageCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/target/classes/Exceptions/ItemNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/target/classes/org/example/students/AverageScoresCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/target/classes/org/example/students/Examination.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/target/classes/org/example/students/Score.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/target/classes/org/example/students/StudentsExaminationDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/target/classes/org/example/students/StudentsSubjectsAverageCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/target/test-classes/org/example/students/ExaminationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/test/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/src/test/java/org/example/students/ExaminationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/test/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/src/test/java/org/example/students/ExaminationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,9 +40,6 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g4/ContactsManager">
-      <ProjectState />
-    </projectState>
-    <projectState path="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork">
       <ProjectState />
     </projectState>
   </component>
@@ -36,8 +59,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -65,36 +88,35 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "android.gradle.sync.needed": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/ricks/IdeaProjects/Magic/Magic_Study",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3321839",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "939011d1d4b19a7e4a9321116ac4e380",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Андрей/dev/magic/Magic/ProductStar/src/main/java/org/workwork/g_spring/homework_g4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3321839&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;fc38ac3ec269f745546d90caf6a797cb&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Андрей\dev\magic\Magic\ProductStar\src\main\java\org\workwork\g_spring\homework_g4" />
@@ -131,13 +153,13 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.DynamicArray">
-    <configuration name="DynamicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.a_java_base.homework_skobochki_a5.new_version.work_4.DynamicArray" />
+  <component name="RunManager" selected="Application.Home">
+    <configuration name="Home" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c4.HomeWork_9.Home" />
       <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.a_java_base.homework_skobochki_a5.new_version.work_4.*" />
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c4.HomeWork_9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dynamic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.a_java_base.homework_skobochki_a5.new_version.work_3.dynamic" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c4.HomeWork_9.Main" />
       <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.a_java_base.homework_skobochki_a5.new_version.work_3.*" />
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c4.HomeWork_9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.hh.task_1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.hh.task_1.Main" />
-      <module name="Practicum" />
+    <configuration name="ResultsBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c5.work_13.ResultsBoard" />
+      <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hh.task_1.*" />
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c5.work_13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,20 +277,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="security.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.product.start.security.SecurityApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DynamicArray" />
-        <item itemvalue="Application.dynamic" />
+        <item itemvalue="Application.Home" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ResultsBoard" />
         <item itemvalue="Spring Boot.DemoApplication" />
         <item itemvalue="JUnit.ExaminationTest" />
-        <item itemvalue="Application.org.hh.task_1.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +348,30 @@
       <workItem from="1724406611414" duration="2100000" />
       <workItem from="1726584073931" duration="2724000" />
       <workItem from="1727196699290" duration="2540000" />
-      <workItem from="1727246293626" duration="4239000" />
+    </task>
+    <task id="LOCAL-00045" summary="01.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1722518674850</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1722518674850</updated>
+    </task>
+    <task id="LOCAL-00046" summary="02.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1722585290752</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1722585290752</updated>
+    </task>
+    <task id="LOCAL-00047" summary="02.08.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1722592596199</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1722592596199</updated>
     </task>
     <task id="LOCAL-00048" summary="05.08.2024 WORK">
       <option name="closed" value="true" />
@@ -703,31 +741,7 @@
       <option name="project" value="LOCAL" />
       <updated>1727210943908</updated>
     </task>
-    <task id="LOCAL-00094" summary="25.09.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1727246986564</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1727246986564</updated>
-    </task>
-    <task id="LOCAL-00095" summary="25.09.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1727248177934</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1727248177934</updated>
-    </task>
-    <task id="LOCAL-00096" summary="25.09.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1727254570567</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1727254570567</updated>
-    </task>
-    <option name="localTasksCounter" value="97" />
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -760,6 +774,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="23.07.2024" />
     <MESSAGE value="24.07.2024" />
     <MESSAGE value="29.07.2024" />
     <MESSAGE value="30.07.2024 HOME" />
@@ -784,7 +799,6 @@
     <MESSAGE value="19.09.2024 WORK" />
     <MESSAGE value="23.09.2024 WORK" />
     <MESSAGE value="24.09.2024 WORK" />
-    <MESSAGE value="25.09.2024 WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="25.09.2024 WORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="24.09.2024 WORK" />
   </component>
 </project>
