@@ -4,34 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="24.09.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_9/Examination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_9/ExaminationImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_9/GradeCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_9/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_9/Submission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c5/work_13/ResultsBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="26.09.2024 WORK">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/src/main/java/Exceptions/ItemNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/src/main/java/Exceptions/ItemNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/src/main/java/org/example/students/AverageScoresCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/src/main/java/org/example/students/AverageScoresCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/src/main/java/org/example/students/Examination.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/src/main/java/org/example/students/Examination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/src/main/java/org/example/students/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/src/main/java/org/example/students/Score.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/src/main/java/org/example/students/StudentsExaminationDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/src/main/java/org/example/students/StudentsExaminationDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/src/main/java/org/example/students/StudentsSubjectsAverageCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/src/main/java/org/example/students/StudentsSubjectsAverageCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/target/classes/Exceptions/ItemNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/target/classes/org/example/students/AverageScoresCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/target/classes/org/example/students/Examination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/target/classes/org/example/students/Score.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/target/classes/org/example/students/StudentsExaminationDatabase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/target/classes/org/example/students/StudentsSubjectsAverageCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/target/test-classes/org/example/students/ExaminationTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/test/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/src/test/java/org/example/students/ExaminationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/test/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/src/test/java/org/example/students/ExaminationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,22 +323,6 @@
       <workItem from="1724406611414" duration="2100000" />
       <workItem from="1726584073931" duration="2724000" />
       <workItem from="1727196699290" duration="2540000" />
-    </task>
-    <task id="LOCAL-00045" summary="01.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1722518674850</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1722518674850</updated>
-    </task>
-    <task id="LOCAL-00046" summary="02.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1722585290752</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1722585290752</updated>
     </task>
     <task id="LOCAL-00047" summary="02.08.2024 WORK">
       <option name="closed" value="true" />
@@ -741,7 +700,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727210943908</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="26.09.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1727298902503</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1727298902504</updated>
+    </task>
+    <task id="LOCAL-00095" summary="26.09.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1727298920722</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1727298920722</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -774,7 +749,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="23.07.2024" />
     <MESSAGE value="24.07.2024" />
     <MESSAGE value="29.07.2024" />
     <MESSAGE value="30.07.2024 HOME" />
@@ -799,6 +773,7 @@
     <MESSAGE value="19.09.2024 WORK" />
     <MESSAGE value="23.09.2024 WORK" />
     <MESSAGE value="24.09.2024 WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="24.09.2024 WORK" />
+    <MESSAGE value="26.09.2024 WORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="26.09.2024 WORK" />
   </component>
 </project>
