@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="24.09.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_skobochki_a5/new_version/work_3/dynamic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="25.09.2024 WORK">
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_skobochki_a5/new_version/work_4/DynamicArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +14,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g4/ContactsManager">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/m_backend/work_1/Registration-authentication-and-authorization/HomeWork">
       <ProjectState />
     </projectState>
   </component>
@@ -74,6 +76,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
+    "android.gradle.sync.needed": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
@@ -128,13 +131,13 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.dynamic">
-    <configuration name="Unit4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.a_java_base.homework_skobochki_a5.Unit4" />
+  <component name="RunManager" selected="Application.DynamicArray">
+    <configuration name="DynamicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.a_java_base.homework_skobochki_a5.new_version.work_4.DynamicArray" />
       <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.a_java_base.homework_skobochki_a5.*" />
+          <option name="PATTERN" value="org.workwork.a_java_base.homework_skobochki_a5.new_version.work_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DynamicArray" />
         <item itemvalue="Application.dynamic" />
         <item itemvalue="Spring Boot.DemoApplication" />
         <item itemvalue="JUnit.ExaminationTest" />
         <item itemvalue="Application.org.hh.task_1.Main" />
-        <item itemvalue="Application.Unit4" />
       </list>
     </recent_temporary>
   </component>
@@ -330,31 +333,7 @@
       <workItem from="1724406611414" duration="2100000" />
       <workItem from="1726584073931" duration="2724000" />
       <workItem from="1727196699290" duration="2540000" />
-      <workItem from="1727246293626" duration="383000" />
-    </task>
-    <task id="LOCAL-00045" summary="01.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1722518674850</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1722518674850</updated>
-    </task>
-    <task id="LOCAL-00046" summary="02.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1722585290752</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1722585290752</updated>
-    </task>
-    <task id="LOCAL-00047" summary="02.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1722592596199</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1722592596199</updated>
+      <workItem from="1727246293626" duration="4239000" />
     </task>
     <task id="LOCAL-00048" summary="05.08.2024 WORK">
       <option name="closed" value="true" />
@@ -724,7 +703,31 @@
       <option name="project" value="LOCAL" />
       <updated>1727210943908</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="25.09.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1727246986564</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1727246986564</updated>
+    </task>
+    <task id="LOCAL-00095" summary="25.09.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1727248177934</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1727248177934</updated>
+    </task>
+    <task id="LOCAL-00096" summary="25.09.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1727254570567</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1727254570567</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -757,7 +760,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="23.07.2024" />
     <MESSAGE value="24.07.2024" />
     <MESSAGE value="29.07.2024" />
     <MESSAGE value="30.07.2024 HOME" />
@@ -782,6 +784,7 @@
     <MESSAGE value="19.09.2024 WORK" />
     <MESSAGE value="23.09.2024 WORK" />
     <MESSAGE value="24.09.2024 WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="24.09.2024 WORK" />
+    <MESSAGE value="25.09.2024 WORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="25.09.2024 WORK" />
   </component>
 </project>
