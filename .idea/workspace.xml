@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="04.10.2024 WORK">
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="09.10.2024 WORK">
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c3/work_8/MassVsMass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g4/ContactsManager/src/main/java/com/example/demo/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g4/ContactsManager/src/main/java/com/example/demo/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +86,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/ricks/IdeaProjects/Magic_Study",
+    "last_opened_file_path": "C:/Users/ricks/IdeaProjects/arrays-homework",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -131,7 +136,7 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.DynamicArray">
+  <component name="RunManager" selected="Application.MassVsMass">
     <configuration name="DynamicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.workwork.a_java_base.homework_skobochki_a5.new_version.work_4.DynamicArray" />
       <module name="ProductStar" />
@@ -145,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dynamic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.workwork.a_java_base.homework_skobochki_a5.new_version.work_3.dynamic" />
-      <module name="ProductStar" />
+    <configuration name="MassVsMass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.c_java_core_one.homework_c3.work_8.MassVsMass" />
+      <module name="Magic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.workwork.a_java_base.homework_skobochki_a5.new_version.work_3.*" />
+          <option name="PATTERN" value="org.workwork.c_java_core_one.homework_c3.work_8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.hh.task_1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.hh.task_1.Main" />
-      <module name="Practicum" />
+    <configuration name="dynamic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.a_java_base.homework_skobochki_a5.new_version.work_3.dynamic" />
+      <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hh.task_1.*" />
+          <option name="PATTERN" value="org.workwork.a_java_base.homework_skobochki_a5.new_version.work_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,11 +269,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MassVsMass" />
         <item itemvalue="Application.DynamicArray" />
         <item itemvalue="Application.dynamic" />
         <item itemvalue="Spring Boot.DemoApplication" />
         <item itemvalue="JUnit.ExaminationTest" />
-        <item itemvalue="Application.org.hh.task_1.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -337,70 +342,9 @@
       <workItem from="1727849821673" duration="8680000" />
       <workItem from="1728021874724" duration="1203000" />
       <workItem from="1728028222015" duration="959000" />
-    </task>
-    <task id="LOCAL-00059" summary="07.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1723110424221</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1723110424221</updated>
-    </task>
-    <task id="LOCAL-00060" summary="08.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1723110716730</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1723110716730</updated>
-    </task>
-    <task id="LOCAL-00061" summary="08.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1723113863129</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1723113863129</updated>
-    </task>
-    <task id="LOCAL-00062" summary="08.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1723116840949</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1723116840949</updated>
-    </task>
-    <task id="LOCAL-00063" summary="08.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1723124163850</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1723124163850</updated>
-    </task>
-    <task id="LOCAL-00064" summary="08.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1723129176125</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1723129176125</updated>
-    </task>
-    <task id="LOCAL-00065" summary="08.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1723203800815</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1723203800815</updated>
-    </task>
-    <task id="LOCAL-00066" summary="09.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1723203849313</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1723203849313</updated>
+      <workItem from="1728281708091" duration="349000" />
+      <workItem from="1728282071637" duration="524000" />
+      <workItem from="1728282607260" duration="17010000" />
     </task>
     <task id="LOCAL-00067" summary="12.08.2024 WORK">
       <option name="closed" value="true" />
@@ -730,7 +674,71 @@
       <option name="project" value="LOCAL" />
       <updated>1728028564706</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="08.10.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1728281952126</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1728281952126</updated>
+    </task>
+    <task id="LOCAL-00109" summary="08.10.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1728295298392</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1728295298392</updated>
+    </task>
+    <task id="LOCAL-00110" summary="08.10.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1728306000412</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1728306000412</updated>
+    </task>
+    <task id="LOCAL-00111" summary="08.10.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1728307140449</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1728307140449</updated>
+    </task>
+    <task id="LOCAL-00112" summary="08.10.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1728381397803</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1728381397804</updated>
+    </task>
+    <task id="LOCAL-00113" summary="08.10.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1728394265058</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1728394265059</updated>
+    </task>
+    <task id="LOCAL-00114" summary="08.10.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1728396056785</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1728396056785</updated>
+    </task>
+    <task id="LOCAL-00115" summary="09.10.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1728458861111</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1728458861111</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -763,8 +771,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="01.08.2024 WORK" />
-    <MESSAGE value="02.08.2024 WORK" />
     <MESSAGE value="05.08.2024 WORK" />
     <MESSAGE value="06.08.2024 WORK" />
     <MESSAGE value="07.08.2024 WORK" />
@@ -788,6 +794,8 @@
     <MESSAGE value="01.10.2024 WORK" />
     <MESSAGE value="02.10.2024 WORK" />
     <MESSAGE value="04.10.2024 WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.10.2024 WORK" />
+    <MESSAGE value="08.10.2024 WORK" />
+    <MESSAGE value="09.10.2024 WORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="09.10.2024 WORK" />
   </component>
 </project>
