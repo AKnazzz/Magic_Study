@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="09.10.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c3/work_8/MassVsMass.java" afterDir="false" />
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="15.10.2024 WORK">
+      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/a_java_base/homework_cycles_a4/HomeWork_a4_20.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g4/ContactsManager/src/main/java/com/example/demo/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g4/ContactsManager/src/main/java/com/example/demo/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,36 +68,36 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "android.gradle.sync.needed": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "last_directory_selection": "C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java",
-    "last_opened_file_path": "C:/Users/ricks/IdeaProjects/arrays-homework",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3321839",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "a6e334b7b7e853d464ac4fdeaa176293",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Андрей/dev/magic/Magic/ProductStar/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ricks/IdeaProjects/productstar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3321839&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;bba912709529e645399f4a34d58bd500&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ricks\IdeaProjects\Magic\Magic_Study\ProductStar\src\main\java\org\workwork\g_spring\homework_g5" />
@@ -136,13 +134,26 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MassVsMass">
+  <component name="RunManager" selected="Application.HomeWork_a4_20">
     <configuration name="DynamicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.workwork.a_java_base.homework_skobochki_a5.new_version.work_4.DynamicArray" />
       <module name="ProductStar" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.workwork.a_java_base.homework_skobochki_a5.new_version.work_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork_a4_20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.workwork.a_java_base.homework_cycles_a4.HomeWork_a4_20" />
+      <module name="Magic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.workwork.a_java_base.homework_cycles_a4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,21 +183,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExaminationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="students (2)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.students.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.students" />
-      <option name="MAIN_CLASS_NAME" value="org.example.students.ExaminationTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -269,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeWork_a4_20" />
         <item itemvalue="Application.MassVsMass" />
         <item itemvalue="Application.DynamicArray" />
         <item itemvalue="Application.dynamic" />
         <item itemvalue="Spring Boot.DemoApplication" />
-        <item itemvalue="JUnit.ExaminationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -344,31 +340,9 @@
       <workItem from="1728028222015" duration="959000" />
       <workItem from="1728281708091" duration="349000" />
       <workItem from="1728282071637" duration="524000" />
-      <workItem from="1728282607260" duration="17010000" />
-    </task>
-    <task id="LOCAL-00067" summary="12.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1723411202545</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1723411202545</updated>
-    </task>
-    <task id="LOCAL-00068" summary="09.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1723444150254</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1723444150255</updated>
-    </task>
-    <task id="LOCAL-00069" summary="14.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1723625237223</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1723625237223</updated>
+      <workItem from="1728282607260" duration="17841000" />
+      <workItem from="1728542200873" duration="5422000" />
+      <workItem from="1728981060842" duration="5348000" />
     </task>
     <task id="LOCAL-00070" summary="14.08.2024 WORK">
       <option name="closed" value="true" />
@@ -738,7 +712,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728458861111</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="09.10.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1728467812621</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1728467812621</updated>
+    </task>
+    <task id="LOCAL-00117" summary="09.10.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1728467845210</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1728467845210</updated>
+    </task>
+    <task id="LOCAL-00118" summary="15.10.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1728987778162</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1728987778162</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -771,7 +769,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="05.08.2024 WORK" />
     <MESSAGE value="06.08.2024 WORK" />
     <MESSAGE value="07.08.2024 WORK" />
     <MESSAGE value="08.08.2024 WORK" />
@@ -796,6 +793,7 @@
     <MESSAGE value="04.10.2024 WORK" />
     <MESSAGE value="08.10.2024 WORK" />
     <MESSAGE value="09.10.2024 WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="09.10.2024 WORK" />
+    <MESSAGE value="15.10.2024 WORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="15.10.2024 WORK" />
   </component>
 </project>
