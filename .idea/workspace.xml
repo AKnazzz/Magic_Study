@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="15.10.2024 WORK">
-      <change afterPath="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c3/work_9/Homework3_3.java" afterDir="false" />
+    <list default="true" id="8c772ce2-aec6-4974-9107-9553107a1d9d" name="Changes" comment="16.10.2024 WORK">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductStar/src/main/resources/wordsForStudents.txt" afterDir="false" />
     </list>
@@ -58,6 +57,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -342,14 +348,6 @@
       <workItem from="1728282607260" duration="17841000" />
       <workItem from="1728542200873" duration="5422000" />
       <workItem from="1728981060842" duration="5348000" />
-    </task>
-    <task id="LOCAL-00070" summary="14.08.2024 WORK">
-      <option name="closed" value="true" />
-      <created>1723626930356</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1723626930356</updated>
     </task>
     <task id="LOCAL-00071" summary="14.08.2024 WORK">
       <option name="closed" value="true" />
@@ -735,7 +733,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728987778162</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="16.10.2024 WORK">
+      <option name="closed" value="true" />
+      <created>1729109057391</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1729109057391</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -768,7 +774,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="06.08.2024 WORK" />
     <MESSAGE value="07.08.2024 WORK" />
     <MESSAGE value="08.08.2024 WORK" />
     <MESSAGE value="09.08.2024 WORK" />
@@ -793,6 +798,7 @@
     <MESSAGE value="08.10.2024 WORK" />
     <MESSAGE value="09.10.2024 WORK" />
     <MESSAGE value="15.10.2024 WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="15.10.2024 WORK" />
+    <MESSAGE value="16.10.2024 WORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="16.10.2024 WORK" />
   </component>
 </project>
