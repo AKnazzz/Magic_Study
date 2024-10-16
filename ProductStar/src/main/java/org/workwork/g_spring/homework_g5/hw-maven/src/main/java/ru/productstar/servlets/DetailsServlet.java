@@ -1,4 +1,4 @@
-package org.workwork.g_spring.homework_g5.hw;
+package ru.productstar.servlets;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;

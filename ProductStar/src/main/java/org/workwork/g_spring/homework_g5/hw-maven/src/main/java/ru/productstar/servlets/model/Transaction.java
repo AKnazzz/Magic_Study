@@ -1,4 +1,4 @@
-package org.workwork.g_spring.homework_g5.hw;
+package ru.productstar.servlets.model;
 
 public class Transaction {
     private final TransactionType type;

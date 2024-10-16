@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
@@ -34,6 +35,7 @@
         <option value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWrok_8/students/pom.xml" />
         <option value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g3/exam.test.check/pom.xml" />
         <option value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/c_java_core_one/homework_c4/HomeWork_8/students/pom.xml" />
+        <option value="$PROJECT_DIR$/ProductStar/src/main/java/org/workwork/g_spring/homework_g5/hw-maven/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
